@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 264" role="img" aria-labelledby="t d" font-family="system-ui,-apple-system,Segoe UI,sans-serif" fill="currentColor">
+<title id="t">Nested limits from run to provider</title>
+<desc id="d">Four nested limits: a per-run budget inside a per-agent quota, inside a per-tenant quota, inside the provider rate limit.</desc>
+<rect x="10" y="10" width="460" height="250" rx="10" fill="currentColor" fill-opacity="0.05" stroke="currentColor" stroke-opacity="0.6"/>
+<text x="22" y="32" font-size="15" font-weight="700">Provider rate limit</text><text x="22" y="50" font-size="13" fill-opacity="0.8">requests and tokens per minute</text>
+<rect x="32" y="62" width="416" height="146" rx="10" fill="currentColor" fill-opacity="0.05" stroke="currentColor" stroke-opacity="0.6"/>
+<text x="44" y="84" font-size="15" font-weight="700">Per-tenant quota</text><text x="44" y="102" font-size="13" fill-opacity="0.8">share of the provider limit</text>
+<rect x="54" y="114" width="372" height="42" rx="10" fill="currentColor" fill-opacity="0.05" stroke="currentColor" stroke-opacity="0.6"/>
+<text x="66" y="136" font-size="15" font-weight="700">Per-agent quota</text><text x="66" y="154" font-size="13" fill-opacity="0.8">tokens and runs per day</text>
+<rect x="76" y="166" width="328" height="-62" rx="10" fill="currentColor" fill-opacity="0.05" stroke="currentColor" stroke-opacity="0.6"/>
+<text x="88" y="188" font-size="15" font-weight="700">Per-run budget</text><text x="88" y="206" font-size="13" fill-opacity="0.8">stops one looping run</text>
+</svg>
