@@ -3,7 +3,7 @@ ref: agent-architecture-is-not-application-architecture
 lang: de
 title: "Agentenarchitektur ist keine Anwendungsarchitektur: das agentix-Muster"
 description: Anwendungsarchitektur ordnet Code. Agentenarchitektur entscheidet, wer zur Laufzeit was darf. Unsere Antwort ist das agentix-Muster - ein MCP-Server pro System, ein Agent pro Schritt.
-date: 2026-10-04T15:00:00Z
+date: 2026-02-24T09:00:00Z
 tags: [architecture, patterns, mcp, governance]
 ---
 
