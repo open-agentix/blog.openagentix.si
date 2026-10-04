@@ -31,13 +31,22 @@ describe('pages', () => {
     const fileFor = (href: string) => `${new URL(href).pathname.replace(/^\//, '')}index.html`;
     for (const file of pages) {
       const html = read(file);
-      const alts = links(html, 'alternate').filter((t) => attr(t, 'hreflang') && attr(t, 'type') === undefined);
+      const alts = links(html, 'alternate').filter((t) => attr(t, 'hreflang'));
       if (alts.length === 0) continue;
       for (const a of alts) {
         const target = fileFor(attr(a, 'href')!);
         expect(files, `${file} -> ${target}`).toContain(target);
         const back = links(read(target), 'alternate').map((t) => attr(t, 'href'));
         expect(back, `${target} links back to ${file}`).toContain(attr(links(html, 'canonical')[0]!, 'href'));
+      }
+    }
+  });
+
+  it('uses absolute URLs for hreflang and keeps feed links free of hreflang', () => {
+    for (const file of pages) {
+      for (const t of links(read(file), 'alternate')) {
+        if (attr(t, 'hreflang')) expect(attr(t, 'href'), file).toMatch(/^https:\/\/blog\.openagentix\.si\//);
+        if (attr(t, 'type')) expect(attr(t, 'hreflang'), file).toBeUndefined();
       }
     }
   });

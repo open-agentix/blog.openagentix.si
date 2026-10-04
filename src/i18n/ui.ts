@@ -21,7 +21,7 @@ const en = {
     menu: 'Menu',
   },
   theme: { toggle: 'Toggle dark and light theme' },
-  language: { label: 'Language', switchTo: 'Switch to {language}' },
+  language: { label: 'Language' },
   post: {
     readingTime: '{minutes} min read',
     publishedOn: 'Published',
@@ -73,7 +73,7 @@ const de: Dictionary = {
     'Notizen aus dem Team hinter open-agentix, der Open-Source-Plattform, die KI-Agenten unter Policy-, Audit- und Budgetkontrolle ausführt.',
   nav: {
     label: 'Hauptnavigation',
-    home: 'Start',
+    home: 'Startseite',
     docs: 'Doku',
     demo: 'Demo',
     blog: 'Blog',
@@ -81,7 +81,7 @@ const de: Dictionary = {
     menu: 'Menü',
   },
   theme: { toggle: 'Zwischen dunklem und hellem Design wechseln' },
-  language: { label: 'Sprache', switchTo: 'Wechseln zu {language}' },
+  language: { label: 'Sprache' },
   post: {
     readingTime: '{minutes} Min. Lesezeit',
     publishedOn: 'Veröffentlicht',

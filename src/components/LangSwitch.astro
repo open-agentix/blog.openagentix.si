@@ -1,7 +1,7 @@
 ---
 import Icon from './Icon.astro';
 import { locales, localeInfo, type Locale } from '../i18n/config';
-import { format, getDictionary } from '../i18n/ui';
+import { getDictionary } from '../i18n/ui';
 
 interface Props {
   locale: Locale;
@@ -28,9 +28,9 @@ const t = getDictionary(locale);
               lang={localeInfo[l].bcp47}
               data-locale={l}
               aria-current={l === locale ? 'true' : undefined}
-              aria-label={l === locale ? undefined : format(t.language.switchTo, { language: localeInfo[l].nativeName })}
             >
               {compact ? l.toUpperCase() : localeInfo[l].nativeName}
+              {compact && <span class="visually-hidden"> – {localeInfo[l].nativeName}</span>}
             </a>
           </li>
         ) : null;
