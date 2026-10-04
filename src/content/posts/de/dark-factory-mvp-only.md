@@ -51,7 +51,8 @@ Teile, die eine von Agenten gebaute Änderung prüfbar statt vertrauenswürdig m
   Mandant zu Agent auf, und die strengere Regel gewinnt.
 - **Ein Hardening-Review**, das die Ausgabe eines Entwicklungsagenten gegen diese Richtlinien prüft.
   Es ist zuerst deterministisch und kann ein Urteil nur verschärfen, nie eine Policy abschwächen.
-  Befunde gehen in den Audit-Trail.
+  Befunde gehen in den Audit-Trail. Das Review läuft auf Anforderung über einen API-Endpunkt; eine
+  automatische Prüfung von Pull Requests ist geplant.
 - Dasselbe Policy-Gate, dieselben Budgets und derselbe Audit-Trail wie bei jedem anderen Agenten.
 
 Eine fertige **Pipeline-Vorlage** für den ganzen Weg von der Spezifikation zum Pull Request, mit den

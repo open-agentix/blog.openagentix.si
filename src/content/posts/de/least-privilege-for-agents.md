@@ -97,9 +97,9 @@ Zerlegung gibt es nicht umsonst.
   Beispiel antwortet der erste Agent mit einem JSON-Objekt aus benannten Feldern, und die
   Werkzeugargumente des nächsten Agenten werden nach Muster und Länge geprüft. Validierung ist eine
   Abschwächung, kein Beweis.
-- **Jemand muss die Aufteilung wählen.** Der geplante *Agent Check* lässt ein Modell eine Zerlegung
-  vorschlagen, aber der Vorschlag ist beratend und wird von einem Menschen geprüft. Diese Stufe ist
-  noch Entwurfsarbeit; die genannten Werkzeug-Allowlists und Argumentbeschränkungen je Agent gibt
+- **Jemand muss die Aufteilung wählen.** Der *Agent Check* ist beratend: Auf `main` (erscheint in 0.2)
+  prüft er eine vorgeschlagene Aufteilung mit deterministischen Regeln auf minimale Rechte, und ein Mensch
+  bewertet das Ergebnis. Ein von einem Modell erzeugter Vorschlag wäre ebenso nur beratend. Die genannten Werkzeug-Allowlists und Argumentbeschränkungen je Agent gibt
   es in Version 0.1.0.
 
 Minimale Rechte machen aus einem schlechten Agenten keinen guten. Sie machen einen schlechten Tag

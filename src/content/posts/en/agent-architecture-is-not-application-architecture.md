@@ -90,7 +90,7 @@ decide whether this needs an engineering issue, and create one if so.
 
 If text in the ticket manipulates the research agent, it can only read. The analysis agent holds
 nothing to misuse. The action agent can create one kind of issue, after a person approves, and
-cannot read the CRM. As a plan, sketched in the shape of the planned Agent Plan (not a shipped
+cannot read the CRM. As a plan, sketched in the shape of an Agent Plan (illustrative, not a normative
 format):
 
 ```yaml
@@ -193,16 +193,20 @@ agent, the deterministic policy gate, the MCP gateway, the hash-chained audit tr
 costs per run and agent. On `main`, not yet released: tenants, connections scoped to tenant, team
 or agent with secret references only, and role bindings for a single agent.
 
+Also on `main` and not yet in a release (ships in 0.2):
+
+- **Typed handovers (R4):** handovers between steps can be typed with JSON Schema.
+- **Conditional plans (R5):** pipeline steps can carry a `when` condition.
+- **Named read/write tool profiles per MCP server (R1).**
+- **Agent Check and Agent Plan v1:** advisory, with a deterministic least-privilege lint.
+
 Not there yet:
 
-- **Typed handovers (R4):** the previous output is passed on as text; `format: json` is parsed
-  but not validated against a schema. Input and output schemas are planned for 0.2.
-- **Conditional plans (R5):** a pipeline is an ordered list today; `when` is planned for 0.2.
-- **Named read/write profiles per server (R1)** are planned for 0.2, ahead of the catalog governance (0.3); until then, per-agent grants and policy patterns give the same effect.
 - **Per-step credentials and isolated workers (R6)** are on the
-  [roadmap](https://github.com/open-agentix/open-agentix/blob/main/ROADMAP.md) for v0.2.
-- **Agent Check and Agent Plan generation**, where a model proposes the split for human review,
-  a first advisory version is planned for 0.2.
+  [roadmap](https://github.com/open-agentix/open-agentix/blob/main/ROADMAP.md) for v0.2. A
+  Kubernetes Job runner exists as a building block, a job per step, but is not wired up yet.
+- **Model-generated plan proposals:** the advisory check does not yet have a model propose the
+  split.
 
 ## References
 

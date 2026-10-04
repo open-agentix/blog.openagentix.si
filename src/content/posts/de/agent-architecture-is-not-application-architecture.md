@@ -99,8 +99,8 @@ anlegen.
 
 Manipuliert Text im Ticket den Research-Agenten, kann dieser nur lesen. Der Analyse-Agent hält
 nichts, was sich missbrauchen ließe. Der Action-Agent kann eine Art von Issue anlegen, erst nach
-Freigabe durch einen Menschen, und kann das CRM nicht lesen. Als Plan, skizziert in der Form des
-geplanten Agent Plan (kein ausgeliefertes Format):
+Freigabe durch einen Menschen, und kann das CRM nicht lesen. Als Plan, skizziert in der Form eines
+Agent Plan (illustrativ, kein verbindliches Format):
 
 ```yaml
 kind: AgentPlan
@@ -210,17 +210,20 @@ und Kosten pro Lauf und Agent. Auf `main`, aber noch nicht veröffentlicht: Mand
 mit Geltungsbereich Mandant, Team oder Agent (nur mit Referenzen auf Geheimnisse) und
 Rollenbindungen für einzelne Agenten.
 
+Ebenfalls auf `main`, aber noch nicht in einem Release (erscheint in 0.2):
+
+- **Typisierte Übergaben (R4):** Übergaben zwischen Schritten lassen sich mit JSON Schema typisieren.
+- **Bedingte Pläne (R5):** Pipeline-Schritte können eine `when`-Bedingung tragen.
+- **Benannte Lese- und Schreibprofile pro MCP-Server (R1).**
+- **Agent Check und Agent Plan v1:** beratend, mit einer deterministischen Prüfung auf minimale Rechte.
+
 Noch nicht da:
 
-- **Typisierte Übergaben (R4):** Die vorige Ausgabe wird als Text weitergereicht; `format: json`
-  wird geparst, aber nicht gegen ein Schema geprüft. Ein- und Ausgabeschemas sind geplant.
-- **Bedingte Pläne (R5):** Heute ist eine Pipeline eine geordnete Liste; `when` ist geplant.
-- **Benannte Lese- und Schreibprofile pro Server (R1)** kommen mit der geplanten
-  Katalog-Governance; bis dahin erreichen Freigaben pro Agent und Policy-Muster dasselbe.
 - **Zugangsdaten pro Schritt und isolierte Worker (R6)** stehen für v0.2 auf der
-  [Roadmap](https://github.com/open-agentix/open-agentix/blob/main/ROADMAP.md).
-- **Agent Check und die Erzeugung von Agent Plans**, bei denen ein Modell die Aufteilung zur
-  Prüfung durch Menschen vorschlägt, sind geplant und bewusst nur beratend.
+  [Roadmap](https://github.com/open-agentix/open-agentix/blob/main/ROADMAP.md). Ein
+  Kubernetes-Job-Runner existiert als Baustein, ein Job pro Schritt, ist aber noch nicht angeschlossen.
+- **Von einem Modell erzeugte Planvorschläge:** Der beratende Check lässt noch kein Modell die
+  Aufteilung vorschlagen.
 
 ## Quellen
 

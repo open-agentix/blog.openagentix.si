@@ -93,8 +93,8 @@ Decomposition is not free.
   free-form prose, the next agent receives that text. Structured hand-offs help: in the example the
   first agent answers with a JSON object of named fields, and the next agent's tool arguments are
   validated by pattern and length. Validation is a mitigation, not a proof.
-- **Someone has to choose the split.** The planned *agent check* lets a model propose a
-  decomposition, but the proposal is advisory and a human reviews it. A first advisory version is planned for 0.2; the per-agent tool allowlists and argument constraints above exist in version 0.1.0.
+- **Someone has to choose the split.** The *agent check* is advisory: on `main` (ships in 0.2) it lints
+  a proposed split for least privilege with deterministic rules, and a human reviews the result. A model-generated proposal would be advisory in the same way. The per-agent tool allowlists and argument constraints above exist in version 0.1.0.
 
 Least privilege will not make a bad agent good. It makes a bad day smaller, and it makes the
 question "what could this agent have done?" answerable from a file instead of from a guess.

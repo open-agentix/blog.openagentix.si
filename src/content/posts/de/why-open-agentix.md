@@ -41,15 +41,16 @@ PROZESS / AUFGABE  ->  AGENT CHECK  ->  AGENT PLAN  ->  AGENT BUILD  ->  AGENT R
  (in eigenen Worten)    (beratend)      (Entwurf)       (Eval, Freigabe)  (kontrolliert)
 ```
 
-Eine Person beschreibt einen Prozess in eigenen Worten. Ein optionaler *Agent Check* schlägt vor,
-wie er sich auf Agenten aufteilen lässt, die jeweils nur die nötigsten Fähigkeiten haben. Dieser
-Vorschlag ist beratend: Ein Modell kann Berechtigungen vorschlagen, aber nie erteilen. Ein Agent
-Engineer macht aus dem Plan versionierte Agenten, ergänzt Limits und Tests und gibt sie frei.
-Danach führt die Plattform sie unter Policy aus.
+Eine Person beschreibt einen Prozess in eigenen Worten. Ein optionaler, beratender *Agent Check* prüft,
+wie er sich auf Agenten aufteilen lässt, die jeweils nur die nötigsten Fähigkeiten haben. Diese
+Prüfung ist beratend: Sie kann Berechtigungen anmerken, aber nie erteilen. Ein Agent
+Engineer macht aus dem Plan versionierte Agenten und ergänzt Limits und Freigaben. Testsuiten und
+Freigabe-Gates sind geplant. Danach führt die Plattform die Agenten unter Policy aus.
 
-Die ersten Stufen sind Entwurfsarbeit, die noch läuft. Im MVP 0.1.0 gibt es das Fundament, auf dem
+Teile der ersten Stufen sind noch Entwurfsarbeit. In Release 0.1.0 gibt es das Fundament, auf dem
 sie aufbauen, sowie einen Workflow-Assistenten in der Web-Oberfläche, der aus einer Beschreibung
-einen Entwurf einer `agents.md` zur Prüfung erzeugt.
+einen Entwurf einer `agents.md` zur Prüfung erzeugt. Der beratende Agent Check ist auf `main` und
+erscheint in 0.2.
 
 ## Was die Plattform tut
 
@@ -64,9 +65,9 @@ Die Architektur trennt zwei Arten von Knoten:
   und das Kosten-Ledger. Er führt selbst nie Werkzeuge aus.
 - **Worker Nodes** führen Läufe aus und fragen vor jedem Werkzeugaufruf den Control Node.
 
-Im MVP läuft der Worker im selben Prozess oder lokal, mit demselben Vertrag, den entfernte Worker
-später nutzen. Container, Kubernetes-Jobs und weitere Runner stehen für das nächste Release auf der
-Roadmap.
+Im ersten Release läuft der Worker im selben Prozess oder lokal, mit demselben Vertrag, den entfernte Worker
+später nutzen. Ein Kubernetes-Job-Runner existiert auf `main` als Baustein, der noch nicht angeschlossen ist;
+isolierte Container- und Kubernetes-Runner stehen für das nächste Release auf der Roadmap.
 
 ## Für wen
 
@@ -86,9 +87,9 @@ auf und lädt zur Laufzeit keine Anweisungen aus dem Internet nach.
 
 ## Wo wir stehen
 
-Version 0.1.0 ist das erste MVP. Es enthält Control Node, Worker, Policy-Engine, den
+Version 0.1.0 ist das erste Release (vor 1.0). Es enthält Control Node, Worker, Policy-Engine, den
 hash-verketteten Audit-Trail, Kostenerfassung, die genannten Provider und Ereignisquellen sowie eine
-Web-Oberfläche auf Englisch und Deutsch. Mandantenisolation ist im Bau, isolierte Runner folgen, und
+Web-Oberfläche auf Englisch und Deutsch. Mandantenisolation ist auf `main` und erscheint in 0.2; isolierte Container- und Kubernetes-Runner sind für 0.2 geplant, und
 die [Roadmap](https://github.com/open-agentix/open-agentix/blob/main/ROADMAP.md) trennt
 Erledigtes von Geplantem. Wir beschreiben nichts Geplantes als fertig.
 

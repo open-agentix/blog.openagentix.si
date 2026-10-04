@@ -41,8 +41,9 @@ Werkzeuge, die einem Agenten nicht erteilt wurden, bekommt das Modell gar nicht 
 Gate ist die zweite Verteidigungslinie für den Fall, dass ein Modell trotzdem fragt.
 
 Weil das Gate deterministisch ist, lässt sich jede Entscheidung aus dem Audit-Trail nachvollziehen
-und ohne Modell testen. Ein Modell darf mitwirken, aber nur, um strenger zu machen: Ein optionaler
-Zweitgutachter kann aus einem Allow ein Stopp machen, nie umgekehrt.
+und ohne Modell testen. Ein Modell darf mitwirken, aber nur, um strenger zu machen: Der Entwurf
+sieht einen optionalen Zweitgutachter vor, der aus einem Allow ein Stopp machen kann, nie umgekehrt.
+Heute arbeiten Gate und Control Agent rein deterministisch; die Modellprüfung ist geplant.
 
 ## Der Control Agent
 
