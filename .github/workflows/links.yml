@@ -1,0 +1,27 @@
+name: External links
+
+# Internal links are checked on every build (pnpm test:dist). This weekly job checks the links to
+# other sites, so a moved page elsewhere is noticed without blocking pull requests.
+on:
+  schedule:
+    - cron: '17 5 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Check links in the posts and documentation files
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
+        with:
+          args: >-
+            --no-progress --max-concurrency 4 --retry-wait-time 5 --max-retries 2
+            --exclude '^https://blog\.openagentix\.si' --exclude '^https://demo\.openagentix\.si'
+            'src/content/posts/**/*.md' README.md CONTRIBUTING.md SECURITY.md
+          fail: true
