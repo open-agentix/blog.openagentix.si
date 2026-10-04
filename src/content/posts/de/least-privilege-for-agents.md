@@ -3,7 +3,7 @@ ref: least-privilege-for-agents
 lang: de
 title: "Minimale Rechte für Agenten: Zerlegung statt eines allmächtigen Agenten"
 description: Ein Agent mit Lese- und Schreibzugriff auf alles hat einen großen Wirkungsradius. open-agentix zerlegt einen Prozess in kleine Agenten, die nur die Werkzeuge ihres Schritts halten.
-date: 2026-10-04T10:00:00Z
+date: 2026-02-05T09:00:00Z
 tags: [security, architecture, least-privilege]
 ---
 

@@ -3,7 +3,7 @@ ref: policy-decides-audit-proves
 lang: de
 title: "Ein Modell darf fragen, die Policy entscheidet: deterministische Gates und manipulationssichtbares Audit"
 description: In open-agentix kann ein Modell einen Werkzeugaufruf anfordern, aber nie erlauben. Ein deterministisches Policy-Gate entscheidet vor jedem Aufruf, ein hash-verketteter Audit-Trail hält fest, was es entschieden hat.
-date: 2026-10-04T11:00:00Z
+date: 2026-02-10T09:00:00Z
 tags: [security, policy, audit, governance]
 ---
 

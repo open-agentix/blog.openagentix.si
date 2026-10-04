@@ -3,7 +3,7 @@ ref: what-is-an-agent-harness
 lang: de
 title: "Was ist ein Agent-Harness, und warum werden Harnesses immer schlanker?"
 description: Ein Agent-Harness ist die Schleife um ein Modell. Je besser Modelle werden, desto mehr wandert in die API. Governance bleibt, daher ist der Harness austauschbar.
-date: 2026-10-04T14:00:00Z
+date: 2026-02-19T09:00:00Z
 tags: [architecture, harness, governance]
 ---
 
