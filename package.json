@@ -26,9 +26,9 @@
     "@astrojs/check": "0.9.10",
     "@lhci/cli": "0.15.1",
     "@types/node": "20.19.43",
-    "@vitest/coverage-v8": "4.1.11",
+    "@vitest/coverage-v8": "5.0.3",
     "happy-dom": "20.14.5",
     "typescript": "5.9.3",
-    "vitest": "4.1.11"
+    "vitest": "5.0.3"
   }
 }
