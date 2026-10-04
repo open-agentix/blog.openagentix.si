@@ -88,6 +88,12 @@ describe('reading time', () => {
     expect(wordCount('')).toBe(0);
   });
 
+  it('ignores inline SVG diagrams and HTML tags but keeps their captions', () => {
+    const md =
+      'Two words\n\n<figure class="f"><svg role="img" viewBox="0 0 10 10"><title>Many words in a title</title><text x="1" y="1">label</text></svg><figcaption>A caption</figcaption></figure>';
+    expect(wordCount(md)).toBe(4);
+  });
+
   it('counts the lines of code blocks', () => {
     expect(codeLines('```\na\nb\n```\ntext\n~~~\nc\n~~~')).toBe(3);
     expect(codeLines('no code')).toBe(0);

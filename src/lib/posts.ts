@@ -88,10 +88,13 @@ export function postsWithTag<T extends Pick<PostMeta, 'tags'>>(posts: readonly T
 
 const FENCE = /^(```|~~~)[\s\S]*?^\1\s*$/gm;
 
-/** Words in the prose of a Markdown document (code blocks and front matter markers excluded). */
+/** Words in the prose of a Markdown document (code blocks, inline SVG, HTML tags and front matter markers excluded). */
 export function wordCount(markdown: string): number {
   const prose = markdown
     .replace(FENCE, ' ')
+    // Inline diagrams are looked at, not read; other HTML tags carry no prose.
+    .replace(/<svg\b[\s\S]*?<\/svg>/g, ' ')
+    .replace(/<\/?[a-z][^>]*>/gi, ' ')
     .replace(/!?\[([^\]]*)\]\([^)]*\)/g, '$1')
     .replace(/`([^`]*)`/g, '$1')
     .replace(/[#>*_|~-]+/g, ' ');
