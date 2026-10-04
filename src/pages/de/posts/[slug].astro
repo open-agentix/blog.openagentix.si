@@ -1,0 +1,13 @@
+---
+import PostView from '../../../views/Post.astro';
+import { postsIn } from '../../../content-api';
+
+export async function getStaticPaths() {
+  const posts = await postsIn('de');
+  return posts.map((post) => ({ params: { slug: post.slug }, props: { post } }));
+}
+
+const { post } = Astro.props;
+---
+
+<PostView post={post} />

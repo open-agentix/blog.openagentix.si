@@ -1,0 +1,80 @@
+---
+import Icon from './Icon.astro';
+import { locales, localeInfo, type Locale } from '../i18n/config';
+import { getDictionary } from '../i18n/ui';
+
+interface Props {
+  locale: Locale;
+  /** Target URL per locale; locales without an entry are not offered (a post without translation). */
+  urls: Partial<Record<Locale, string>>;
+  compact?: boolean;
+}
+
+const { locale, urls, compact = false } = Astro.props;
+const t = getDictionary(locale);
+---
+
+<nav class:list={['lang-switch', { compact }]} aria-label={t.language.label} data-lang-switch>
+  <Icon name="globe" size={16} />
+  <ul>
+    {
+      locales.map((l) => {
+        const href = urls[l];
+        return href ? (
+          <li>
+            <a
+              href={href}
+              hreflang={localeInfo[l].bcp47}
+              lang={localeInfo[l].bcp47}
+              data-locale={l}
+              aria-current={l === locale ? 'true' : undefined}
+            >
+              {compact ? l.toUpperCase() : localeInfo[l].nativeName}
+              {compact && <span class="visually-hidden"> – {localeInfo[l].nativeName}</span>}
+            </a>
+          </li>
+        ) : null;
+      })
+    }
+  </ul>
+</nav>
+
+<style>
+  .lang-switch {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: var(--text-muted);
+  }
+
+  ul {
+    display: flex;
+    gap: 0.15rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.5rem;
+    min-width: 2.5rem;
+    padding: 0.25rem 0.6rem;
+    border-radius: 999px;
+    color: var(--text-muted);
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: var(--text);
+  }
+
+  a[aria-current='true'] {
+    color: var(--text);
+    background: rgb(127 127 127 / 0.14);
+  }
+</style>

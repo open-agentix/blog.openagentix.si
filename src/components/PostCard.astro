@@ -1,0 +1,27 @@
+---
+import type { Locale } from '../i18n/config';
+import { paths } from '../i18n/paths';
+import { format, getDictionary } from '../i18n/ui';
+import { formatDate, readingTime, slugifyTag, type PostMeta } from '../lib/posts';
+
+interface Props {
+  post: PostMeta;
+  locale: Locale;
+}
+
+const { post, locale } = Astro.props;
+const t = getDictionary(locale);
+const minutes = readingTime(post.body, locale);
+---
+
+<li class="post-card">
+  <div class="meta">
+    <time datetime={post.date.toISOString()}>{formatDate(post.date, locale)}</time>
+    <span>{format(t.post.readingTime, { minutes })}</span>
+  </div>
+  <h2><a href={paths.post(locale, post.slug)}>{post.title}</a></h2>
+  <p>{post.description}</p>
+  <ul class="tag-list" aria-label={t.post.tags}>
+    {post.tags.map((tag) => <li><a class="tag" href={paths.tag(locale, slugifyTag(tag))}>{tag}</a></li>)}
+  </ul>
+</li>

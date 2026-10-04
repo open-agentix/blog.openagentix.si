@@ -1,0 +1,25 @@
+---
+import Base from '../layouts/Base.astro';
+import { paths } from '../i18n/paths';
+import { getDictionary } from '../i18n/ui';
+
+// GitHub Pages serves this page for every unknown URL, in English. The links offer both languages.
+const t = getDictionary('en');
+---
+
+<Base
+  locale="en"
+  title={t.notFound.title}
+  description={t.notFound.description}
+  path="/404.html"
+  langUrls={{ en: paths.home('en'), de: paths.home('de') }}
+  noindex
+>
+  <div class="container">
+    <div class="page-head">
+      <h1>{t.notFound.title}</h1>
+      <p>{t.notFound.text}</p>
+      <p><a class="btn btn--primary" href={paths.home('en')}>{t.notFound.back}</a></p>
+    </div>
+  </div>
+</Base>

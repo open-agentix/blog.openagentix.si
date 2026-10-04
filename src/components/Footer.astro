@@ -1,0 +1,71 @@
+---
+import Icon from './Icon.astro';
+import type { Locale } from '../i18n/config';
+import { paths } from '../i18n/paths';
+import { getDictionary } from '../i18n/ui';
+import { GITHUB_ORG, REPO_URL } from '../project';
+import pkg from '../../package.json';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const t = getDictionary(locale);
+---
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="tagline">{t.footer.tagline}</p>
+    <ul class="links">
+      <li><a href={paths.tags(locale)}>{t.tags.all}</a></li>
+      <li><a href={paths.atom(locale)}><Icon name="rss" size={14} /> {t.feeds.atom}</a></li>
+      <li><a href={paths.rss(locale)}>{t.feeds.rss}</a></li>
+      <li><a href={GITHUB_ORG}>{t.footer.platform}</a></li>
+      <li><a href={REPO_URL}>{t.footer.source}</a></li>
+    </ul>
+    <p class="small">{t.footer.noTracking} {t.footer.license}</p>
+    <p class="small">v{pkg.version}</p>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    margin-top: 2rem;
+    padding-block: 2.5rem 3rem;
+    border-top: 1px solid var(--border);
+    background: var(--bg-soft);
+    color: var(--text-muted);
+    font-size: 0.95rem;
+  }
+
+  .tagline {
+    max-width: 44rem;
+    color: var(--text);
+  }
+
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.4rem;
+    margin: 1.2rem 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    min-height: 2rem;
+  }
+
+  .small {
+    font-size: 0.85rem;
+    color: var(--text-faint);
+  }
+
+  .small + .small {
+    margin-top: 0.25rem;
+  }
+</style>

@@ -1,0 +1,68 @@
+---
+import Base from '../layouts/Base.astro';
+import { allPosts, render, type Post } from '../content-api';
+import { localeInfo, locales, type Locale } from '../i18n/config';
+import { paths } from '../i18n/paths';
+import { format, getDictionary } from '../i18n/ui';
+import { formatDate, inLocale, readingTime, slugifyTag } from '../lib/posts';
+
+interface Props {
+  post: Post;
+}
+
+const { post } = Astro.props;
+const locale: Locale = post.lang;
+const t = getDictionary(locale);
+const all = await allPosts();
+const langUrls: Partial<Record<Locale, string>> = {};
+for (const l of locales) {
+  const version = inLocale(post, all, l);
+  if (version) langUrls[l] = paths.post(l, version.slug);
+}
+const others = locales.filter((l) => l !== locale && langUrls[l]);
+const { Content } = await render(post.entry);
+const minutes = readingTime(post.body, locale);
+const [before, after] = t.post.availableIn.split('{language}');
+---
+
+<Base
+  locale={locale}
+  title={post.title}
+  description={post.description}
+  path={paths.post(locale, post.slug)}
+  langUrls={langUrls}
+  type="article"
+  published={post.date}
+  modified={post.updated ?? post.date}
+  tags={post.tags}
+  author={post.author}
+>
+  <article>
+    <header class="article-head narrow">
+      <div class="meta">
+        <time datetime={post.date.toISOString()}>{formatDate(post.date, locale)}</time>
+        <span>{format(t.post.readingTime, { minutes })}</span>
+        <span>{t.post.by} {post.author}</span>
+      </div>
+      <h1>{post.title}</h1>
+      <p class="lead">{post.description}</p>
+      {
+        others.map((l) => (
+          <p class="notice">
+            {before}<a href={langUrls[l]} hreflang={localeInfo[l].bcp47} lang={localeInfo[l].bcp47}>{localeInfo[l].nativeName}</a>{after}
+          </p>
+        ))
+      }
+    </header>
+    <div class="narrow prose">
+      <Content />
+    </div>
+    <footer class="narrow article-foot">
+      <ul class="tag-list" aria-label={t.post.tags}>
+        {post.tags.map((tag) => <li><a class="tag" href={paths.tag(locale, slugifyTag(tag))}>{tag}</a></li>)}
+      </ul>
+      <p>{t.post.agentNote} {t.post.license}</p>
+      <p><a href={paths.home(locale)}>&larr; {t.post.backToAll}</a></p>
+    </footer>
+  </article>
+</Base>

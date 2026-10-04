@@ -1,0 +1,44 @@
+---
+import Base from '../layouts/Base.astro';
+import { postsIn } from '../content-api';
+import type { Locale } from '../i18n/config';
+import { paths } from '../i18n/paths';
+import { getDictionary } from '../i18n/ui';
+import { tagCounts } from '../lib/posts';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const t = getDictionary(locale);
+const tags = tagCounts(await postsIn(locale));
+---
+
+<Base
+  locale={locale}
+  title={t.tags.title}
+  description={t.tags.description}
+  path={paths.tags(locale)}
+  langUrls={{ en: paths.tags('en'), de: paths.tags('de') }}
+>
+  <div class="container">
+    <div class="page-head">
+      <h1>{t.tags.title}</h1>
+      <p>{t.tags.description}</p>
+    </div>
+    <section class="list-section">
+      <ul class="tag-list">
+        {
+          tags.map((tag) => (
+            <li>
+              <a class="tag" href={paths.tag(locale, tag.slug)}>
+                {tag.label} <span class="count">({tag.count})</span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+  </div>
+</Base>

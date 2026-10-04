@@ -1,0 +1,31 @@
+name: Bug report
+description: Something on the blog is broken or wrong.
+labels: [bug]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Page
+      description: URL of the affected page.
+      placeholder: https://blog.openagentix.si/posts/...
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Browser and device
+      placeholder: Firefox 140 on Android, reduced motion on
+  - type: checkboxes
+    id: security
+    attributes:
+      label: Security
+      options:
+        - label: This is not a security issue (those go to SECURITY.md, not to public issues).
+          required: true

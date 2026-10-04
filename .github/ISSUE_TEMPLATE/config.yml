@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Platform bugs and feature requests
+    url: https://github.com/open-agentix/open-agentix/issues
+    about: Issues with openagentix itself belong to the platform repository.
+  - name: Report a security vulnerability
+    url: https://github.com/open-agentix/blog.openagentix.si/security/advisories/new
+    about: Please report security issues privately.
