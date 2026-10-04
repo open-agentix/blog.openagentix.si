@@ -2,7 +2,7 @@
 ref: change-management-for-agents
 lang: de
 title: "Betriebsreihe: Change-Management und Prompt-Versionierung für Agenten"
-description: Prompt-Versionierung und Change-Management für KI-Agenten: Prompts, Skills und Policies wie Code behandeln, mit SemVer, Review und Rollback.
+description: "Prompt-Versionierung und Change-Management für KI-Agenten: Prompts, Skills und Policies wie Code behandeln, mit SemVer, Review und Rollback."
 date: 2026-04-23T09:00:00Z
 tags: [operations, change-management, governance]
 ---
