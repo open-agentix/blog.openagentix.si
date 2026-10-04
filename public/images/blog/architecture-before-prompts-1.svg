@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 246" role="img" aria-labelledby="t d" font-family="system-ui, sans-serif" font-size="14" fill="currentColor">
+<title id="t">Architecture at the base, prompts at the tip</title>
+<desc id="d">A pyramid with boundaries and data flow at the base, contracts and handovers in the middle, and prompts at the tip.</desc>
+<polygon points="240,14 290,70 190,70" fill="currentColor" fill-opacity=".25" stroke="currentColor" stroke-width="1.5"/>
+<polygon points="200,78 280,78 350,140 130,140" fill="currentColor" fill-opacity=".15" stroke="currentColor" stroke-width="1.5"/>
+<polygon points="124,148 356,148 450,230 30,230" fill="currentColor" fill-opacity=".08" stroke="currentColor" stroke-width="1.5"/>
+<text x="240" y="63" text-anchor="middle" font-weight="700" font-size="12">Prompts</text>
+<text x="240" y="134" text-anchor="middle" font-weight="700" font-size="12">Contracts and handovers</text>
+<text x="240" y="184" text-anchor="middle" font-weight="700">Boundaries and data flow</text>
+<text x="240" y="208" text-anchor="middle" font-size="13">who may touch what, and how it moves</text>
+</svg>
