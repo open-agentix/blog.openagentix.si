@@ -43,7 +43,7 @@ Budgets are enforced during execution, not summed up afterwards:
 - **Per run**, in the agent file: maximum tokens, cost, steps, tool calls and a timeout. The
   control agent checks them before each model call and after each tool call, and stops the run
   with an audit entry when one is exceeded.
-- **Per agent and per team and month.** A team that is over its monthly budget gets runs that are
+- **Per run and agent, and per team and month.** A team that is over its monthly budget gets runs that are
   blocked by policy immediately.
 
 ```yaml
@@ -71,9 +71,7 @@ detail lives in the ledger and the export, not in the metrics.
 - **Costs are estimates.** They come from your price table and the token counts the provider
   reports. They are not your invoice, and discounts, tiered pricing or negotiated rates are not
   reflected.
-- **Budgets per use case and per tenant** are planned for the next release, together with alert
-  thresholds at 50, 80 and 100 percent of a monthly budget. Today the hard stops are per run, agent
-  and team. Cost chargeback reports per cost centre are on the roadmap for 1.0.
+- **Budgets per use case and per tenant**, with alerts at 50, 80 and 100 percent, are on `main` and ship in 0.2. In 0.1.0 the hard stops are per run (each agent's budget included) and per team and month; monthly per-agent budgets and alert delivery to chat and mail are planned for 0.2. Cost chargeback reports per cost centre are on the roadmap for 1.0.
 - **A hard stop is a blunt tool.** It protects the budget, but a run that is stopped halfway may
   leave work unfinished. Design agents so that a stop at any step is safe, and let approval rules
   guard anything that must not be left half done.

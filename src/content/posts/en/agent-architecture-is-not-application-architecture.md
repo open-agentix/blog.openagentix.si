@@ -196,14 +196,13 @@ or agent with secret references only, and role bindings for a single agent.
 Not there yet:
 
 - **Typed handovers (R4):** the previous output is passed on as text; `format: json` is parsed
-  but not validated against a schema. Input and output schemas are planned.
-- **Conditional plans (R5):** a pipeline is an ordered list today; `when` is planned.
-- **Named read/write profiles per server (R1)** come with the planned catalog governance; until
-  then, per-agent grants and policy patterns give the same effect.
+  but not validated against a schema. Input and output schemas are planned for 0.2.
+- **Conditional plans (R5):** a pipeline is an ordered list today; `when` is planned for 0.2.
+- **Named read/write profiles per server (R1)** are planned for 0.2, ahead of the catalog governance (0.3); until then, per-agent grants and policy patterns give the same effect.
 - **Per-step credentials and isolated workers (R6)** are on the
   [roadmap](https://github.com/open-agentix/open-agentix/blob/main/ROADMAP.md) for v0.2.
 - **Agent Check and Agent Plan generation**, where a model proposes the split for human review,
-  are planned and advisory by design.
+  a first advisory version is planned for 0.2.
 
 ## References
 

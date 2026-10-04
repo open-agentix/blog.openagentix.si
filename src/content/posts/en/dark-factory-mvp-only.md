@@ -53,7 +53,7 @@ that make an agent-built change reviewable instead of trusted:
 - The same policy gate, budgets and audit trail that apply to every other agent.
 
 A ready-made **pipeline template** for the whole path from specification to pull request, with the
-approvals described above, is planned for the next release. It does not exist yet.
+approvals described above, is planned for 0.4, after typed handovers and test suites. It does not exist yet.
 
 ## An honest comparison
 

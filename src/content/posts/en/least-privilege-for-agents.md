@@ -94,8 +94,7 @@ Decomposition is not free.
   first agent answers with a JSON object of named fields, and the next agent's tool arguments are
   validated by pattern and length. Validation is a mitigation, not a proof.
 - **Someone has to choose the split.** The planned *agent check* lets a model propose a
-  decomposition, but the proposal is advisory and a human reviews it. That stage is design work in
-  progress; the per-agent tool allowlists and argument constraints above exist in version 0.1.0.
+  decomposition, but the proposal is advisory and a human reviews it. A first advisory version is planned for 0.2; the per-agent tool allowlists and argument constraints above exist in version 0.1.0.
 
 Least privilege will not make a bad agent good. It makes a bad day smaller, and it makes the
 question "what could this agent have done?" answerable from a file instead of from a guess.

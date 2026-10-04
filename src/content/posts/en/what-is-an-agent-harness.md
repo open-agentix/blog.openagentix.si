@@ -197,13 +197,8 @@ budgets and the hash-chained audit trail described in [an earlier post](/posts/p
 
 For external harnesses the status is, as of release 0.1.0, as follows:
 
-- **Implemented:** an invocation builder for Claude Code, and the policy gate exposed as an MCP
-  proxy so an external harness can send its tool calls through it. This is early and still under
-  verification.
-- **Stubs only:** OpenCode, Hermes and OpenClaw adapters exist as typed stubs.
-- **Planned:** running an existing harness fully under openagentix, so that its tool calls are
-  policy-checked, audited and costed like native runs. This is on the [roadmap](https://github.com/open-agentix/open-agentix/blob/main/ROADMAP.md)
-  for v0.3, not shipped.
+- **On `main` (ships in 0.2):** Claude Code runs fully under openagentix: every tool call goes through the policy gate and is audited and costed, verified with real runs.
+- **Stubs only:** OpenCode (planned for 0.2), Hermes and OpenClaw (0.3) adapters exist as typed stubs.
 
 The idea behind it, which is a design bet and so partly opinion: the harness becomes a replaceable
 component. You bring the harness you prefer, today or next year, and the governance around it stays

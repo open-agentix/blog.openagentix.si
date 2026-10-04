@@ -84,13 +84,12 @@ configure, and it fetches no instructions from the internet at run time.
 
 Version 0.1.0 is the first MVP. It contains the control node, the worker, the policy engine, the
 hash-chained audit trail, cost tracking, the providers and event sources above, and a web UI in
-English and German. Tenant isolation is under construction, isolated runners come next, and the
+English and German. Tenant isolation is on `main` and ships in 0.2, together with isolated container and Kubernetes runners, and the
 [roadmap](https://github.com/open-agentix/open-agentix/blob/main/ROADMAP.md) marks what is done and
 what is only planned. We will not describe a planned feature as finished.
 
 The next three posts go deeper into the design:
 [least privilege through decomposition](/posts/least-privilege-for-agents/), [deterministic gates
 and the audit trail](/posts/policy-decides-audit-proves/) and [cost as a platform
-concern](/posts/cost-is-a-platform-concern/). You can try the
-[live demo](https://demo.openagentix.si/), read the [documentation](https://openagentix.si/docs/)
-or open an issue on [GitHub](https://github.com/open-agentix).
+concern](/posts/cost-is-a-platform-concern/). You can run the demo locally with `docker-compose -f docker-compose.demo.yml up`,
+read the [documentation](https://openagentix.si/docs/) or open an issue on [GitHub](https://github.com/open-agentix). The public demo is being prepared.

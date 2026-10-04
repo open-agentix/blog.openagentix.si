@@ -87,7 +87,7 @@ The wording matters. This design makes tampering **detectable**. It does not mak
 
 ## Try it
 
-The [live demo](https://demo.openagentix.si/) ships a seeded audit chain you can verify, and the
+The demo profile (`docker-compose.demo.yml`) ships a seeded audit chain you can verify, and the
 [documentation](https://openagentix.si/docs/) describes the policy bundle format. The design
 decisions are written down as ADRs in the platform repository. If you find a hole in the gate,
 please report it privately through GitHub security advisories.
