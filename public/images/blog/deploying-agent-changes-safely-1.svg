@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="t d" fill="none" font-family="system-ui, sans-serif" color="currentColor">
+<title id="t">Canary rollout for a new agent version</title>
+<desc id="d">Five percent of runs go to the new version, the rest stay on the stable version. Evals and SLOs of both are compared. If the new version holds, it is promoted; otherwise traffic returns to the stable version.</desc>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor"/></marker></defs>
+<g fill="currentColor">
+<rect x="150" y="8" width="180" height="40" rx="6" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-width="1.5"/>
+<text x="240.0" y="33.2" text-anchor="middle" font-size="15" font-weight="700">Incoming runs</text>
+<line x1="190" y1="48" x2="110" y2="84" stroke="currentColor" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="290" y1="48" x2="370" y2="84" stroke="currentColor" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="10" y="84" width="200" height="54" rx="6" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-width="1.5"/>
+<text x="110.0" y="107.2" text-anchor="middle" font-size="15" font-weight="700">Stable version</text>
+<text x="110.0" y="125.2" text-anchor="middle" font-size="15">95% of runs</text>
+<rect x="270" y="84" width="200" height="54" rx="6" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="370.0" y="107.2" text-anchor="middle" font-size="15" font-weight="700">New version</text>
+<text x="370.0" y="125.2" text-anchor="middle" font-size="15">5% of runs</text>
+<line x1="110" y1="138" x2="230" y2="176" stroke="currentColor" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="370" y1="138" x2="250" y2="176" stroke="currentColor" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="130" y="176" width="220" height="48" rx="6" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-width="1.5"/>
+<text x="240.0" y="196.4" text-anchor="middle" font-size="14">Compare evals + SLOs</text>
+<text x="240.0" y="213.4" text-anchor="middle" font-size="14">success, cost, latency</text>
+<line x1="190" y1="224" x2="110" y2="262" stroke="currentColor" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="290" y1="224" x2="370" y2="262" stroke="currentColor" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="10" y="262" width="200" height="50" rx="6" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-width="1.5"/>
+<text x="110.0" y="283.4" text-anchor="middle" font-size="14" font-weight="700">Roll back</text>
+<text x="110.0" y="300.4" text-anchor="middle" font-size="14">traffic to stable</text>
+<rect x="270" y="262" width="200" height="50" rx="6" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-width="1.5"/>
+<text x="370.0" y="283.4" text-anchor="middle" font-size="14" font-weight="700">Promote</text>
+<text x="370.0" y="300.4" text-anchor="middle" font-size="14">5% &gt; 25% &gt; 100%</text>
+</g>
+</svg>
