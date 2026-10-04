@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="t d" fill="none" font-family="system-ui, sans-serif" color="currentColor">
+<title id="t">Phased enterprise rollout with review gates</title>
+<desc id="d">Four phases from pilot to organisation. Each step between phases is a review gate with exit criteria.</desc>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor"/></marker></defs>
+<g fill="currentColor">
+<rect x="10" y="10" width="200" height="62" rx="6" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-width="1.5"/>
+<text x="110.0" y="28.9" text-anchor="middle" font-size="14" font-weight="700">1 Pilot</text>
+<text x="110.0" y="45.9" text-anchor="middle" font-size="14">about 10 users</text>
+<text x="110.0" y="62.9" text-anchor="middle" font-size="14">telemetry, budgets</text>
+<line x1="110" y1="72" x2="110" y2="108" stroke="currentColor" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="122" y="96" text-anchor="start" font-size="14" font-weight="700">review gate</text>
+<rect x="10" y="120" width="200" height="62" rx="6" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-width="1.5"/>
+<text x="110.0" y="138.9" text-anchor="middle" font-size="14" font-weight="700">2 Department</text>
+<text x="110.0" y="155.9" text-anchor="middle" font-size="14">one team at a time</text>
+<text x="110.0" y="172.9" text-anchor="middle" font-size="14">same telemetry</text>
+<line x1="110" y1="182" x2="110" y2="218" stroke="currentColor" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="122" y="206" text-anchor="start" font-size="14" font-weight="700">review gate</text>
+<rect x="10" y="230" width="200" height="62" rx="6" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-width="1.5"/>
+<text x="110.0" y="248.9" text-anchor="middle" font-size="14" font-weight="700">3 Organisation</text>
+<text x="110.0" y="265.9" text-anchor="middle" font-size="14">all teams</text>
+<text x="110.0" y="282.9" text-anchor="middle" font-size="14">budgets per team</text>
+<text x="250" y="40" text-anchor="start" font-size="15" font-weight="700">Exit criteria per gate:</text>
+<text x="250" y="72" text-anchor="start" font-size="15">- Baseline recorded</text>
+<text x="250" y="100" text-anchor="start" font-size="15">- Spend inside limits</text>
+<text x="250" y="128" text-anchor="start" font-size="15">- Error rate within SLO</text>
+<text x="250" y="156" text-anchor="start" font-size="15">- Owner named for support</text>
+<text x="250" y="230" text-anchor="start" font-size="14">Gate not passed: stay in the</text>
+<text x="250" y="250" text-anchor="start" font-size="14">current phase or roll back.</text>
+</g>
+</svg>
