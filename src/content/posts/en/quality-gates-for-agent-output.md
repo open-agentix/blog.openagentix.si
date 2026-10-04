@@ -11,7 +11,7 @@ AI code quality gates are automated checks that agent output must pass before a 
 
 ## Start from the scarce resource
 
-When an agent opens ten pull requests a day, the limiting factor is not generation but attention. If every output goes straight to a reviewer, one of two things happens: the queue grows until nothing is reviewed carefully, or reviewers start approving on trust. Both lead to what this blog calls slop, output that looks plausible and is subtly wrong or unnecessary; the idea is introduced in [prompt sprawl and AI slop](/posts/prompt-sprawl-and-ai-slop/).
+When an agent opens ten pull requests a day, the limiting factor is not generation but attention. If every output goes straight to a reviewer, one of two things happens: the queue grows until nothing is reviewed carefully, or reviewers start approving on trust. Both lead to what this blog calls slop, output that looks convincing and is subtly wrong or unnecessary; the idea is introduced in [prompt sprawl and AI slop](/posts/prompt-sprawl-and-ai-slop/).
 
 A 2025 industry report makes a related point about tooling in general:
 
