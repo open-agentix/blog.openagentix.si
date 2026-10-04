@@ -1,0 +1,21 @@
+name: Post correction or suggestion
+description: A factual error, a missing translation or an idea for a post.
+labels: [content]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Post
+      placeholder: https://blog.openagentix.si/posts/...
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggestion
+      description: What should change? Links to the platform code, docs or issues help.
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      options: [English, German, other]

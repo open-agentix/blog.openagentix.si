@@ -1,0 +1,14 @@
+---
+import Tag from '../../views/Tag.astro';
+import { postsIn } from '../../content-api';
+import { tagCounts } from '../../lib/posts';
+
+export async function getStaticPaths() {
+  const posts = await postsIn('en');
+  return tagCounts(posts).map((t) => ({ params: { tag: t.slug } }));
+}
+
+const { tag } = Astro.params;
+---
+
+<Tag locale="en" tag={tag as string} />
