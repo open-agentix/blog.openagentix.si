@@ -1,0 +1,134 @@
+---
+ref: what-is-an-agent-harness
+lang: en
+title: "What is an agent harness, and why do harnesses keep shrinking?"
+description: An agent harness is the loop and scaffolding around a model. As models improve, much of it moves into the model or the API. What stays is governance, and that is why open-agentix treats the harness as replaceable.
+date: 2026-10-04T14:00:00Z
+tags: [architecture, harness, governance]
+---
+
+Anyone building with language models soon meets the word "harness". It is used loosely, so here is
+a plain definition, an honest look at why harnesses tend to get thinner, and a view on what does
+not get thinner. Where something is opinion rather than fact, the text says so.
+
+## What a harness is
+
+A model on its own takes text (and perhaps images) in and returns text out. An **agent harness** is
+the program around it that turns this into something that can act. It runs a loop: build the
+input, call the model, read what it wants to do, perform that, feed the result back, and repeat
+until the task is done or a limit is hit. Typical parts:
+
+- **Prompt and context assembly:** system prompt, instructions, files, earlier results.
+- **Tool definitions and execution:** which tools the model is told about, and the code that runs
+  them when it asks.
+- **Permissions and sandboxing:** what a tool may touch, and when a person must confirm.
+- **Memory and context compaction:** what to keep, summarise or drop when the context window fills.
+- **Planning and sub-agents:** splitting work and delegating pieces.
+- **Retries and error handling:** what happens when a call fails or a result is unusable.
+- **Output parsing:** turning the model's answer into something the next step can use.
+
+Coding agents such as Claude Code and OpenCode are harnesses for software work. Hermes and
+OpenClaw are examples of more general ones. We will not describe their internals here; they differ,
+they change, and the point does not depend on the details.
+
+## Why harnesses keep shrinking
+
+Fact: a lot of scaffolding that used to be necessary was written to compensate for what models
+could not do reliably. Rigid chains of prompts, hand-built routers that decided which step comes
+next, long prompt templates that spelled out every move, and custom retry logic for malformed
+output all exist because the model could not be trusted to plan, pick tools or notice its own
+mistakes.
+
+Models have improved at exactly those things: planning over many steps, choosing and calling
+tools, working with long context, and correcting themselves after an error. Providers have also
+moved pieces into the API or an SDK: native tool calling, structured output, computer use, and
+agent SDKs or managed agent offerings that bring the loop itself. Code that parsed free text into
+a tool call, or forced a fixed sequence, can often be deleted.
+
+Opinion: this will continue. A rule of thumb we find useful is that every piece of scaffolding is
+a bet against the model's current weakness, and bets like that expire. When you upgrade a model,
+re-test whether each layer still earns its place. Many teams find that a simpler loop with a
+better model beats an elaborate one with an older model. That is a pattern we have seen reported
+and a direction we expect, not a law.
+
+A thin harness still matters. Tool design, what goes into the context, when to compact, and how to
+evaluate results remain real engineering work. "Thin" means less compensation for the model, not
+no engineering.
+
+## What does not shrink
+
+Some parts of a harness are not model capabilities at all, so a smarter model does not make them
+obsolete:
+
+- **Permissions and least privilege.** What an agent is allowed to do is a decision about your
+  organisation, not about the model's skill. A more capable model with broad rights is a bigger
+  risk, not a smaller one.
+- **Policy decisions.** Whether a call is allowed has to be answered by deterministic code you
+  can read and test.
+- **Audit trail.** Someone must be able to show later what happened and who allowed it.
+- **Cost limits and budgets.** A capable model can spend a lot very efficiently.
+- **Identity and secrets.** Who is acting, and which credentials they may use.
+- **Human approval** for actions that need it.
+- **Isolation and sandboxing** for code that runs.
+- **Observability and multi-tenancy.** Seeing what runs, and keeping teams apart.
+
+The principle we use is: *a model may ask, the policy decides.* A better model asks better
+questions. It still does not get to grant itself the answer. So as models grow more capable, the
+scaffolding shrinks while the control layer stays: you can hand over more, as long as the
+boundaries are enforced somewhere the model cannot reach.
+
+## Where open-agentix fits
+
+open-agentix is a control layer rather than another harness, and it aims to be runtime-neutral. Its native runners already execute agents with the policy gate,
+budgets and the hash-chained audit trail described in [an earlier post](/posts/policy-decides-audit-proves/).
+
+For external harnesses the status is, as of release 0.1.0, as follows:
+
+- **Implemented:** an invocation builder for Claude Code, and the policy gate exposed as an MCP
+  proxy so an external harness can send its tool calls through it. This is early and still under
+  verification.
+- **Stubs only:** OpenCode, Hermes and OpenClaw adapters exist as typed stubs.
+- **Planned:** running an existing harness fully under openagentix, so that its tool calls are
+  policy-checked, audited and costed like native runs. This is on the [roadmap](https://github.com/open-agentix/open-agentix/blob/main/ROADMAP.md)
+  for v0.3, not shipped.
+
+The idea behind it, which is a design bet and so partly opinion: the harness becomes a replaceable
+component. You bring the harness you prefer, today or next year, and the governance around it stays
+the same.
+
+```text
+        +-----------------------------------------------+
+        |  control layer: identity, policy, budgets,    |
+        |  approvals, secrets, audit, observability     |
+        +-----------------------+-----------------------+
+                                |  tool calls pass the gate
+        +-----------------------+-----------------------+
+        |  harness (replaceable): loop, context, tools  |
+        +-----------------------+-----------------------+
+                                |
+        +-----------------------+-----------------------+
+        |  model API (any provider)                     |
+        +-----------------------------------------------+
+```
+
+## Checklist: what to keep when your harness gets thinner
+
+1. Keep a deterministic gate in front of every tool call, outside the model and outside the prompt.
+2. Keep least-privilege grants per agent; do not widen them because the model "seems careful".
+3. Keep budgets and call limits enforced by code, with a hard stop.
+4. Keep secrets out of the model's context and resolve them at the tool, not in the prompt.
+5. Keep human approval for destructive or irreversible actions.
+6. Keep an audit trail that records decisions, not only outputs.
+7. Keep tests that run without a model, so a harness change can be checked.
+8. Re-test your scaffolding on each model upgrade and delete what no longer helps.
+
+## How to choose a harness
+
+Opinion, in order of weight: first, can its tool calls be intercepted, so policy and audit can sit
+outside it? Second, does it let you choose the model and the provider? Third, is it open enough to
+inspect what it sends? Fourth, does it fit the work: a coding harness for code, something more
+general for other tasks. Do not choose by how much scaffolding it ships with. Given the trend
+above, less is often a feature.
+
+If you disagree, or find a statement here that is wrong, please open an issue. We would rather
+correct the post than defend it.
