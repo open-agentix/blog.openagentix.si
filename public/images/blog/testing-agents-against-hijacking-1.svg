@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="t d" fill="none" font-family="system-ui, sans-serif" color="currentColor">
 <title id="t">Structure of a hijacking test case</title>
-<desc id="d">A test case combines a user task with an injected task hidden in tool data. After the agent run, two checks decide: was the user task done, and was the injected task not executed.</desc>
+<desc id="d">A test case combines a user task with an injected task hidden in tool data. After the agent run, two checks decide: was the user task done, and was the injected task not executed.</desc><style>svg{color:#1f2937}</style><rect class="oax-bg" x="0" y="0" width="480" height="330" rx="8" fill="#ffffff"/>
 <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor"/></marker></defs>
 <g fill="currentColor">
 <rect x="10" y="10" width="210" height="60" rx="6" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-width="1.5"/>

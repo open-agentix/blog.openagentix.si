@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img" aria-labelledby="t d" fill="none" font-family="system-ui, sans-serif" color="currentColor">
 <title id="t">Direct tool calls compared with sandboxed code execution</title>
-<desc id="d">Left: with direct tool calls every intermediate result passes through the model. Right: a sandboxed script processes the data and returns only a summary to the model.</desc>
+<desc id="d">Left: with direct tool calls every intermediate result passes through the model. Right: a sandboxed script processes the data and returns only a summary to the model.</desc><style>svg{color:#1f2937}</style><rect class="oax-bg" x="0" y="0" width="480" height="340" rx="8" fill="#ffffff"/>
 <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor"/></marker></defs>
 <g fill="currentColor">
 <text x="110" y="24" text-anchor="middle" font-size="16" font-weight="700">Direct tool calls</text>

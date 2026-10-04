@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" role="img" aria-labelledby="t d"><title id="t">Filesystem and network isolation around an agent process</title><desc id="d">An agent process sits inside a filesystem scope, which sits inside a network boundary with an egress allow-list proxy. An arrow to an unlisted host is blocked, an arrow to a listed host passes.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" role="img" aria-labelledby="t d"><title id="t">Filesystem and network isolation around an agent process</title><desc id="d">An agent process sits inside a filesystem scope, which sits inside a network boundary with an egress allow-list proxy. An arrow to an unlisted host is blocked, an arrow to a listed host passes.</desc><style>svg{color:#1f2937}</style><rect class="oax-bg" x="0" y="0" width="540" height="300" rx="8" fill="#ffffff"/>
 <g font-family="system-ui,sans-serif" font-size="15" stroke="currentColor" stroke-width="2" fill="none">
 <rect x="10" y="10" width="300" height="280" rx="12" stroke-dasharray="6 4"/>
 <text fill="currentColor" x="24" y="34" stroke="none" font-weight="700">Network boundary</text>

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 284" role="img" aria-labelledby="t d" font-family="system-ui, sans-serif" font-size="14" fill="currentColor">
 <title id="t">Model Context Protocol architecture</title>
-<desc id="d">A host application contains MCP clients. Each client talks JSON-RPC to one MCP server. Servers expose tools, resources and prompts.</desc>
+<desc id="d">A host application contains MCP clients. Each client talks JSON-RPC to one MCP server. Servers expose tools, resources and prompts.</desc><style>svg{color:#1f2937}</style><rect class="oax-bg" x="0" y="0" width="480" height="284" rx="8" fill="#ffffff"/>
 <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="currentColor"/></marker></defs>
 <rect x="10" y="10" width="180" height="200" rx="8" fill="currentColor" fill-opacity="0.04" stroke="currentColor" stroke-width="1.5"/>
 <text x="100" y="34" text-anchor="middle" font-weight="700">Host (the agent app)</text>

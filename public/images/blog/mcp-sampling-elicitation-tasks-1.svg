@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 290" role="img" aria-labelledby="t d" font-family="system-ui,-apple-system,Segoe UI,sans-serif" fill="currentColor">
 <title id="t">MCP sampling, elicitation and tasks with their control points</title>
-<desc id="d">Three requests go from the MCP server to the client. Sampling asks for a model call, elicitation asks the user for input, tasks report long-running work. Each has a control point on the client side.</desc>
+<desc id="d">Three requests go from the MCP server to the client. Sampling asks for a model call, elicitation asks the user for input, tasks report long-running work. Each has a control point on the client side.</desc><style>svg{color:#1f2937}</style><rect class="oax-bg" x="0" y="0" width="480" height="290" rx="8" fill="#ffffff"/>
 <rect x="10" y="10" width="140" height="40" rx="8" fill="currentColor" fill-opacity="0.1" stroke="currentColor" stroke-opacity="0.55"/>
 <text x="22" y="35.0" font-size="15" font-weight="700">MCP server</text>
 <rect x="330" y="10" width="140" height="40" rx="8" fill="currentColor" fill-opacity="0.1" stroke="currentColor" stroke-opacity="0.55"/>

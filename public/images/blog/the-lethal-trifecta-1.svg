@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img" aria-labelledby="t d" font-family="system-ui, sans-serif" font-size="14" fill="currentColor">
 <title id="t">The lethal trifecta and where to cut it</title>
-<desc id="d">A triangle with private data, untrusted content and external communication at its corners. Each corner lists the control that removes it.</desc>
+<desc id="d">A triangle with private data, untrusted content and external communication at its corners. Each corner lists the control that removes it.</desc><style>svg{color:#1f2937}</style><rect class="oax-bg" x="0" y="0" width="480" height="340" rx="8" fill="#ffffff"/>
 <polygon points="240,40 70,250 410,250" fill="currentColor" fill-opacity=".06" stroke="currentColor" stroke-width="2"/>
 <rect x="160" y="12" width="160" height="36" rx="6" fill="currentColor" fill-opacity="0.15" stroke="currentColor" stroke-width="1.5"/>
 <text x="240" y="35" text-anchor="middle" font-weight="700">Private data</text>
