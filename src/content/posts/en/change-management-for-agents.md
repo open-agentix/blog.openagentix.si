@@ -2,7 +2,7 @@
 ref: change-management-for-agents
 lang: en
 title: "Ops series: change management and prompt versioning for agents"
-description: Prompt versioning and change management for AI agents: apply semantic versioning, review and rollback to prompts, skills and policies like code.
+description: "Prompt versioning and change management for AI agents: apply semantic versioning, review and rollback to prompts, skills and policies like code."
 date: 2026-04-23T09:00:00Z
 tags: [operations, change-management, governance]
 ---

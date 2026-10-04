@@ -2,7 +2,7 @@
 ref: context-engineering-basics
 lang: en
 title: "Context engineering: the smallest set of tokens that does the job"
-description: Context engineering treats the context window as a finite budget. Practical ways to keep it small: compaction, sub-tasks with own context, notes.
+description: "Context engineering treats the context window as a finite budget. Practical ways to keep it small: compaction, sub-tasks with own context, notes."
 date: 2026-04-07T09:00:00Z
 tags: [context, tools, explainer]
 ---
