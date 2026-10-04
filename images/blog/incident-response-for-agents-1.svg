@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 380" role="img" aria-labelledby="t d"><title id="t">Incident response timeline for an agent incident</title><desc id="d">Six steps in order: alert, stop the run, revoke the tool grant, review the audit trace, fix, postmortem. The first three are measured in seconds to minutes.</desc><style>svg{color:#1f2937}</style><rect class="oax-bg" x="0" y="0" width="480" height="380" rx="8" fill="#ffffff"/>
+<g font-family="system-ui,sans-serif" font-size="15" stroke="currentColor" stroke-width="2">
+<line x1="40" y1="30" x2="40" y2="330" opacity=".4"/>
+<g fill="none"><circle cx="40" cy="30" r="9"/><circle cx="40" cy="90" r="9"/><circle cx="40" cy="150" r="9"/><circle cx="40" cy="210" r="9"/><circle cx="40" cy="270" r="9"/><circle cx="40" cy="330" r="9"/></g>
+<g stroke="none"><text fill="currentColor" x="64" y="36" font-weight="700">1. Alert</text><text fill="currentColor" x="170" y="36" opacity=".75">metric or policy signal</text>
+<text fill="currentColor" x="64" y="96" font-weight="700">2. Stop the run</text><text fill="currentColor" x="210" y="96" opacity=".75">kill switch, seconds</text>
+<text fill="currentColor" x="64" y="156" font-weight="700">3. Revoke tool grant</text><text fill="currentColor" x="64" y="176" opacity=".75">freeze the policy version</text>
+<text fill="currentColor" x="64" y="216" font-weight="700">4. Review audit trace</text><text fill="currentColor" x="64" y="236" opacity=".75">what ran, with which arguments</text>
+<text fill="currentColor" x="64" y="276" font-weight="700">5. Fix</text><text fill="currentColor" x="120" y="276" opacity=".75">policy, tool or prompt</text>
+<text fill="currentColor" x="64" y="336" font-weight="700">6. Blameless postmortem</text><text fill="currentColor" x="64" y="356" opacity=".75">actions with owners and dates</text></g>
+<rect x="380" y="12" width="84" height="150" rx="8" fill="none" stroke-dasharray="5 4"/><text fill="currentColor" x="422" y="95" text-anchor="middle" stroke="none" font-size="13">contain:</text><text fill="currentColor" x="422" y="113" text-anchor="middle" stroke="none" font-size="13">minutes</text></g></svg>

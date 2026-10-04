@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="t d"><title id="t">Token reduction from caching, compact results and budget caps</title><desc id="d">Illustrative bars of tokens per run. Baseline is longest. Prompt caching shortens the repeated context cost, compact tool results shorten it further, and a budget cap draws a hard limit line that no run may cross. The values are illustrative, not measured.</desc><style>svg{color:#1f2937}</style><rect class="oax-bg" x="0" y="0" width="480" height="300" rx="8" fill="#ffffff"/>
+<g font-family="system-ui,sans-serif" stroke="currentColor" stroke-width="2" fill="none" font-size="13">
+<g fill="currentColor" fill-opacity=".25">
+<rect x="150" y="40" width="300" height="34"/><rect x="150" y="100" width="200" height="34"/><rect x="150" y="160" width="110" height="34"/></g>
+<g stroke="none"><text fill="currentColor" x="10" y="62">Baseline</text><text fill="currentColor" x="10" y="122">+ caching</text><text fill="currentColor" x="10" y="182">+ compact</text><text fill="currentColor" x="10" y="199">  results</text></g>
+<line x1="300" y1="25" x2="300" y2="215" stroke-dasharray="6 4"/>
+<text fill="currentColor" x="300" y="20" text-anchor="middle" stroke="none">budget cap</text>
+<text fill="currentColor" x="150" y="250" stroke="none" opacity=".75">Illustrative, not measured values.</text>
+<text fill="currentColor" x="150" y="272" stroke="none" opacity=".75">The baseline run exceeds the cap and is stopped.</text>
+</g></svg>

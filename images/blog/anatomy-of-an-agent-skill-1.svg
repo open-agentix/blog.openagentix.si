@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 236" role="img" aria-labelledby="t d" font-family="system-ui, sans-serif" font-size="14" fill="currentColor">
+<title id="t">Progressive disclosure levels of an agent skill</title>
+<desc id="d">Three loading levels: metadata is always in context, the SKILL.md body loads when the skill matches, and linked files load on demand.</desc><style>svg{color:#1f2937}</style><rect class="oax-bg" x="0" y="0" width="480" height="236" rx="8" fill="#ffffff"/>
+<rect x="10" y="10" width="460" height="62" rx="6" fill="currentColor" fill-opacity="0.06" stroke="currentColor" stroke-width="1.5"/>
+<text x="22" y="34" text-anchor="start" font-weight="700">Level 1: metadata</text>
+<text x="22" y="54" text-anchor="start" font-size="13">name + description · always in context</text>
+<line x1="240" y1="72" x2="240" y2="84" stroke="currentColor" stroke-width="1.5" />
+<rect x="40" y="84" width="400" height="62" rx="6" fill="currentColor" fill-opacity="0.14" stroke="currentColor" stroke-width="1.5"/>
+<text x="52" y="108" text-anchor="start" font-weight="700">Level 2: SKILL.md body</text>
+<text x="52" y="128" text-anchor="start" font-size="13">instructions · loaded when the skill matches</text>
+<line x1="240" y1="146" x2="240" y2="158" stroke="currentColor" stroke-width="1.5" />
+<rect x="70" y="158" width="340" height="62" rx="6" fill="currentColor" fill-opacity="0.22" stroke="currentColor" stroke-width="1.5"/>
+<text x="82" y="182" text-anchor="start" font-weight="700">Level 3: linked files</text>
+<text x="82" y="202" text-anchor="start" font-size="13">scripts, references · loaded when needed</text>
+</svg>

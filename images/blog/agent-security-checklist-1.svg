@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 406" role="img" aria-labelledby="t d" font-family="system-ui,-apple-system,Segoe UI,sans-serif" fill="currentColor">
+<title id="t">Agent security checklist grouped by area</title>
+<desc id="d">Seven sections with the number of questions each: identity, permissions, data flow, injection, sandboxing, supply chain, audit. Each item links to the post that explains it.</desc><style>svg{color:#1f2937}</style><rect class="oax-bg" x="0" y="0" width="480" height="406" rx="8" fill="#ffffff"/>
+<rect x="10" y="10" width="460" height="48" rx="8" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-opacity="0.55"/>
+<text x="22" y="31.0" font-size="15" font-weight="700">1 Identity</text>
+<text x="22" y="49.0" font-size="13" fill-opacity="0.8">3 questions: who acts, as whom, with which token</text>
+<rect x="10" y="66" width="460" height="48" rx="8" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-opacity="0.55"/>
+<text x="22" y="87.0" font-size="15" font-weight="700">2 Permissions</text>
+<text x="22" y="105.0" font-size="13" fill-opacity="0.8">3 questions: least privilege, approvals, scopes</text>
+<rect x="10" y="122" width="460" height="48" rx="8" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-opacity="0.55"/>
+<text x="22" y="143.0" font-size="15" font-weight="700">3 Data flow</text>
+<text x="22" y="161.0" font-size="13" fill-opacity="0.8">3 questions: sources, sinks, secrets</text>
+<rect x="10" y="178" width="460" height="48" rx="8" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-opacity="0.55"/>
+<text x="22" y="199.0" font-size="15" font-weight="700">4 Injection</text>
+<text x="22" y="217.0" font-size="13" fill-opacity="0.8">3 questions: untrusted input, tool results, trifecta</text>
+<rect x="10" y="234" width="460" height="48" rx="8" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-opacity="0.55"/>
+<text x="22" y="255.0" font-size="15" font-weight="700">5 Sandboxing</text>
+<text x="22" y="273.0" font-size="13" fill-opacity="0.8">3 questions: filesystem, network, process limits</text>
+<rect x="10" y="290" width="460" height="48" rx="8" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-opacity="0.55"/>
+<text x="22" y="311.0" font-size="15" font-weight="700">6 Supply chain</text>
+<text x="22" y="329.0" font-size="13" fill-opacity="0.8">3 questions: skills, servers, models</text>
+<rect x="10" y="346" width="460" height="48" rx="8" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-opacity="0.55"/>
+<text x="22" y="367.0" font-size="15" font-weight="700">7 Audit</text>
+<text x="22" y="385.0" font-size="13" fill-opacity="0.8">2 questions: record, replay</text>
+</svg>

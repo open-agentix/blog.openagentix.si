@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" role="img" aria-labelledby="t d"><title id="t">Local hook and central policy gate in the tool call path</title><desc id="d">A tool call from the agent passes a local PreToolUse hook, then a central policy gate, then reaches the tool. Both the hook and the gate write to the audit log. Either can deny the call.</desc><style>svg{color:#1f2937}</style><rect class="oax-bg" x="0" y="0" width="480" height="260" rx="8" fill="#ffffff"/>
+<g font-family="system-ui,sans-serif" font-size="15" stroke="currentColor" stroke-width="2" fill="none">
+<rect x="10" y="40" width="90" height="56" rx="8"/><text fill="currentColor" x="55" y="73" text-anchor="middle" stroke="none">Agent</text>
+<rect x="135" y="40" width="100" height="56" rx="8"/><text fill="currentColor" x="185" y="64" text-anchor="middle" stroke="none" font-size="13">PreToolUse</text><text fill="currentColor" x="185" y="82" text-anchor="middle" stroke="none" font-size="13">hook (local)</text>
+<rect x="270" y="40" width="100" height="56" rx="8"/><text fill="currentColor" x="320" y="64" text-anchor="middle" stroke="none" font-size="13">Policy gate</text><text fill="currentColor" x="320" y="82" text-anchor="middle" stroke="none" font-size="13">(central)</text>
+<rect x="405" y="40" width="65" height="56" rx="8"/><text fill="currentColor" x="437" y="73" text-anchor="middle" stroke="none">Tool</text>
+<line x1="100" y1="68" x2="135" y2="68"/><line x1="235" y1="68" x2="270" y2="68"/><line x1="370" y1="68" x2="405" y2="68"/>
+<line x1="185" y1="96" x2="185" y2="150"/><line x1="320" y1="96" x2="320" y2="150"/>
+<rect x="110" y="150" width="285" height="48" rx="8"/><text fill="currentColor" x="252" y="180" text-anchor="middle" stroke="none">Audit log (both write)</text>
+<text fill="currentColor" x="185" y="22" text-anchor="middle" stroke="none" font-size="13" opacity=".75">deny?</text><text fill="currentColor" x="320" y="22" text-anchor="middle" stroke="none" font-size="13" opacity=".75">deny?</text>
+<text fill="currentColor" x="240" y="236" text-anchor="middle" stroke="none" font-size="13" opacity=".75">The hook runs on one machine; the gate sees every client</text>
+</g></svg>

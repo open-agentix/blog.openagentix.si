@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" role="img" aria-labelledby="t d"><title id="t">Single agent, orchestrator-worker and pipeline topologies compared</title><desc id="d">Three columns. Single agent: one box, lowest token use, failure in its own context. Orchestrator-worker: one lead and three workers, highest token use, failure at the hand-offs. Pipeline: three boxes in sequence, medium token use, failure at stage boundaries.</desc><style>svg{color:#1f2937}</style><rect class="oax-bg" x="0" y="0" width="500" height="320" rx="8" fill="#ffffff"/>
+<g font-family="system-ui,sans-serif" font-size="15" stroke="currentColor" stroke-width="2" fill="none">
+<text fill="currentColor" x="55" y="22" text-anchor="middle" stroke="none" font-weight="700" font-size="13">Single</text><text fill="currentColor" x="240" y="22" text-anchor="middle" stroke="none" font-weight="700" font-size="13">Orchestrator-worker</text><text fill="currentColor" x="425" y="22" text-anchor="middle" stroke="none" font-weight="700" font-size="13">Pipeline</text>
+<rect x="20" y="110" width="70" height="40" rx="6"/><text fill="currentColor" x="55" y="135" text-anchor="middle" stroke="none" font-size="13">Agent</text>
+<rect x="190" y="40" width="100" height="36" rx="6"/><text fill="currentColor" x="240" y="63" text-anchor="middle" stroke="none" font-size="13">Lead</text>
+<line x1="215" y1="76" x2="170" y2="120"/><line x1="240" y1="76" x2="240" y2="120"/><line x1="265" y1="76" x2="310" y2="120"/>
+<rect x="150" y="120" width="40" height="34" rx="6"/><rect x="220" y="120" width="40" height="34" rx="6"/><rect x="290" y="120" width="40" height="34" rx="6"/>
+<text fill="currentColor" x="170" y="142" text-anchor="middle" stroke="none" font-size="13">W1</text><text fill="currentColor" x="240" y="142" text-anchor="middle" stroke="none" font-size="13">W2</text><text fill="currentColor" x="310" y="142" text-anchor="middle" stroke="none" font-size="13">W3</text>
+<rect x="395" y="50" width="60" height="34" rx="6"/><rect x="395" y="110" width="60" height="34" rx="6"/><rect x="395" y="170" width="60" height="34" rx="6"/>
+<line x1="425" y1="84" x2="425" y2="110"/><line x1="425" y1="144" x2="425" y2="170"/>
+<text fill="currentColor" x="425" y="72" text-anchor="middle" stroke="none" font-size="13">Plan</text><text fill="currentColor" x="425" y="132" text-anchor="middle" stroke="none" font-size="13">Build</text><text fill="currentColor" x="425" y="192" text-anchor="middle" stroke="none" font-size="13">Check</text>
+<line x1="10" y1="225" x2="470" y2="225" opacity=".4"/>
+<g stroke="none" font-size="13"><text fill="currentColor" x="55" y="250" text-anchor="middle" font-weight="700">tokens: 1x</text><text fill="currentColor" x="55" y="272" text-anchor="middle" opacity=".75">fails: in-context</text>
+<text fill="currentColor" x="240" y="250" text-anchor="middle" font-weight="700">tokens: highest</text><text fill="currentColor" x="240" y="272" text-anchor="middle" opacity=".75">fails: hand-offs</text>
+<text fill="currentColor" x="425" y="250" text-anchor="middle" font-weight="700">tokens: medium</text><text fill="currentColor" x="425" y="272" text-anchor="middle" opacity=".75">fails: stage edges</text>
+<text fill="currentColor" x="240" y="305" text-anchor="middle" opacity=".75">Relative qualitative view, not measured values</text></g>
+</g></svg>

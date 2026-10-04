@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img" aria-labelledby="t d" font-family="system-ui, sans-serif" font-size="14" fill="currentColor">
+<title id="t">The lethal trifecta and where to cut it</title>
+<desc id="d">A triangle with private data, untrusted content and external communication at its corners. Each corner lists the control that removes it.</desc><style>svg{color:#1f2937}</style><rect class="oax-bg" x="0" y="0" width="480" height="340" rx="8" fill="#ffffff"/>
+<polygon points="240,40 70,250 410,250" fill="currentColor" fill-opacity=".06" stroke="currentColor" stroke-width="2"/>
+<rect x="160" y="12" width="160" height="36" rx="6" fill="currentColor" fill-opacity="0.15" stroke="currentColor" stroke-width="1.5"/>
+<text x="240" y="35" text-anchor="middle" font-weight="700">Private data</text>
+<text x="328" y="28" text-anchor="start" font-size="12">Cut: scoped, read-only</text>
+<text x="328" y="45" text-anchor="start" font-size="12">access per agent</text>
+<rect x="10" y="244" width="160" height="36" rx="6" fill="currentColor" fill-opacity="0.15" stroke="currentColor" stroke-width="1.5"/>
+<text x="90" y="267" text-anchor="middle" font-weight="700">Untrusted content</text>
+<text x="90" y="302" text-anchor="middle" font-size="13">Cut: curated sources,</text>
+<text x="90" y="320" text-anchor="middle" font-size="13">separate reader agent</text>
+<rect x="310" y="244" width="160" height="36" rx="6" fill="currentColor" fill-opacity="0.15" stroke="currentColor" stroke-width="1.5"/>
+<text x="390" y="267" text-anchor="middle" font-weight="700">External comms</text>
+<text x="390" y="302" text-anchor="middle" font-size="13">Cut: egress allowlist,</text>
+<text x="390" y="320" text-anchor="middle" font-size="13">approval for sends</text>
+<text x="240" y="170" text-anchor="middle" font-weight="700">All three</text>
+<text x="240" y="190" text-anchor="middle">in one agent:</text>
+<text x="240" y="210" text-anchor="middle" font-weight="700">exfiltration risk</text>
+</svg>

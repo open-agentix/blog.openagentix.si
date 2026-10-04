@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img" aria-labelledby="t d" fill="none" font-family="system-ui, sans-serif" color="currentColor">
+<title id="t">Chain of agent sessions sharing state through files and commits</title>
+<desc id="d">Session 1 writes a feature list and a progress file. Sessions 2 to n each read them, work on one item, commit and update the progress file.</desc><style>svg{color:#1f2937}</style><rect class="oax-bg" x="0" y="0" width="480" height="340" rx="8" fill="#ffffff"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor"/></marker></defs>
+<g fill="currentColor">
+<rect x="10" y="10" width="460" height="60" rx="6" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-width="1.5"/>
+<text x="240.0" y="36.4" text-anchor="middle" font-size="14" font-weight="700">Session 1: set up</text>
+<text x="240.0" y="53.4" text-anchor="middle" font-size="14">write feature list + progress file, first commit</text>
+<line x1="240" y1="70" x2="240" y2="100" stroke="currentColor" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="10" y="100" width="460" height="60" rx="6" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-width="1.5"/>
+<text x="240.0" y="126.4" text-anchor="middle" font-size="14" font-weight="700">Session 2: one item</text>
+<text x="240.0" y="143.4" text-anchor="middle" font-size="14">read state, work on one feature, test, commit, update notes</text>
+<line x1="240" y1="160" x2="240" y2="190" stroke="currentColor" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="10" y="190" width="460" height="60" rx="6" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-width="1.5"/>
+<text x="240.0" y="216.4" text-anchor="middle" font-size="14" font-weight="700">Session n: same loop</text>
+<text x="240.0" y="233.4" text-anchor="middle" font-size="14">a clean state at the end of every session</text>
+<rect x="10" y="270" width="460" height="56" rx="6" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="240.0" y="294.2" text-anchor="middle" font-size="15">Shared state outside the model</text>
+<text x="240.0" y="312.2" text-anchor="middle" font-size="15">feature list, progress file, git history</text>
+</g>
+</svg>

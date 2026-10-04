@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="t d" font-family="system-ui,-apple-system,Segoe UI,sans-serif" fill="currentColor">
+<title id="t">Readiness radar across six areas</title>
+<desc id="d">A radar chart with six axes: architecture, skills, security, operations, cost and evaluation. The plotted shape is an example of uneven readiness.</desc><style>svg{color:#1f2937}</style><rect class="oax-bg" x="0" y="0" width="480" height="300" rx="8" fill="#ffffff"/>
+<polygon points="240,117 269,134 269,166 240,183 211,166 211,134" fill="none" stroke="currentColor" stroke-opacity="0.35"/>
+<polygon points="240,84 297,117 297,183 240,216 183,183 183,117" fill="none" stroke="currentColor" stroke-opacity="0.35"/>
+<polygon points="240,50 327,100 327,200 240,250 153,200 153,100" fill="none" stroke="currentColor" stroke-opacity="0.35"/>
+<line x1="240" y1="150" x2="240" y2="50" stroke="currentColor" stroke-opacity="0.35"/>
+<text x="240" y="34" font-size="14" font-weight="700" text-anchor="middle">Architecture</text>
+<line x1="240" y1="150" x2="327" y2="100" stroke="currentColor" stroke-opacity="0.35"/>
+<text x="339" y="97" font-size="14" font-weight="700" text-anchor="start">Skills</text>
+<line x1="240" y1="150" x2="327" y2="200" stroke="currentColor" stroke-opacity="0.35"/>
+<text x="339" y="211" font-size="14" font-weight="700" text-anchor="start">Security</text>
+<line x1="240" y1="150" x2="240" y2="250" stroke="currentColor" stroke-opacity="0.35"/>
+<text x="240" y="278" font-size="14" font-weight="700" text-anchor="middle">Operations</text>
+<line x1="240" y1="150" x2="153" y2="200" stroke="currentColor" stroke-opacity="0.35"/>
+<text x="141" y="211" font-size="14" font-weight="700" text-anchor="end">Cost</text>
+<line x1="240" y1="150" x2="153" y2="100" stroke="currentColor" stroke-opacity="0.35"/>
+<text x="141" y="97" font-size="14" font-weight="700" text-anchor="end">Evaluation</text>
+<polygon points="240,70 283,125 301,185 240,210 205,170 192,122" fill="currentColor" fill-opacity="0.2" stroke="currentColor" stroke-width="2"/>
+<text x="12" y="290" font-size="13" fill-opacity="0.8">Example scores only; rate each axis 0 to 4 with the checklist items.</text>
+</svg>

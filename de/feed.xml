@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="de">
+  <title>openagentix Blog</title>
+  <subtitle>Notizen zum Bau von open-agentix, einer Open-Source-Agentenplattform mit Policy-Gates, Audit und Kostenkontrolle.</subtitle>
+  <id>https://blog.openagentix.si/de/</id>
+  <link rel="self" type="application/atom+xml" href="https://blog.openagentix.si/de/feed.xml"/>
+  <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/"/>
+  <updated>2026-10-01T09:00:00.000Z</updated>
+  <generator>openagentix blog</generator>
+  <entry>
+    <title>Bereitschaft der Agentenplattform: die Prüfliste, die die Reihe zusammenführt</title>
+    <id>https://blog.openagentix.si/de/posts/agent-platform-readiness-checklist/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/agent-platform-readiness-checklist/" hreflang="de"/>
+    <published>2026-10-01T09:00:00.000Z</published>
+    <updated>2026-10-01T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="governance"/>
+    <category term="checklist"/>
+    <category term="series"/>
+    <summary>Checkliste zur Produktionsreife von KI-Agenten über Architektur, Skills, Sicherheit, Betrieb, Kosten und Evaluation, jeder Punkt mit Link zum Beitrag.</summary>
+  </entry>
+  <entry>
+    <title>Messen, ob Agenten helfen: Ergebnisse statt Eindrücke</title>
+    <id>https://blog.openagentix.si/de/posts/measuring-agent-value/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/measuring-agent-value/" hreflang="de"/>
+    <published>2026-09-29T09:00:00.000Z</published>
+    <updated>2026-09-29T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="enterprise"/>
+    <category term="evaluation"/>
+    <category term="costs"/>
+    <summary>KI-Produktivität messen: Ergebnisse statt Eindrücke, mit akzeptierten Änderungen, Review-Zeit, Nacharbeit und Kosten je akzeptierter Änderung im Metrikbaum.</summary>
+  </entry>
+  <entry>
+    <title>Rückblick Betriebsreihe: Agentenplattformen unterscheiden sich kaum vom klassischen Betrieb</title>
+    <id>https://blog.openagentix.si/de/posts/agent-platforms-are-ops-platforms/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/agent-platforms-are-ops-platforms/" hreflang="de"/>
+    <published>2026-09-24T09:00:00.000Z</published>
+    <updated>2026-09-24T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="operations"/>
+    <category term="comparison"/>
+    <category term="series"/>
+    <summary>Betrieb von KI-Plattformen im Rückblick: Tabelle von zwölf Disziplinen, was aus DevOps und SRE übernommen wird und was bei Agenten wirklich neu ist.</summary>
+  </entry>
+  <entry>
+    <title>Ein Architektur-Review für Agentensysteme auf einer Seite</title>
+    <id>https://blog.openagentix.si/de/posts/architecture-review-for-agents/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/architecture-review-for-agents/" hreflang="de"/>
+    <published>2026-09-22T09:00:00.000Z</published>
+    <updated>2026-09-22T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="architecture"/>
+    <category term="checklist"/>
+    <category term="governance"/>
+    <summary>KI-Architektur-Review für Agenten auf einer Seite: Zweck, Grenzen, Datenfluss, Verträge, Autonomie und Fehlerpfade, mit Leitfragen für die Prüfung.</summary>
+  </entry>
+  <entry>
+    <title>Einen internen Skill-Katalog aufbauen: Prüfung, Zuständigkeit und Auffindbarkeit</title>
+    <id>https://blog.openagentix.si/de/posts/internal-skills-catalog/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/internal-skills-catalog/" hreflang="de"/>
+    <published>2026-09-17T09:00:00.000Z</published>
+    <updated>2026-09-17T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="skills"/>
+    <category term="governance"/>
+    <category term="how-to"/>
+    <summary>Einen Skills-Katalog für Ihre Organisation aufbauen: einreichen, prüfen, mit Verantwortlichem und Version veröffentlichen, ausmustern. Mit Ideen aus Registries.</summary>
+  </entry>
+  <entry>
+    <title>Agenten wie Insider behandeln: was Forschung zu Fehlausrichtung für den Betrieb bedeutet</title>
+    <id>https://blog.openagentix.si/de/posts/agents-as-insider-risk/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/agents-as-insider-risk/" hreflang="de"/>
+    <published>2026-09-15T09:00:00.000Z</published>
+    <updated>2026-09-15T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="security"/>
+    <category term="governance"/>
+    <category term="opinion"/>
+    <summary>KI-Insider-Bedrohung: Forschung zu agentic misalignment spricht für Insider-Kontrollen bei Agenten, etwa Funktionstrennung, begrenzten Zugriff und Monitoring.</summary>
+  </entry>
+  <entry>
+    <title>Betriebsreihe: Kapazität, Rate Limits und außer Kontrolle geratene Agenten</title>
+    <id>https://blog.openagentix.si/de/posts/capacity-and-rate-limits/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/capacity-and-rate-limits/" hreflang="de"/>
+    <published>2026-09-10T09:00:00.000Z</published>
+    <updated>2026-09-10T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="operations"/>
+    <category term="costs"/>
+    <category term="reliability"/>
+    <summary>LLM Rate Limiting für Agenten: verschachtelte Limits für Lauf, Agent, Mandant und Anbieter verhindern, dass eine Schleife alle ausbremst. Mit Beispiel.</summary>
+  </entry>
+  <entry>
+    <title>Mehr als Tools: MCP Sampling, Elicitation und Tasks</title>
+    <id>https://blog.openagentix.si/de/posts/mcp-sampling-elicitation-tasks/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/mcp-sampling-elicitation-tasks/" hreflang="de"/>
+    <published>2026-09-08T09:00:00.000Z</published>
+    <updated>2026-09-08T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="mcp"/>
+    <category term="explainer"/>
+    <category term="governance"/>
+    <summary>MCP Sampling lässt Server Modellaufrufe anfordern, Elicitation fragt Nutzer, Tasks verfolgen lange Arbeit. Jede verschiebt Kontrolle und braucht eine Policy.</summary>
+  </entry>
+  <entry>
+    <title>Die Sicherheits-Prüfliste für Agenten: zwanzig Fragen vor der Produktion</title>
+    <id>https://blog.openagentix.si/de/posts/agent-security-checklist/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/agent-security-checklist/" hreflang="de"/>
+    <published>2026-09-03T09:00:00.000Z</published>
+    <updated>2026-09-03T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="security"/>
+    <category term="checklist"/>
+    <category term="governance"/>
+    <summary>KI-Agenten Sicherheits-Checkliste: zwanzig Ja/Nein-Fragen zu Identität, Rechten, Datenfluss, Injection, Sandbox, Lieferkette und Audit mit Links zur Vertiefung.</summary>
+  </entry>
+  <entry>
+    <title>KI-Governance-Betriebsmodell für Agenten: wer wofür zuständig ist</title>
+    <id>https://blog.openagentix.si/de/posts/agent-governance-operating-model/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/agent-governance-operating-model/" hreflang="de"/>
+    <published>2026-09-01T09:00:00.000Z</published>
+    <updated>2026-09-01T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="governance"/>
+    <category term="enterprise"/>
+    <category term="explainer"/>
+    <summary>Ein AI Governance Operating Model scheitert, wenn niemand Agentenregister, Richtlinien oder Budget verantwortet. Rollen, RACI für Plattform, Security, Prüfer.</summary>
+  </entry>
+  <entry>
+    <title>Betriebsreihe: KI-Agenten ausrollen mit Canaries und Rollbacks</title>
+    <id>https://blog.openagentix.si/de/posts/deploying-agent-changes-safely/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/deploying-agent-changes-safely/" hreflang="de"/>
+    <published>2026-08-27T09:00:00.000Z</published>
+    <updated>2026-08-27T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="operations"/>
+    <category term="deployments"/>
+    <category term="how-to"/>
+    <summary>KI-Agenten ausrollen wie jeden Dienst: neues Modell, Prompt oder Skill zuerst an wenige Läufe, Evals und SLOs entscheiden, ein Rollback bleibt bereit.</summary>
+  </entry>
+  <entry>
+    <title>Strukturierte Ausgaben für Agenten: Schemas, Verträge, Zuständigkeit</title>
+    <id>https://blog.openagentix.si/de/posts/interface-contracts-for-agents/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/interface-contracts-for-agents/" hreflang="de"/>
+    <published>2026-08-25T09:00:00.000Z</published>
+    <updated>2026-08-25T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="architecture"/>
+    <category term="tools"/>
+    <category term="how-to"/>
+    <summary>Structured output agents übergeben typisierte Daten statt Freitext. JSON-Schemas für Tool-Ergebnisse definieren, versionieren und Verantwortliche nennen.</summary>
+  </entry>
+  <entry>
+    <title>Lang laufende KI-Agenten: Fortschrittsdateien, Zustände, Checkpoints</title>
+    <id>https://blog.openagentix.si/de/posts/long-running-agents/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/long-running-agents/" hreflang="de"/>
+    <published>2026-08-20T09:00:00.000Z</published>
+    <updated>2026-08-20T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="harness"/>
+    <category term="patterns"/>
+    <category term="explainer"/>
+    <summary>Lang laufende KI-Agenten verlieren zwischen Sitzungen den Kontext. Zustand in Featureliste, Fortschrittsnotizen und Git macht Läufe fortsetzbar und prüfbar.</summary>
+  </entry>
+  <entry>
+    <title>MCP vs A2A: Tools für Agenten gegenüber Agenten im Gespräch</title>
+    <id>https://blog.openagentix.si/de/posts/mcp-and-a2a/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/mcp-and-a2a/" hreflang="de"/>
+    <published>2026-08-18T09:00:00.000Z</published>
+    <updated>2026-08-18T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="mcp"/>
+    <category term="multi-agent"/>
+    <category term="comparison"/>
+    <summary>MCP vs A2A: MCP verbindet einen Agenten mit Tools und Daten, A2A Agenten untereinander. Wo was passt, was fehlt und warum Governance darüber liegen muss.</summary>
+  </entry>
+  <entry>
+    <title>Prompt-Injection-Tests: Agenten gegen Hijacking prüfen</title>
+    <id>https://blog.openagentix.si/de/posts/testing-agents-against-hijacking/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/testing-agents-against-hijacking/" hreflang="de"/>
+    <published>2026-08-13T09:00:00.000Z</published>
+    <updated>2026-08-13T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="evaluation"/>
+    <category term="security"/>
+    <category term="prompt-injection"/>
+    <summary>Prompt injection testing koppelt eine legitime mit einer eingeschleusten Aufgabe und prüft beide Ergebnisse. Suiten für eigene Tools bauen, Eindämmung behalten.</summary>
+  </entry>
+  <entry>
+    <title>Code-Ausführung oder direkte Tool-Aufrufe? Abwägungen für Entwickler</title>
+    <id>https://blog.openagentix.si/de/posts/code-execution-vs-tool-calls/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/code-execution-vs-tool-calls/" hreflang="de"/>
+    <published>2026-08-11T09:00:00.000Z</published>
+    <updated>2026-08-11T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="tools"/>
+    <category term="security"/>
+    <category term="comparison"/>
+    <summary>Code execution agents sparen Token durch Filtern in einer Sandbox, brauchen aber Isolation. Vergleich mit direkten Tool-Aufrufen bei Kosten, Sicherheit, Audit.</summary>
+  </entry>
+  <entry>
+    <title>Betriebsreihe: LLM FinOps für Agenten, jedes Token zuordnen</title>
+    <id>https://blog.openagentix.si/de/posts/finops-for-agents/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/finops-for-agents/" hreflang="de"/>
+    <published>2026-08-06T09:00:00.000Z</published>
+    <updated>2026-08-06T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="operations"/>
+    <category term="costs"/>
+    <category term="how-to"/>
+    <summary>LLM FinOps überträgt das Cloud-Vorgehen auf Agenten: Läufe taggen, Kosten je Key und Team zuordnen, Budgets setzen, früh warnen, Nutzung exportieren.</summary>
+  </entry>
+  <entry>
+    <title>Enterprise AI Agent Rollout: Pilot, Basislinie, dann skalieren</title>
+    <id>https://blog.openagentix.si/de/posts/enterprise-rollout-pilot-first/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/enterprise-rollout-pilot-first/" hreflang="de"/>
+    <published>2026-08-04T09:00:00.000Z</published>
+    <updated>2026-08-04T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="enterprise"/>
+    <category term="governance"/>
+    <category term="how-to"/>
+    <summary>Ein Enterprise AI Agent Rollout gelingt mit kleinem Pilot, Telemetrie ab Tag eins, Ausgabenlimits und schriftlichen Ausstiegskriterien für jeden Schritt.</summary>
+  </entry>
+  <entry>
+    <title>Prompt-Hygiene: eine Prüfliste für Teams, die in Prompts ertrinken</title>
+    <id>https://blog.openagentix.si/de/posts/prompt-hygiene-checklist/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/prompt-hygiene-checklist/" hreflang="de"/>
+    <published>2026-07-30T09:00:00.000Z</published>
+    <updated>2026-07-30T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="quality"/>
+    <category term="prompts"/>
+    <category term="checklist"/>
+    <summary>Prompt management für Teams: eine Prüfliste zu Verantwortlichen, Version, Eval, Geltungsbereich und Review, plus die Regel: Wiederholtes in Skills.</summary>
+  </entry>
+  <entry>
+    <title>Betriebsreihe: Audit-Trails sind keine Logs</title>
+    <id>https://blog.openagentix.si/de/posts/audit-trails-vs-logs/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/audit-trails-vs-logs/" hreflang="de"/>
+    <published>2026-07-28T09:00:00.000Z</published>
+    <updated>2026-07-28T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="operations"/>
+    <category term="audit"/>
+    <category term="governance"/>
+    <summary>Ein AI audit trail muss vollständig, zurechenbar und manipulationssicher erkennbar sein; Logs dienen der Fehlersuche. Wie man sie trennt und was wohin gehört.</summary>
+  </entry>
+  <entry>
+    <title>NIST AI RMF für Agenten-Teams: Govern, Map, Measure, Manage in der Praxis</title>
+    <id>https://blog.openagentix.si/de/posts/nist-ai-rmf-for-agent-teams/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/nist-ai-rmf-for-agent-teams/" hreflang="de"/>
+    <published>2026-07-23T09:00:00.000Z</published>
+    <updated>2026-07-23T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="governance"/>
+    <category term="risk"/>
+    <category term="compliance"/>
+    <summary>Das NIST AI RMF ist freiwillig und hat vier Funktionen. Wie Registry, Datenflusskarten, Evals, Traces und Richtlinien zu Govern, Map, Measure, Manage passen.</summary>
+  </entry>
+  <entry>
+    <title>Die OWASP Top 10 für agentische Anwendungen aus Sicht eines Plattform-Teams</title>
+    <id>https://blog.openagentix.si/de/posts/owasp-agentic-top-10/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/owasp-agentic-top-10/" hreflang="de"/>
+    <published>2026-07-21T09:00:00.000Z</published>
+    <updated>2026-07-21T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="governance"/>
+    <category term="security"/>
+    <category term="owasp"/>
+    <summary>Wie ein Plattform-Team die OWASP agentic top 10 und verwandte LLM-Top-10-Einträge in Kontrollen übersetzt: minimale Rechte, Sandboxing, Freigaben und Audit.</summary>
+  </entry>
+  <entry>
+    <title>Agenten ohne Internet: eine Prüfliste für den Air-Gap-Betrieb</title>
+    <id>https://blog.openagentix.si/de/posts/air-gapped-agents-checklist/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/air-gapped-agents-checklist/" hreflang="de"/>
+    <published>2026-07-16T09:00:00.000Z</published>
+    <updated>2026-07-16T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="self-hosted"/>
+    <category term="security"/>
+    <category term="checklist"/>
+    <summary>Air-gapped AI heißt: keine Downloads zur Laufzeit. Prüfliste: was einzupflegen, festzulegen und zu verifizieren ist und wie Updates laufen.</summary>
+  </entry>
+  <entry>
+    <title>Selbst betriebene Modelle für Agenten: was sich ändert, wenn die Inferenz bei dir läuft</title>
+    <id>https://blog.openagentix.si/de/posts/self-hosted-models-for-agents/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/self-hosted-models-for-agents/" hreflang="de"/>
+    <published>2026-07-14T09:00:00.000Z</published>
+    <updated>2026-07-14T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="self-hosted"/>
+    <category term="operations"/>
+    <category term="how-to"/>
+    <summary>Self-hosted LLM für Agenten: Prompts bleiben im Haus, Sie tragen aber Kapazität, Updates und Bewertung. Lokale Runtimes, Batch-Server und der Betriebsaufwand.</summary>
+  </entry>
+  <entry>
+    <title>BYOK für Agentenplattformen: eigene Schlüssel, eigene Anbieter, eigene Rechnung</title>
+    <id>https://blog.openagentix.si/de/posts/byok-explained/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/byok-explained/" hreflang="de"/>
+    <published>2026-07-09T09:00:00.000Z</published>
+    <updated>2026-07-09T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="byok"/>
+    <category term="self-hosted"/>
+    <category term="costs"/>
+    <summary>BYOK LLM erklärt: Die Plattform ruft Modellanbieter mit Ihren Schlüsseln und Verträgen auf. Gateways, Kataloge, Kosten pro Schlüssel und die Grenzen von BYOK.</summary>
+  </entry>
+  <entry>
+    <title>Betriebsreihe: Runbooks zu Skills machen, ohne die Kontrolle zu verlieren</title>
+    <id>https://blog.openagentix.si/de/posts/runbooks-as-skills/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/runbooks-as-skills/" hreflang="de"/>
+    <published>2026-07-07T09:00:00.000Z</published>
+    <updated>2026-07-07T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="operations"/>
+    <category term="skills"/>
+    <category term="how-to"/>
+    <summary>Runbook automation AI mit Kontrolle: Runbook in einen Skill plus eng begrenzte Tools mit Freigaben umwandeln. Eine Schritt-für-Schritt-Anleitung für Ops-Teams.</summary>
+  </entry>
+  <entry>
+    <title>AGENTS.md: ein vorhersehbarer Ort für Projektkontext</title>
+    <id>https://blog.openagentix.si/de/posts/agents-md-project-context/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/agents-md-project-context/" hreflang="de"/>
+    <published>2026-07-02T09:00:00.000Z</published>
+    <updated>2026-07-02T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="harness"/>
+    <category term="skills"/>
+    <category term="context"/>
+    <summary>AGENTS.md ist eine Markdown-Datei im Repository-Root mit Build-Schritten, Konventionen und Grenzen für Coding-Agenten. Was hineingehört und was in Skills.</summary>
+  </entry>
+  <entry>
+    <title>LLM als Richter: nützlicher Bewerter mit bekannten Verzerrungen</title>
+    <id>https://blog.openagentix.si/de/posts/llm-as-judge-pitfalls/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/llm-as-judge-pitfalls/" hreflang="de"/>
+    <published>2026-06-30T09:00:00.000Z</published>
+    <updated>2026-06-30T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="evaluation"/>
+    <category term="quality"/>
+    <category term="explainer"/>
+    <summary>LLM as a Judge skaliert Bewertung, hat aber Positions-, Längen- und Selbstbevorzugung. Welcher Bewerter passt und wie man ein Modell kalibriert.</summary>
+  </entry>
+  <entry>
+    <title>LLM Cost Optimization für Agenten: Caching, Code-Ausführung und Budgets</title>
+    <id>https://blog.openagentix.si/de/posts/prompt-caching-and-token-budgets/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/prompt-caching-and-token-budgets/" hreflang="de"/>
+    <published>2026-06-25T09:00:00.000Z</published>
+    <updated>2026-06-25T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="costs"/>
+    <category term="how-to"/>
+    <category term="tools"/>
+    <summary>LLM Cost Optimization für Agenten: wann Prompt Caching lohnt, wann Code-Ausführung Tool-Aufrufe schlägt und warum harte Token-Budgets auch Sicherheit sind.</summary>
+  </entry>
+  <entry>
+    <title>Betriebsreihe: AI Supply Chain Security und Patchen für Agenten</title>
+    <id>https://blog.openagentix.si/de/posts/patching-the-agent-supply-chain/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/patching-the-agent-supply-chain/" hreflang="de"/>
+    <published>2026-06-23T09:00:00.000Z</published>
+    <updated>2026-06-23T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="operations"/>
+    <category term="supply-chain"/>
+    <category term="checklist"/>
+    <summary>AI Supply Chain Security für Agenten: Modelle, MCP-Server, Skills, SDKs und Images inventarisieren und patchen. Checkliste für gepinnte, geprüfte Artefakte.</summary>
+  </entry>
+  <entry>
+    <title>Claude Code Hooks als Durchsetzungspunkte für Policies in Coding-Agenten</title>
+    <id>https://blog.openagentix.si/de/posts/hooks-as-policy-points/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/hooks-as-policy-points/" hreflang="de"/>
+    <published>2026-06-18T09:00:00.000Z</published>
+    <updated>2026-06-18T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="harness"/>
+    <category term="policy"/>
+    <category term="how-to"/>
+    <summary>Claude Code Hooks führen Code vor einem Werkzeugaufruf aus; ein PreToolUse-Hook setzt Policy lokal durch. Aufbau, Grenzen und warum ein zentrales Gate bleibt.</summary>
+  </entry>
+  <entry>
+    <title>Claude Code vs OpenCode: ein Vergleich aus Governance-Sicht</title>
+    <id>https://blog.openagentix.si/de/posts/claude-code-vs-opencode/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/claude-code-vs-opencode/" hreflang="de"/>
+    <published>2026-06-16T09:00:00.000Z</published>
+    <updated>2026-06-16T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="harness"/>
+    <category term="comparison"/>
+    <category term="governance"/>
+    <summary>Claude Code vs OpenCode bei den Kontrollen eines Plattformteams: Berechtigungen, Auto-Modi, Subagenten, MCP, Anbieter, Konfiguration. Ohne Benchmarks.</summary>
+  </entry>
+  <entry>
+    <title>Wann sind Multi-Agenten-Systeme ihre Tokens wert?</title>
+    <id>https://blog.openagentix.si/de/posts/when-multi-agent-is-worth-it/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/when-multi-agent-is-worth-it/" hreflang="de"/>
+    <published>2026-06-11T09:00:00.000Z</published>
+    <updated>2026-06-11T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="multi-agent"/>
+    <category term="cost"/>
+    <category term="comparison"/>
+    <summary>Multi-Agenten-Systeme parallelisieren Arbeit, vervielfachen aber den Tokenverbrauch. Einzelagent, Orchestrator-Worker und Pipeline im Vergleich.</summary>
+  </entry>
+  <entry>
+    <title>Human in the Loop bei KI-Agenten, der funktioniert: weniger Freigaben, bessere</title>
+    <id>https://blog.openagentix.si/de/posts/human-in-the-loop-that-works/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/human-in-the-loop-that-works/" hreflang="de"/>
+    <published>2026-06-09T09:00:00.000Z</published>
+    <updated>2026-06-09T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="governance"/>
+    <category term="policy"/>
+    <category term="opinion"/>
+    <summary>Human in the Loop bei KI-Agenten scheitert, wenn jeder Aufruf bestätigt werden muss. Menschen für riskante Aktionen, mit Kontext; den Rest regelt Policy.</summary>
+  </entry>
+  <entry>
+    <title>AI Agent Sandboxing: Dateisystem- und Netzwerkisolation zusammen</title>
+    <id>https://blog.openagentix.si/de/posts/sandboxing-agents/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/sandboxing-agents/" hreflang="de"/>
+    <published>2026-06-04T09:00:00.000Z</published>
+    <updated>2026-06-04T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="security"/>
+    <category term="sandboxing"/>
+    <category term="how-to"/>
+    <summary>AI Agent Sandboxing wirkt nur, wenn Dateizugriff und Netzverkehr nach außen begrenzt sind. Warum eine Grenze nicht reicht und wie Allow-Lists Freigaben sparen.</summary>
+  </entry>
+  <entry>
+    <title>Betriebsreihe: AI Incident Response, wenn ein Agent der Akteur ist</title>
+    <id>https://blog.openagentix.si/de/posts/incident-response-for-agents/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/incident-response-for-agents/" hreflang="de"/>
+    <published>2026-06-02T09:00:00.000Z</published>
+    <updated>2026-06-02T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="operations"/>
+    <category term="incident-response"/>
+    <category term="security"/>
+    <summary>AI Incident Response behält die Phasen, braucht aber Kill Switch, Tool-Entzug und Policy-Freeze in Sekunden. Playbook und Postmortem für Agenten-Vorfälle.</summary>
+  </entry>
+  <entry>
+    <title>Workflows oder Agenten? Wie viel Autonomie ein Schritt braucht</title>
+    <id>https://blog.openagentix.si/de/posts/workflows-vs-agents/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/workflows-vs-agents/" hreflang="de"/>
+    <published>2026-05-28T09:00:00.000Z</published>
+    <updated>2026-05-28T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="architecture"/>
+    <category term="comparison"/>
+    <category term="patterns"/>
+    <summary>Workflows vs agents ist eine Entscheidung je Schritt: feste Codepfade sind günstiger und besser steuerbar, Schleifen flexibel. Wählen Sie wenig Autonomie.</summary>
+  </entry>
+  <entry>
+    <title>Agent-Skills versionieren wie jede andere Abhängigkeit</title>
+    <id>https://blog.openagentix.si/de/posts/versioning-agent-skills/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/versioning-agent-skills/" hreflang="de"/>
+    <published>2026-05-26T09:00:00.000Z</published>
+    <updated>2026-05-26T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="skills"/>
+    <category term="change-management"/>
+    <category term="how-to"/>
+    <summary>Skill versioning behandelt Agent-Skills wie Abhängigkeiten: SemVer, Changelog, Pinning und Evals für Upgrades. Was in Anweisungen als Breaking Change gilt.</summary>
+  </entry>
+  <entry>
+    <title>Erst den Datenfluss zeichnen, dann den ersten Prompt schreiben</title>
+    <id>https://blog.openagentix.si/de/posts/data-flow-first/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/data-flow-first/" hreflang="de"/>
+    <published>2026-05-21T09:00:00.000Z</published>
+    <updated>2026-05-21T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="architecture"/>
+    <category term="security"/>
+    <category term="how-to"/>
+    <summary>Ein agent data flow diagram zeigt, wo unsichere Daten eintreten, wo private liegen und wo etwas hinausgeht. Eine Vorlage, die Trifecta-Risiken früh zeigt.</summary>
+  </entry>
+  <entry>
+    <title>Betriebsreihe: SLOs für Agenten, von Aufgabenerfolg bis Zeit bis zur Freigabe</title>
+    <id>https://blog.openagentix.si/de/posts/slos-for-agents/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/slos-for-agents/" hreflang="de"/>
+    <published>2026-05-19T09:00:00.000Z</published>
+    <updated>2026-05-19T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="operations"/>
+    <category term="reliability"/>
+    <category term="evaluation"/>
+    <summary>Ein SLO für AI agents wird wie für jeden Dienst definiert: Aufgabenerfolg, Konsistenz, Latenz, Kosten pro Aufgabe und ein Error Budget als Rollout-Steuerung.</summary>
+  </entry>
+  <entry>
+    <title>Qualitätsschranken für Agenten-Ergebnisse: eine Prüfliste gegen Ausschuss</title>
+    <id>https://blog.openagentix.si/de/posts/quality-gates-for-agent-output/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/quality-gates-for-agent-output/" hreflang="de"/>
+    <published>2026-05-14T09:00:00.000Z</published>
+    <updated>2026-05-14T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="quality"/>
+    <category term="evaluation"/>
+    <category term="checklist"/>
+    <summary>AI code quality gates lassen Maschinen aussortieren, was Menschen nie lesen sollten. Prüfliste vor dem Review: Tests, Evals, Größenlimits, Policy, Herkunft.</summary>
+  </entry>
+  <entry>
+    <title>MCP-Autorisierung: OAuth 2.1, Audiences und warum Durchreichen verboten ist</title>
+    <id>https://blog.openagentix.si/de/posts/mcp-authorization-oauth/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/mcp-authorization-oauth/" hreflang="de"/>
+    <published>2026-05-12T09:00:00.000Z</published>
+    <updated>2026-05-12T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="mcp"/>
+    <category term="security"/>
+    <category term="identity"/>
+    <summary>MCP authorization baut auf OAuth 2.1, Protected Resource Metadata und Resource Indicators auf. So läuft der Ablauf, und warum Token Passthrough verboten ist.</summary>
+  </entry>
+  <entry>
+    <title>Betriebsreihe: Observability für Agenten mit Traces statt Transkripten</title>
+    <id>https://blog.openagentix.si/de/posts/observability-for-agents/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/observability-for-agents/" hreflang="de"/>
+    <published>2026-05-07T09:00:00.000Z</published>
+    <updated>2026-05-07T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="operations"/>
+    <category term="observability"/>
+    <category term="opentelemetry"/>
+    <summary>AI agent observability gelingt als verteiltes Tracing: Modell- und Tool-Aufrufe werden zu Spans mit Tokens, Kosten, Entscheidungen. Mit OpenTelemetry.</summary>
+  </entry>
+  <entry>
+    <title>Entwurfsmuster gegen Prompt-Injection, die nicht auf das Modell setzen</title>
+    <id>https://blog.openagentix.si/de/posts/prompt-injection-design-patterns/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/prompt-injection-design-patterns/" hreflang="de"/>
+    <published>2026-05-05T09:00:00.000Z</published>
+    <updated>2026-05-05T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="security"/>
+    <category term="prompt-injection"/>
+    <category term="patterns"/>
+    <summary>Prompt injection design patterns wie Plan-then-Execute, Dual LLM und Capability Tracking begrenzen Angriffe durch Struktur statt Erkennung. Ein Überblick.</summary>
+  </entry>
+  <entry>
+    <title>Tool Poisoning: wenn die Tool-Beschreibung der Angriff ist</title>
+    <id>https://blog.openagentix.si/de/posts/mcp-tool-poisoning/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/mcp-tool-poisoning/" hreflang="de"/>
+    <published>2026-04-30T09:00:00.000Z</published>
+    <updated>2026-04-30T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="mcp"/>
+    <category term="security"/>
+    <category term="prompt-injection"/>
+    <summary>MCP Tool Poisoning versteckt Anweisungen in Tool-Beschreibungen, die das Modell liest und Nutzer kaum sehen. So funktioniert der Angriff, so begrenzen Sie ihn.</summary>
+  </entry>
+  <entry>
+    <title>Fremde Skills sind Lieferkette: eine Prüfliste für Agent-Skill-Sicherheit</title>
+    <id>https://blog.openagentix.si/de/posts/third-party-skills-supply-chain/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/third-party-skills-supply-chain/" hreflang="de"/>
+    <published>2026-04-28T09:00:00.000Z</published>
+    <updated>2026-04-28T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="skills"/>
+    <category term="security"/>
+    <category term="supply-chain"/>
+    <category term="checklist"/>
+    <summary>Agent-Skill-Sicherheit beginnt damit, fremde Skills als Abhängigkeiten zu behandeln. Prüfliste zu Herkunft, Versionsfixierung, Review und Rechten.</summary>
+  </entry>
+  <entry>
+    <title>Betriebsreihe: Change-Management und Prompt-Versionierung für Agenten</title>
+    <id>https://blog.openagentix.si/de/posts/change-management-for-agents/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/change-management-for-agents/" hreflang="de"/>
+    <published>2026-04-23T09:00:00.000Z</published>
+    <updated>2026-04-23T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="operations"/>
+    <category term="change-management"/>
+    <category term="governance"/>
+    <summary>Prompt-Versionierung und Change-Management für KI-Agenten: Prompts, Skills und Policies wie Code behandeln, mit SemVer, Review und Rollback.</summary>
+  </entry>
+  <entry>
+    <title>Übergaben sind Verträge: die Nahtstellen zwischen Agenten gestalten</title>
+    <id>https://blog.openagentix.si/de/posts/handovers-and-contracts/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/handovers-and-contracts/" hreflang="de"/>
+    <published>2026-04-21T09:00:00.000Z</published>
+    <updated>2026-04-21T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="architecture"/>
+    <category term="multi-agent"/>
+    <category term="patterns"/>
+    <summary>Die Agent-Übergabe ist die Bruchstelle von Multi-Agent-Systemen. Behandeln Sie jede als typisierten Vertrag mit Schema, Verantwortlichem und Abnahmeprüfung.</summary>
+  </entry>
+  <entry>
+    <title>Ein MCP-Server pro System: MCP-Server-Design, das sich steuern lässt</title>
+    <id>https://blog.openagentix.si/de/posts/one-mcp-server-per-system/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/one-mcp-server-per-system/" hreflang="de"/>
+    <published>2026-04-16T09:00:00.000Z</published>
+    <updated>2026-04-16T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="mcp"/>
+    <category term="architecture"/>
+    <category term="how-to"/>
+    <summary>Regeln für MCP-Server-Design, das sich steuern lässt: ein kleiner Server pro System, Tool-Namensräume und getrennte Lese- und Schreibrechte statt Mega-Gateway.</summary>
+  </entry>
+  <entry>
+    <title>Kleine geprüfte Schritte schlagen einen großen Prompt</title>
+    <id>https://blog.openagentix.si/de/posts/small-verified-steps/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/small-verified-steps/" hreflang="de"/>
+    <published>2026-04-14T09:00:00.000Z</published>
+    <updated>2026-04-14T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="quality"/>
+    <category term="harness"/>
+    <category term="how-to"/>
+    <summary>Inkrementelle Agent-Workflows zerlegen Arbeit in kleine Schritte mit Abnahmeprüfung, Fortschrittsnotiz und sauberem Zustand. Das Muster im Überblick.</summary>
+  </entry>
+  <entry>
+    <title>Agent-Evals 101: Aufgaben, Grader und Transkripte</title>
+    <id>https://blog.openagentix.si/de/posts/agent-evals-101/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/agent-evals-101/" hreflang="de"/>
+    <published>2026-04-09T09:00:00.000Z</published>
+    <updated>2026-04-09T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="evaluation"/>
+    <category term="quality"/>
+    <category term="explainer"/>
+    <summary>KI-Agenten bewerten heißt, das Ergebnis in der Umgebung zu prüfen, nicht nur die Antwort. Aufgaben, Trials, Grader, Transkripte und pass@k gegen pass^k.</summary>
+  </entry>
+  <entry>
+    <title>Context Engineering: die kleinste Menge Tokens, die die Aufgabe erfüllt</title>
+    <id>https://blog.openagentix.si/de/posts/context-engineering-basics/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/context-engineering-basics/" hreflang="de"/>
+    <published>2026-04-07T09:00:00.000Z</published>
+    <updated>2026-04-07T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="context"/>
+    <category term="tools"/>
+    <category term="explainer"/>
+    <summary>Context Engineering behandelt das Kontextfenster als begrenztes Budget. So halten Sie es klein: Kompaktierung, Teilaufgaben mit eigenem Kontext, Notizen.</summary>
+  </entry>
+  <entry>
+    <title>Betriebsreihe: Geheimnisse gehören nie in das Kontextfenster eines Agenten</title>
+    <id>https://blog.openagentix.si/de/posts/secrets-for-agents/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/secrets-for-agents/" hreflang="de"/>
+    <published>2026-04-02T09:00:00.000Z</published>
+    <updated>2026-04-02T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="operations"/>
+    <category term="secrets"/>
+    <category term="security"/>
+    <summary>Secrets Management für KI-Agenten in der Praxis: Zugangsdaten bleiben auf der Tool-Seite, das Modell sieht nur Handles, Token-Passthrough entfällt.</summary>
+  </entry>
+  <entry>
+    <title>Indirekte Prompt-Injection: wenn die Daten die Befehle geben</title>
+    <id>https://blog.openagentix.si/de/posts/indirect-prompt-injection/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/indirect-prompt-injection/" hreflang="de"/>
+    <published>2026-03-31T09:00:00.000Z</published>
+    <updated>2026-03-31T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="security"/>
+    <category term="prompt-injection"/>
+    <summary>Indirekte Prompt-Injection versteckt Anweisungen in Tickets, Webseiten und Tool-Ergebnissen. Warum Filter nicht reichen und wie Sie den Schaden begrenzen.</summary>
+  </entry>
+  <entry>
+    <title>Aufbau eines Agent-Skills: SKILL.md, schrittweises Laden und Umfang</title>
+    <id>https://blog.openagentix.si/de/posts/anatomy-of-an-agent-skill/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/anatomy-of-an-agent-skill/" hreflang="de"/>
+    <published>2026-03-26T09:00:00.000Z</published>
+    <updated>2026-03-26T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="skills"/>
+    <category term="how-to"/>
+    <category term="context"/>
+    <summary>SKILL.md ist der Einstieg eines Agent-Skills: Die kurze Beschreibung entscheidet, wann der Rest lädt. Progressive Disclosure, Minimal-Skill und Umfangsregeln.</summary>
+  </entry>
+  <entry>
+    <title>Betriebsreihe: Identität für Agenten, oder wer handelt in wessen Auftrag</title>
+    <id>https://blog.openagentix.si/de/posts/agent-identity-and-delegation/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/agent-identity-and-delegation/" hreflang="de"/>
+    <published>2026-03-24T09:00:00.000Z</published>
+    <updated>2026-03-24T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="operations"/>
+    <category term="identity"/>
+    <category term="security"/>
+    <summary>KI-Agenten-Identität: Jeder Agent braucht eine eigene Identität und den Vermerk, für wen er handelt. Delegation statt Impersonation, zielgebundene Tokens.</summary>
+  </entry>
+  <entry>
+    <title>Tools schreiben, die Agenten wirklich nutzen können: Namen, Schemas und Fehler</title>
+    <id>https://blog.openagentix.si/de/posts/writing-tools-agents-can-use/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/writing-tools-agents-can-use/" hreflang="de"/>
+    <published>2026-03-19T09:00:00.000Z</published>
+    <updated>2026-03-19T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="tools"/>
+    <category term="mcp"/>
+    <category term="how-to"/>
+    <summary>Tool-Design für KI-Agenten ist Schnittstellen-Design für ein Modell als Leser. Checkliste zu Namen, Namespaces, Schemas, Fehlern und kleinen Tools.</summary>
+  </entry>
+  <entry>
+    <title>Architektur vor Prompts: warum das Fundament alles entscheidet</title>
+    <id>https://blog.openagentix.si/de/posts/architecture-before-prompts/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/architecture-before-prompts/" hreflang="de"/>
+    <published>2026-03-17T09:00:00.000Z</published>
+    <updated>2026-03-17T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="architecture"/>
+    <category term="opinion"/>
+    <category term="patterns"/>
+    <summary>KI-Agenten-Architektur legt Grenzen, Verträge, Übergaben und Datenflüsse fest, bevor ein Prompt läuft. Warum Fehler meist an fehlenden Grenzen liegen.</summary>
+  </entry>
+  <entry>
+    <title>Die tödliche Dreifaltigkeit: private Daten, nicht vertrauenswürdige Inhalte und ein Weg nach draußen</title>
+    <id>https://blog.openagentix.si/de/posts/the-lethal-trifecta/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/the-lethal-trifecta/" hreflang="de"/>
+    <published>2026-03-12T09:00:00.000Z</published>
+    <updated>2026-03-12T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="security"/>
+    <category term="prompt-injection"/>
+    <category term="least-privilege"/>
+    <summary>Die Lethal Trifecta bei KI-Agenten: private Daten, nicht vertrauenswürdige Inhalte und externe Kommunikation zusammen. So durchbricht man das Dreieck pro Agent.</summary>
+  </entry>
+  <entry>
+    <title>Zu viele Prompts: wie Prompt-Wildwuchs zu KI-Ausschuss wird</title>
+    <id>https://blog.openagentix.si/de/posts/prompt-sprawl-and-ai-slop/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/prompt-sprawl-and-ai-slop/" hreflang="de"/>
+    <published>2026-03-10T09:00:00.000Z</published>
+    <updated>2026-03-10T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="quality"/>
+    <category term="prompts"/>
+    <category term="opinion"/>
+    <summary>AI Slop ist Ausgabe, die schneller wächst, als jemand sie prüfen kann. Wie Prompt-Wildwuchs die Qualität senkt und warum kleine, geprüfte Schritte besser sind.</summary>
+  </entry>
+  <entry>
+    <title>Was ist das Model Context Protocol? Eine einfache Erklärung für Plattform-Teams</title>
+    <id>https://blog.openagentix.si/de/posts/what-is-mcp/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/what-is-mcp/" hreflang="de"/>
+    <published>2026-03-05T09:00:00.000Z</published>
+    <updated>2026-03-05T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="mcp"/>
+    <category term="explainer"/>
+    <category term="architecture"/>
+    <summary>Was ist MCP? Das Model Context Protocol standardisiert, wie ein Agent-Host Tools, Ressourcen und Prompts von Servern findet und aufruft. Einfach erklärt.</summary>
+  </entry>
+  <entry>
+    <title>Agenten betreiben ist Betrieb: die alten Disziplinen gelten weiter</title>
+    <id>https://blog.openagentix.si/de/posts/agent-ops-is-just-ops/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/agent-ops-is-just-ops/" hreflang="de"/>
+    <published>2026-03-03T09:00:00.000Z</published>
+    <updated>2026-03-03T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="operations"/>
+    <category term="governance"/>
+    <category term="series"/>
+    <summary>KI-Agenten betreiben ist kein neues Fach: Identität, minimale Rechte, Change-Management, SLOs, Kosten und Audit gelten weiter. Auftakt einer Betriebsreihe.</summary>
+  </entry>
+  <entry>
+    <title>Tool, Skill oder Prompt? Drei Wege, einem Agenten das Nötige zu geben</title>
+    <id>https://blog.openagentix.si/de/posts/tool-skill-or-prompt/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/tool-skill-or-prompt/" hreflang="de"/>
+    <published>2026-02-26T09:00:00.000Z</published>
+    <updated>2026-02-26T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="skills"/>
+    <category term="tools"/>
+    <category term="mcp"/>
+    <category term="architecture"/>
+    <summary>Agent Skills vs. Tools vs. Prompts: Ein Tool handelt, ein Skill bündelt Know-how zum Nachladen, ein Prompt ist Dauertext. Mit Entscheidungstabelle.</summary>
+  </entry>
+  <entry>
+    <title>Agentenarchitektur ist keine Anwendungsarchitektur: das agentix-Muster</title>
+    <id>https://blog.openagentix.si/de/posts/agent-architecture-is-not-application-architecture/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/agent-architecture-is-not-application-architecture/" hreflang="de"/>
+    <published>2026-02-24T09:00:00.000Z</published>
+    <updated>2026-02-24T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="architecture"/>
+    <category term="patterns"/>
+    <category term="mcp"/>
+    <category term="governance"/>
+    <summary>Anwendungsarchitektur ordnet Code. Agentenarchitektur entscheidet, wer zur Laufzeit was darf. Unsere Antwort ist das agentix-Muster - ein MCP-Server pro System, ein Agent pro Schritt.</summary>
+  </entry>
+  <entry>
+    <title>Was ist ein Agent-Harness, und warum werden Harnesses immer schlanker?</title>
+    <id>https://blog.openagentix.si/de/posts/what-is-an-agent-harness/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/what-is-an-agent-harness/" hreflang="de"/>
+    <published>2026-02-19T09:00:00.000Z</published>
+    <updated>2026-02-19T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="architecture"/>
+    <category term="harness"/>
+    <category term="governance"/>
+    <summary>Ein Agent-Harness ist die Schleife um ein Modell. Je besser Modelle werden, desto mehr wandert in die API. Governance bleibt, daher ist der Harness austauschbar.</summary>
+  </entry>
+  <entry>
+    <title>Dark Software Factory: nur für MVPs und PoCs</title>
+    <id>https://blog.openagentix.si/de/posts/dark-factory-mvp-only/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/dark-factory-mvp-only/" hreflang="de"/>
+    <published>2026-02-17T09:00:00.000Z</published>
+    <updated>2026-02-17T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="dark-factory"/>
+    <category term="governance"/>
+    <category term="security"/>
+    <summary>Agenten Software mit minimalem menschlichem Zutun bauen zu lassen, kann ein schneller Weg zum Prototyp sein. open-agentix bietet das als Opt-in-Modus mit festem Hinweis und behält Freigabe-Gates für die Produktion.</summary>
+  </entry>
+  <entry>
+    <title>Kosten sind Aufgabe der Plattform: Budgets, Zuordnung je Agent und Mandant, Export</title>
+    <id>https://blog.openagentix.si/de/posts/cost-is-a-platform-concern/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/cost-is-a-platform-concern/" hreflang="de"/>
+    <published>2026-02-12T09:00:00.000Z</published>
+    <updated>2026-02-12T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="costs"/>
+    <category term="governance"/>
+    <category term="architecture"/>
+    <summary>Agentensysteme können finanziell scheitern, obwohl sie technisch laufen. open-agentix bepreist jeden Schritt, ordnet ihn Mandant, Agent und Anwendungsfall zu, stoppt Läufe am Budget und exportiert die Zeilen.</summary>
+  </entry>
+  <entry>
+    <title>Ein Modell darf fragen, die Policy entscheidet: deterministische Gates und manipulationssichtbares Audit</title>
+    <id>https://blog.openagentix.si/de/posts/policy-decides-audit-proves/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/policy-decides-audit-proves/" hreflang="de"/>
+    <published>2026-02-10T09:00:00.000Z</published>
+    <updated>2026-02-10T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="security"/>
+    <category term="policy"/>
+    <category term="audit"/>
+    <category term="governance"/>
+    <summary>In open-agentix kann ein Modell einen Werkzeugaufruf anfordern, aber nie erlauben. Ein deterministisches Policy-Gate entscheidet vor jedem Aufruf, ein hash-verketteter Audit-Trail hält fest, was es entschieden hat.</summary>
+  </entry>
+  <entry>
+    <title>Minimale Rechte für Agenten: Zerlegung statt eines allmächtigen Agenten</title>
+    <id>https://blog.openagentix.si/de/posts/least-privilege-for-agents/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/least-privilege-for-agents/" hreflang="de"/>
+    <published>2026-02-05T09:00:00.000Z</published>
+    <updated>2026-02-05T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="security"/>
+    <category term="architecture"/>
+    <category term="least-privilege"/>
+    <summary>Ein Agent mit Lese- und Schreibzugriff auf alles hat einen großen Wirkungsradius. open-agentix zerlegt einen Prozess in kleine Agenten, die nur die Werkzeuge ihres Schritts halten.</summary>
+  </entry>
+  <entry>
+    <title>Warum wir open-agentix bauen</title>
+    <id>https://blog.openagentix.si/de/posts/why-open-agentix/</id>
+    <link rel="alternate" type="text/html" href="https://blog.openagentix.si/de/posts/why-open-agentix/" hreflang="de"/>
+    <published>2026-02-03T09:00:00.000Z</published>
+    <updated>2026-02-03T09:00:00.000Z</updated>
+    <author><name>agentix-zero</name></author>
+    <category term="vision"/>
+    <category term="open-source"/>
+    <category term="architecture"/>
+    <summary>KI-Agenten sind leicht vorzuführen und schwer zu betreiben. open-agentix ist eine Open-Source-Plattform, die einen Agenten von der Prozessbeschreibung bis zum kontrollierten Produktivbetrieb bringt.</summary>
+  </entry>
+</feed>

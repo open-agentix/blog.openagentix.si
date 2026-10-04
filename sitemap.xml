@@ -1,0 +1,1549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://blog.openagentix.si/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/governance/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/governance/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/governance/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/governance/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/security/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/security/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/security/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/security/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/how-to/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/how-to/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/how-to/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/how-to/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/operations/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/operations/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/operations/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/operations/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/architecture/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/architecture/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/architecture/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/architecture/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/mcp/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/mcp/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/mcp/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/mcp/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/checklist/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/checklist/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/checklist/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/checklist/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/explainer/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/explainer/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/explainer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/explainer/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/skills/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/skills/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/skills/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/skills/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/comparison/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/comparison/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/comparison/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/comparison/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/costs/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/costs/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/costs/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/costs/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/evaluation/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/evaluation/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/evaluation/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/evaluation/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/harness/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/harness/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/harness/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/harness/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/patterns/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/patterns/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/patterns/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/patterns/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/quality/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/quality/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/quality/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/quality/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/tools/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/tools/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/tools/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/tools/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/prompt-injection/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/prompt-injection/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/prompt-injection/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/prompt-injection/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/opinion/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/opinion/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/opinion/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/opinion/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/context/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/context/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/context/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/context/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/enterprise/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/enterprise/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/enterprise/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/enterprise/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/multi-agent/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/multi-agent/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/multi-agent/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/multi-agent/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/policy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/policy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/policy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/policy/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/self-hosted/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/self-hosted/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/self-hosted/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/self-hosted/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/series/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/series/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/series/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/series/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/audit/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/audit/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/audit/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/audit/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/change-management/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/change-management/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/change-management/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/change-management/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/identity/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/identity/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/identity/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/identity/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/least-privilege/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/least-privilege/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/least-privilege/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/least-privilege/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/prompts/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/prompts/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/prompts/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/prompts/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/reliability/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/reliability/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/reliability/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/reliability/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/supply-chain/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/supply-chain/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/supply-chain/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/supply-chain/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/byok/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/byok/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/byok/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/byok/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/compliance/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/compliance/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/compliance/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/compliance/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/cost/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/cost/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/cost/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/cost/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/dark-factory/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/dark-factory/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/dark-factory/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/dark-factory/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/deployments/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/deployments/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/deployments/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/deployments/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/incident-response/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/incident-response/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/incident-response/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/incident-response/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/observability/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/observability/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/observability/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/observability/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/open-source/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/open-source/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/open-source/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/open-source/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/opentelemetry/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/opentelemetry/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/opentelemetry/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/opentelemetry/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/owasp/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/owasp/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/owasp/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/owasp/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/risk/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/risk/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/risk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/risk/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/sandboxing/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/sandboxing/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/sandboxing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/sandboxing/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/secrets/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/secrets/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/secrets/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/secrets/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/tags/vision/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/vision/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/vision/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/vision/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/governance/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/governance/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/governance/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/governance/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/security/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/security/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/security/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/security/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/how-to/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/how-to/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/how-to/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/how-to/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/operations/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/operations/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/operations/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/operations/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/architecture/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/architecture/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/architecture/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/architecture/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/mcp/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/mcp/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/mcp/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/mcp/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/checklist/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/checklist/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/checklist/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/checklist/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/explainer/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/explainer/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/explainer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/explainer/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/skills/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/skills/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/skills/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/skills/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/comparison/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/comparison/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/comparison/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/comparison/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/costs/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/costs/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/costs/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/costs/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/evaluation/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/evaluation/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/evaluation/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/evaluation/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/harness/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/harness/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/harness/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/harness/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/patterns/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/patterns/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/patterns/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/patterns/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/quality/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/quality/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/quality/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/quality/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/tools/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/tools/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/tools/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/tools/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/prompt-injection/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/prompt-injection/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/prompt-injection/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/prompt-injection/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/opinion/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/opinion/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/opinion/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/opinion/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/context/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/context/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/context/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/context/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/enterprise/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/enterprise/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/enterprise/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/enterprise/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/multi-agent/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/multi-agent/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/multi-agent/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/multi-agent/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/policy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/policy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/policy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/policy/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/self-hosted/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/self-hosted/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/self-hosted/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/self-hosted/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/series/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/series/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/series/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/series/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/audit/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/audit/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/audit/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/audit/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/change-management/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/change-management/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/change-management/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/change-management/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/identity/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/identity/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/identity/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/identity/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/least-privilege/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/least-privilege/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/least-privilege/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/least-privilege/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/prompts/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/prompts/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/prompts/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/prompts/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/reliability/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/reliability/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/reliability/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/reliability/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/supply-chain/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/supply-chain/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/supply-chain/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/supply-chain/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/byok/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/byok/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/byok/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/byok/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/compliance/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/compliance/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/compliance/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/compliance/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/cost/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/cost/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/cost/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/cost/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/dark-factory/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/dark-factory/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/dark-factory/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/dark-factory/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/deployments/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/deployments/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/deployments/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/deployments/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/incident-response/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/incident-response/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/incident-response/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/incident-response/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/observability/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/observability/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/observability/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/observability/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/open-source/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/open-source/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/open-source/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/open-source/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/opentelemetry/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/opentelemetry/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/opentelemetry/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/opentelemetry/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/owasp/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/owasp/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/owasp/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/owasp/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/risk/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/risk/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/risk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/risk/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/sandboxing/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/sandboxing/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/sandboxing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/sandboxing/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/secrets/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/secrets/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/secrets/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/secrets/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/tags/vision/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/tags/vision/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/tags/vision/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/tags/vision/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/agent-identity-and-delegation/</loc>
+    <lastmod>2026-03-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/agent-identity-and-delegation/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/agent-identity-and-delegation/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/agent-identity-and-delegation/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/agent-ops-is-just-ops/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/agent-ops-is-just-ops/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/agent-ops-is-just-ops/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/agent-ops-is-just-ops/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/agent-platform-readiness-checklist/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/agent-platform-readiness-checklist/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/agent-platform-readiness-checklist/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/agent-platform-readiness-checklist/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/agent-platforms-are-ops-platforms/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/agent-platforms-are-ops-platforms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/agent-platforms-are-ops-platforms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/agent-platforms-are-ops-platforms/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/agent-security-checklist/</loc>
+    <lastmod>2026-09-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/agent-security-checklist/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/agent-security-checklist/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/agent-security-checklist/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/agents-as-insider-risk/</loc>
+    <lastmod>2026-09-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/agents-as-insider-risk/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/agents-as-insider-risk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/agents-as-insider-risk/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/architecture-before-prompts/</loc>
+    <lastmod>2026-03-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/architecture-before-prompts/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/architecture-before-prompts/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/architecture-before-prompts/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/architecture-review-for-agents/</loc>
+    <lastmod>2026-09-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/architecture-review-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/architecture-review-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/architecture-review-for-agents/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/agent-architecture-is-not-application-architecture/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/agent-architecture-is-not-application-architecture/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/agent-architecture-is-not-application-architecture/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/agent-architecture-is-not-application-architecture/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/agent-evals-101/</loc>
+    <lastmod>2026-04-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/agent-evals-101/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/agent-evals-101/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/agent-evals-101/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/agent-governance-operating-model/</loc>
+    <lastmod>2026-09-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/agent-governance-operating-model/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/agent-governance-operating-model/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/agent-governance-operating-model/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/air-gapped-agents-checklist/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/air-gapped-agents-checklist/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/air-gapped-agents-checklist/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/air-gapped-agents-checklist/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/byok-explained/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/byok-explained/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/byok-explained/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/byok-explained/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/agents-md-project-context/</loc>
+    <lastmod>2026-07-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/agents-md-project-context/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/agents-md-project-context/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/agents-md-project-context/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/anatomy-of-an-agent-skill/</loc>
+    <lastmod>2026-03-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/anatomy-of-an-agent-skill/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/anatomy-of-an-agent-skill/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/anatomy-of-an-agent-skill/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/capacity-and-rate-limits/</loc>
+    <lastmod>2026-09-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/capacity-and-rate-limits/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/capacity-and-rate-limits/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/capacity-and-rate-limits/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/change-management-for-agents/</loc>
+    <lastmod>2026-04-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/change-management-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/change-management-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/change-management-for-agents/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/claude-code-vs-opencode/</loc>
+    <lastmod>2026-06-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/claude-code-vs-opencode/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/claude-code-vs-opencode/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/claude-code-vs-opencode/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/context-engineering-basics/</loc>
+    <lastmod>2026-04-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/context-engineering-basics/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/context-engineering-basics/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/context-engineering-basics/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/cost-is-a-platform-concern/</loc>
+    <lastmod>2026-02-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/cost-is-a-platform-concern/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/cost-is-a-platform-concern/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/cost-is-a-platform-concern/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/dark-factory-mvp-only/</loc>
+    <lastmod>2026-02-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/dark-factory-mvp-only/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/dark-factory-mvp-only/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/dark-factory-mvp-only/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/data-flow-first/</loc>
+    <lastmod>2026-05-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/data-flow-first/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/data-flow-first/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/data-flow-first/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/deploying-agent-changes-safely/</loc>
+    <lastmod>2026-08-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/deploying-agent-changes-safely/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/deploying-agent-changes-safely/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/deploying-agent-changes-safely/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/audit-trails-vs-logs/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/audit-trails-vs-logs/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/audit-trails-vs-logs/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/audit-trails-vs-logs/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/enterprise-rollout-pilot-first/</loc>
+    <lastmod>2026-08-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/enterprise-rollout-pilot-first/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/enterprise-rollout-pilot-first/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/enterprise-rollout-pilot-first/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/handovers-and-contracts/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/handovers-and-contracts/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/handovers-and-contracts/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/handovers-and-contracts/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/human-in-the-loop-that-works/</loc>
+    <lastmod>2026-06-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/human-in-the-loop-that-works/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/human-in-the-loop-that-works/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/human-in-the-loop-that-works/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/incident-response-for-agents/</loc>
+    <lastmod>2026-06-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/incident-response-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/incident-response-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/incident-response-for-agents/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/indirect-prompt-injection/</loc>
+    <lastmod>2026-03-31</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/indirect-prompt-injection/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/indirect-prompt-injection/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/indirect-prompt-injection/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/internal-skills-catalog/</loc>
+    <lastmod>2026-09-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/internal-skills-catalog/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/internal-skills-catalog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/internal-skills-catalog/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/code-execution-vs-tool-calls/</loc>
+    <lastmod>2026-08-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/code-execution-vs-tool-calls/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/code-execution-vs-tool-calls/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/code-execution-vs-tool-calls/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/hooks-as-policy-points/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/hooks-as-policy-points/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/hooks-as-policy-points/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/hooks-as-policy-points/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/interface-contracts-for-agents/</loc>
+    <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/interface-contracts-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/interface-contracts-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/interface-contracts-for-agents/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/least-privilege-for-agents/</loc>
+    <lastmod>2026-02-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/least-privilege-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/least-privilege-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/least-privilege-for-agents/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/llm-as-judge-pitfalls/</loc>
+    <lastmod>2026-06-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/llm-as-judge-pitfalls/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/llm-as-judge-pitfalls/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/llm-as-judge-pitfalls/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/mcp-and-a2a/</loc>
+    <lastmod>2026-08-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/mcp-and-a2a/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/mcp-and-a2a/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/mcp-and-a2a/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/mcp-sampling-elicitation-tasks/</loc>
+    <lastmod>2026-09-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/mcp-sampling-elicitation-tasks/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/mcp-sampling-elicitation-tasks/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/mcp-sampling-elicitation-tasks/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/mcp-tool-poisoning/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/mcp-tool-poisoning/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/mcp-tool-poisoning/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/mcp-tool-poisoning/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/measuring-agent-value/</loc>
+    <lastmod>2026-09-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/measuring-agent-value/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/measuring-agent-value/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/measuring-agent-value/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/nist-ai-rmf-for-agent-teams/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/nist-ai-rmf-for-agent-teams/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/nist-ai-rmf-for-agent-teams/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/nist-ai-rmf-for-agent-teams/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/finops-for-agents/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/finops-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/finops-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/finops-for-agents/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/observability-for-agents/</loc>
+    <lastmod>2026-05-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/observability-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/observability-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/observability-for-agents/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/one-mcp-server-per-system/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/one-mcp-server-per-system/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/one-mcp-server-per-system/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/one-mcp-server-per-system/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/owasp-agentic-top-10/</loc>
+    <lastmod>2026-07-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/owasp-agentic-top-10/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/owasp-agentic-top-10/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/owasp-agentic-top-10/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/patching-the-agent-supply-chain/</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/patching-the-agent-supply-chain/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/patching-the-agent-supply-chain/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/patching-the-agent-supply-chain/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/policy-decides-audit-proves/</loc>
+    <lastmod>2026-02-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/policy-decides-audit-proves/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/policy-decides-audit-proves/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/policy-decides-audit-proves/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/prompt-caching-and-token-budgets/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/prompt-caching-and-token-budgets/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/prompt-caching-and-token-budgets/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/prompt-caching-and-token-budgets/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/prompt-hygiene-checklist/</loc>
+    <lastmod>2026-07-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/prompt-hygiene-checklist/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/prompt-hygiene-checklist/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/prompt-hygiene-checklist/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/prompt-injection-design-patterns/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/prompt-injection-design-patterns/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/prompt-injection-design-patterns/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/prompt-injection-design-patterns/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/long-running-agents/</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/long-running-agents/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/long-running-agents/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/long-running-agents/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/mcp-authorization-oauth/</loc>
+    <lastmod>2026-05-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/mcp-authorization-oauth/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/mcp-authorization-oauth/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/mcp-authorization-oauth/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/prompt-sprawl-and-ai-slop/</loc>
+    <lastmod>2026-03-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/prompt-sprawl-and-ai-slop/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/prompt-sprawl-and-ai-slop/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/prompt-sprawl-and-ai-slop/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/quality-gates-for-agent-output/</loc>
+    <lastmod>2026-05-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/quality-gates-for-agent-output/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/quality-gates-for-agent-output/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/quality-gates-for-agent-output/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/runbooks-as-skills/</loc>
+    <lastmod>2026-07-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/runbooks-as-skills/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/runbooks-as-skills/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/runbooks-as-skills/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/sandboxing-agents/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/sandboxing-agents/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/sandboxing-agents/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/sandboxing-agents/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/secrets-for-agents/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/secrets-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/secrets-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/secrets-for-agents/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/self-hosted-models-for-agents/</loc>
+    <lastmod>2026-07-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/self-hosted-models-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/self-hosted-models-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/self-hosted-models-for-agents/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/slos-for-agents/</loc>
+    <lastmod>2026-05-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/slos-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/slos-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/slos-for-agents/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/small-verified-steps/</loc>
+    <lastmod>2026-04-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/small-verified-steps/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/small-verified-steps/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/small-verified-steps/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/testing-agents-against-hijacking/</loc>
+    <lastmod>2026-08-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/testing-agents-against-hijacking/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/testing-agents-against-hijacking/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/testing-agents-against-hijacking/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/the-lethal-trifecta/</loc>
+    <lastmod>2026-03-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/the-lethal-trifecta/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/the-lethal-trifecta/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/the-lethal-trifecta/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/third-party-skills-supply-chain/</loc>
+    <lastmod>2026-04-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/third-party-skills-supply-chain/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/third-party-skills-supply-chain/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/third-party-skills-supply-chain/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/what-is-mcp/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/what-is-mcp/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/what-is-mcp/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/what-is-mcp/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/versioning-agent-skills/</loc>
+    <lastmod>2026-05-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/versioning-agent-skills/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/versioning-agent-skills/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/versioning-agent-skills/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/when-multi-agent-is-worth-it/</loc>
+    <lastmod>2026-06-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/when-multi-agent-is-worth-it/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/when-multi-agent-is-worth-it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/when-multi-agent-is-worth-it/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/why-open-agentix/</loc>
+    <lastmod>2026-02-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/why-open-agentix/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/why-open-agentix/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/why-open-agentix/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/writing-tools-agents-can-use/</loc>
+    <lastmod>2026-03-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/writing-tools-agents-can-use/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/writing-tools-agents-can-use/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/writing-tools-agents-can-use/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/workflows-vs-agents/</loc>
+    <lastmod>2026-05-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/workflows-vs-agents/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/workflows-vs-agents/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/workflows-vs-agents/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/agent-architecture-is-not-application-architecture/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/agent-architecture-is-not-application-architecture/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/agent-architecture-is-not-application-architecture/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/agent-architecture-is-not-application-architecture/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/tool-skill-or-prompt/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/tool-skill-or-prompt/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/tool-skill-or-prompt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/tool-skill-or-prompt/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/agent-evals-101/</loc>
+    <lastmod>2026-04-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/agent-evals-101/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/agent-evals-101/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/agent-evals-101/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/agent-governance-operating-model/</loc>
+    <lastmod>2026-09-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/agent-governance-operating-model/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/agent-governance-operating-model/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/agent-governance-operating-model/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/agent-identity-and-delegation/</loc>
+    <lastmod>2026-03-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/agent-identity-and-delegation/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/agent-identity-and-delegation/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/agent-identity-and-delegation/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/agent-ops-is-just-ops/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/agent-ops-is-just-ops/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/agent-ops-is-just-ops/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/agent-ops-is-just-ops/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/agent-platform-readiness-checklist/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/agent-platform-readiness-checklist/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/agent-platform-readiness-checklist/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/agent-platform-readiness-checklist/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/agent-platforms-are-ops-platforms/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/agent-platforms-are-ops-platforms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/agent-platforms-are-ops-platforms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/agent-platforms-are-ops-platforms/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/agent-security-checklist/</loc>
+    <lastmod>2026-09-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/agent-security-checklist/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/agent-security-checklist/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/agent-security-checklist/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/agents-as-insider-risk/</loc>
+    <lastmod>2026-09-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/agents-as-insider-risk/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/agents-as-insider-risk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/agents-as-insider-risk/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/agents-md-project-context/</loc>
+    <lastmod>2026-07-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/agents-md-project-context/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/agents-md-project-context/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/agents-md-project-context/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/air-gapped-agents-checklist/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/air-gapped-agents-checklist/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/air-gapped-agents-checklist/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/air-gapped-agents-checklist/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/anatomy-of-an-agent-skill/</loc>
+    <lastmod>2026-03-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/anatomy-of-an-agent-skill/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/anatomy-of-an-agent-skill/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/anatomy-of-an-agent-skill/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/architecture-before-prompts/</loc>
+    <lastmod>2026-03-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/architecture-before-prompts/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/architecture-before-prompts/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/architecture-before-prompts/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/architecture-review-for-agents/</loc>
+    <lastmod>2026-09-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/architecture-review-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/architecture-review-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/architecture-review-for-agents/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/audit-trails-vs-logs/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/audit-trails-vs-logs/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/audit-trails-vs-logs/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/audit-trails-vs-logs/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/byok-explained/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/byok-explained/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/byok-explained/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/byok-explained/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/capacity-and-rate-limits/</loc>
+    <lastmod>2026-09-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/capacity-and-rate-limits/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/capacity-and-rate-limits/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/capacity-and-rate-limits/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/change-management-for-agents/</loc>
+    <lastmod>2026-04-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/change-management-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/change-management-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/change-management-for-agents/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/claude-code-vs-opencode/</loc>
+    <lastmod>2026-06-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/claude-code-vs-opencode/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/claude-code-vs-opencode/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/claude-code-vs-opencode/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/de/posts/what-is-an-agent-harness/</loc>
+    <lastmod>2026-02-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/what-is-an-agent-harness/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/what-is-an-agent-harness/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/what-is-an-agent-harness/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/code-execution-vs-tool-calls/</loc>
+    <lastmod>2026-08-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/code-execution-vs-tool-calls/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/code-execution-vs-tool-calls/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/code-execution-vs-tool-calls/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/context-engineering-basics/</loc>
+    <lastmod>2026-04-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/context-engineering-basics/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/context-engineering-basics/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/context-engineering-basics/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/cost-is-a-platform-concern/</loc>
+    <lastmod>2026-02-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/cost-is-a-platform-concern/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/cost-is-a-platform-concern/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/cost-is-a-platform-concern/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/dark-factory-mvp-only/</loc>
+    <lastmod>2026-02-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/dark-factory-mvp-only/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/dark-factory-mvp-only/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/dark-factory-mvp-only/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/data-flow-first/</loc>
+    <lastmod>2026-05-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/data-flow-first/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/data-flow-first/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/data-flow-first/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/deploying-agent-changes-safely/</loc>
+    <lastmod>2026-08-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/deploying-agent-changes-safely/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/deploying-agent-changes-safely/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/deploying-agent-changes-safely/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/enterprise-rollout-pilot-first/</loc>
+    <lastmod>2026-08-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/enterprise-rollout-pilot-first/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/enterprise-rollout-pilot-first/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/enterprise-rollout-pilot-first/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/finops-for-agents/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/finops-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/finops-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/finops-for-agents/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/handovers-and-contracts/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/handovers-and-contracts/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/handovers-and-contracts/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/handovers-and-contracts/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/hooks-as-policy-points/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/hooks-as-policy-points/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/hooks-as-policy-points/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/hooks-as-policy-points/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/human-in-the-loop-that-works/</loc>
+    <lastmod>2026-06-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/human-in-the-loop-that-works/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/human-in-the-loop-that-works/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/human-in-the-loop-that-works/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/incident-response-for-agents/</loc>
+    <lastmod>2026-06-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/incident-response-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/incident-response-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/incident-response-for-agents/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/indirect-prompt-injection/</loc>
+    <lastmod>2026-03-31</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/indirect-prompt-injection/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/indirect-prompt-injection/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/indirect-prompt-injection/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/interface-contracts-for-agents/</loc>
+    <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/interface-contracts-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/interface-contracts-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/interface-contracts-for-agents/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/internal-skills-catalog/</loc>
+    <lastmod>2026-09-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/internal-skills-catalog/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/internal-skills-catalog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/internal-skills-catalog/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/least-privilege-for-agents/</loc>
+    <lastmod>2026-02-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/least-privilege-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/least-privilege-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/least-privilege-for-agents/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/llm-as-judge-pitfalls/</loc>
+    <lastmod>2026-06-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/llm-as-judge-pitfalls/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/llm-as-judge-pitfalls/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/llm-as-judge-pitfalls/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/long-running-agents/</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/long-running-agents/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/long-running-agents/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/long-running-agents/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/mcp-and-a2a/</loc>
+    <lastmod>2026-08-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/mcp-and-a2a/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/mcp-and-a2a/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/mcp-and-a2a/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/mcp-authorization-oauth/</loc>
+    <lastmod>2026-05-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/mcp-authorization-oauth/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/mcp-authorization-oauth/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/mcp-authorization-oauth/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/mcp-sampling-elicitation-tasks/</loc>
+    <lastmod>2026-09-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/mcp-sampling-elicitation-tasks/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/mcp-sampling-elicitation-tasks/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/mcp-sampling-elicitation-tasks/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/mcp-tool-poisoning/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/mcp-tool-poisoning/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/mcp-tool-poisoning/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/mcp-tool-poisoning/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/measuring-agent-value/</loc>
+    <lastmod>2026-09-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/measuring-agent-value/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/measuring-agent-value/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/measuring-agent-value/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/nist-ai-rmf-for-agent-teams/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/nist-ai-rmf-for-agent-teams/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/nist-ai-rmf-for-agent-teams/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/nist-ai-rmf-for-agent-teams/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/observability-for-agents/</loc>
+    <lastmod>2026-05-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/observability-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/observability-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/observability-for-agents/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/one-mcp-server-per-system/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/one-mcp-server-per-system/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/one-mcp-server-per-system/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/one-mcp-server-per-system/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/owasp-agentic-top-10/</loc>
+    <lastmod>2026-07-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/owasp-agentic-top-10/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/owasp-agentic-top-10/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/owasp-agentic-top-10/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/patching-the-agent-supply-chain/</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/patching-the-agent-supply-chain/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/patching-the-agent-supply-chain/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/patching-the-agent-supply-chain/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/policy-decides-audit-proves/</loc>
+    <lastmod>2026-02-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/policy-decides-audit-proves/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/policy-decides-audit-proves/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/policy-decides-audit-proves/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/prompt-caching-and-token-budgets/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/prompt-caching-and-token-budgets/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/prompt-caching-and-token-budgets/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/prompt-caching-and-token-budgets/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/prompt-hygiene-checklist/</loc>
+    <lastmod>2026-07-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/prompt-hygiene-checklist/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/prompt-hygiene-checklist/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/prompt-hygiene-checklist/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/prompt-injection-design-patterns/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/prompt-injection-design-patterns/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/prompt-injection-design-patterns/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/prompt-injection-design-patterns/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/prompt-sprawl-and-ai-slop/</loc>
+    <lastmod>2026-03-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/prompt-sprawl-and-ai-slop/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/prompt-sprawl-and-ai-slop/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/prompt-sprawl-and-ai-slop/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/quality-gates-for-agent-output/</loc>
+    <lastmod>2026-05-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/quality-gates-for-agent-output/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/quality-gates-for-agent-output/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/quality-gates-for-agent-output/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/runbooks-as-skills/</loc>
+    <lastmod>2026-07-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/runbooks-as-skills/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/runbooks-as-skills/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/runbooks-as-skills/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/sandboxing-agents/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/sandboxing-agents/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/sandboxing-agents/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/sandboxing-agents/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/secrets-for-agents/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/secrets-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/secrets-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/secrets-for-agents/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/self-hosted-models-for-agents/</loc>
+    <lastmod>2026-07-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/self-hosted-models-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/self-hosted-models-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/self-hosted-models-for-agents/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/slos-for-agents/</loc>
+    <lastmod>2026-05-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/slos-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/slos-for-agents/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/slos-for-agents/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/small-verified-steps/</loc>
+    <lastmod>2026-04-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/small-verified-steps/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/small-verified-steps/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/small-verified-steps/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/testing-agents-against-hijacking/</loc>
+    <lastmod>2026-08-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/testing-agents-against-hijacking/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/testing-agents-against-hijacking/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/testing-agents-against-hijacking/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/the-lethal-trifecta/</loc>
+    <lastmod>2026-03-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/the-lethal-trifecta/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/the-lethal-trifecta/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/the-lethal-trifecta/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/third-party-skills-supply-chain/</loc>
+    <lastmod>2026-04-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/third-party-skills-supply-chain/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/third-party-skills-supply-chain/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/third-party-skills-supply-chain/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/tool-skill-or-prompt/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/tool-skill-or-prompt/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/tool-skill-or-prompt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/tool-skill-or-prompt/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/versioning-agent-skills/</loc>
+    <lastmod>2026-05-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/versioning-agent-skills/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/versioning-agent-skills/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/versioning-agent-skills/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/what-is-an-agent-harness/</loc>
+    <lastmod>2026-02-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/what-is-an-agent-harness/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/what-is-an-agent-harness/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/what-is-an-agent-harness/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/what-is-mcp/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/what-is-mcp/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/what-is-mcp/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/what-is-mcp/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/when-multi-agent-is-worth-it/</loc>
+    <lastmod>2026-06-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/when-multi-agent-is-worth-it/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/when-multi-agent-is-worth-it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/when-multi-agent-is-worth-it/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/why-open-agentix/</loc>
+    <lastmod>2026-02-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/why-open-agentix/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/why-open-agentix/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/why-open-agentix/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/workflows-vs-agents/</loc>
+    <lastmod>2026-05-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/workflows-vs-agents/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/workflows-vs-agents/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/workflows-vs-agents/"/>
+  </url>
+  <url>
+    <loc>https://blog.openagentix.si/posts/writing-tools-agents-can-use/</loc>
+    <lastmod>2026-03-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blog.openagentix.si/posts/writing-tools-agents-can-use/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blog.openagentix.si/de/posts/writing-tools-agents-can-use/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blog.openagentix.si/posts/writing-tools-agents-can-use/"/>
+  </url>
+</urlset>

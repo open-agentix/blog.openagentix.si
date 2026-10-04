@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" role="img" aria-labelledby="t d"><title id="t">Filesystem and network isolation around an agent process</title><desc id="d">An agent process sits inside a filesystem scope, which sits inside a network boundary with an egress allow-list proxy. An arrow to an unlisted host is blocked, an arrow to a listed host passes.</desc><style>svg{color:#1f2937}</style><rect class="oax-bg" x="0" y="0" width="540" height="300" rx="8" fill="#ffffff"/>
+<g font-family="system-ui,sans-serif" font-size="15" stroke="currentColor" stroke-width="2" fill="none">
+<rect x="10" y="10" width="300" height="280" rx="12" stroke-dasharray="6 4"/>
+<text fill="currentColor" x="24" y="34" stroke="none" font-weight="700">Network boundary</text>
+<rect x="30" y="52" width="260" height="140" rx="10"/>
+<text fill="currentColor" x="44" y="76" stroke="none" font-weight="700">Filesystem scope</text>
+<text fill="currentColor" x="44" y="96" stroke="none" opacity=".75" font-size="13">project dir only</text>
+<rect x="60" y="112" width="140" height="56" rx="8"/><text fill="currentColor" x="130" y="145" text-anchor="middle" stroke="none">Agent process</text>
+<rect x="30" y="212" width="260" height="60" rx="8"/><text fill="currentColor" x="160" y="238" text-anchor="middle" stroke="none">Proxy with allow-list</text><text fill="currentColor" x="160" y="258" text-anchor="middle" stroke="none" opacity=".75" font-size="13">api.example.org only</text>
+<line x1="160" y1="168" x2="160" y2="212"/>
+<line x1="310" y1="225" x2="360" y2="225"/><text fill="currentColor" x="372" y="230" stroke="none">allowed host</text>
+<line x1="310" y1="255" x2="350" y2="255" stroke-dasharray="4 3"/><line x1="342" y1="245" x2="358" y2="265"/><line x1="358" y1="245" x2="342" y2="265"/><text fill="currentColor" x="372" y="260" stroke="none">other hosts: blocked</text>
+</g></svg>

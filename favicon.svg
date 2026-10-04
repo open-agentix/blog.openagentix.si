@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="openagentix">
+  <defs>
+    <linearGradient id="oax-g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#0b0d14"/>
+  <path d="M19 19 45 45M45 19 19 45" stroke="url(#oax-g)" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="32" cy="32" r="8" fill="#0b0d14" stroke="url(#oax-g)" stroke-width="4"/>
+  <circle cx="19" cy="19" r="4.5" fill="#8b5cf6"/>
+  <circle cx="45" cy="45" r="4.5" fill="#22d3ee"/>
+  <circle cx="45" cy="19" r="4.5" fill="#5eb0f3"/>
+  <circle cx="19" cy="45" r="4.5" fill="#7a86f5"/>
+</svg>
