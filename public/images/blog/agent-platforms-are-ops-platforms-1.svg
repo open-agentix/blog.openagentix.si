@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 382" role="img" aria-labelledby="t d" font-family="system-ui,-apple-system,Segoe UI,sans-serif" fill="currentColor">
 <title id="t">Recap table of classic operations versus agent operations</title>
-<desc id="d">Six operations disciplines, each with its classic form and what is new for agents: identity, least privilege, change, observability, incidents, audit.</desc>
+<desc id="d">Six operations disciplines, each with its classic form and what is new for agents: identity, least privilege, change, observability, incidents, audit.</desc><style>svg{color:#1f2937}</style><rect class="oax-bg" x="0" y="0" width="480" height="382" rx="8" fill="#ffffff"/>
 <text x="12" y="22" font-size="13" fill-opacity="0.75">Classic discipline | what is new for agents</text>
 <rect x="10" y="32" width="460" height="50" rx="8" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-opacity="0.55"/><text x="20" y="53" font-size="15" font-weight="700">Identity</text><text x="20" y="72" font-size="13">service accounts</text><text x="220" y="72" font-size="13">+ acts for a user, per run</text>
 <rect x="10" y="90" width="460" height="50" rx="8" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-opacity="0.55"/><text x="20" y="111" font-size="15" font-weight="700">Least privilege</text><text x="20" y="130" font-size="13">IAM roles</text><text x="220" y="130" font-size="13">+ per-tool argument limits</text>

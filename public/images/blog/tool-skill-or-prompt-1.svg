@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 568 212" role="img" aria-labelledby="t d" font-family="system-ui, sans-serif" font-size="14" fill="currentColor">
 <title id="t">Tool, skill and prompt compared</title>
-<desc id="d">Three columns compare a tool, a skill and a prompt by purpose, loading behaviour and who or what controls them.</desc>
+<desc id="d">Three columns compare a tool, a skill and a prompt by purpose, loading behaviour and who or what controls them.</desc><style>svg{color:#1f2937}</style><rect class="oax-bg" x="0" y="0" width="568" height="212" rx="8" fill="#ffffff"/>
 <rect x="88" y="10" width="152" height="36" rx="6" fill="currentColor" fill-opacity="0.15" stroke="currentColor" stroke-width="1.5"/>
 <text x="164.0" y="34" text-anchor="middle" font-weight="700">Tool</text>
 <rect x="88" y="56" width="152" height="42" rx="6" fill="currentColor" fill-opacity="0.08" stroke="currentColor" stroke-width="1.5"/>

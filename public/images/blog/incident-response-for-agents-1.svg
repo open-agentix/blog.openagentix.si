@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 380" role="img" aria-labelledby="t d"><title id="t">Incident response timeline for an agent incident</title><desc id="d">Six steps in order: alert, stop the run, revoke the tool grant, review the audit trace, fix, postmortem. The first three are measured in seconds to minutes.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 380" role="img" aria-labelledby="t d"><title id="t">Incident response timeline for an agent incident</title><desc id="d">Six steps in order: alert, stop the run, revoke the tool grant, review the audit trace, fix, postmortem. The first three are measured in seconds to minutes.</desc><style>svg{color:#1f2937}</style><rect class="oax-bg" x="0" y="0" width="480" height="380" rx="8" fill="#ffffff"/>
 <g font-family="system-ui,sans-serif" font-size="15" stroke="currentColor" stroke-width="2">
 <line x1="40" y1="30" x2="40" y2="330" opacity=".4"/>
 <g fill="none"><circle cx="40" cy="30" r="9"/><circle cx="40" cy="90" r="9"/><circle cx="40" cy="150" r="9"/><circle cx="40" cy="210" r="9"/><circle cx="40" cy="270" r="9"/><circle cx="40" cy="330" r="9"/></g>

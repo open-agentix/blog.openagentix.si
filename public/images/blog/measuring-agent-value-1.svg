@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 232" role="img" aria-labelledby="t d" font-family="system-ui,-apple-system,Segoe UI,sans-serif" fill="currentColor">
 <title id="t">Metric tree for measuring agent value</title>
-<desc id="d">A business outcome is tracked through accepted changes, which are measured by review time, rework rate and cost per accepted change.</desc>
+<desc id="d">A business outcome is tracked through accepted changes, which are measured by review time, rework rate and cost per accepted change.</desc><style>svg{color:#1f2937}</style><rect class="oax-bg" x="0" y="0" width="480" height="232" rx="8" fill="#ffffff"/>
 <rect x="110" y="10" width="260" height="44" rx="8" fill="currentColor" fill-opacity="0.12" stroke="currentColor" stroke-opacity="0.55"/>
 <text x="122" y="37.0" font-size="15" font-weight="700">Business outcome</text>
 <rect x="110" y="84" width="260" height="44" rx="8" fill="currentColor" fill-opacity="0.09" stroke="currentColor" stroke-opacity="0.55"/>

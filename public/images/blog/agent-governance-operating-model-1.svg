@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="t d" fill="none" font-family="system-ui, sans-serif" color="currentColor">
 <title id="t">RACI matrix for agent governance roles</title>
-<desc id="d">Rows are five governance activities, columns are the roles platform, security, process owner and reviewer. Each cell shows R for responsible, A for accountable, C for consulted, I for informed, or is empty.</desc>
+<desc id="d">Rows are five governance activities, columns are the roles platform, security, process owner and reviewer. Each cell shows R for responsible, A for accountable, C for consulted, I for informed, or is empty.</desc><style>svg{color:#1f2937}</style><rect class="oax-bg" x="0" y="0" width="480" height="330" rx="8" fill="#ffffff"/>
 <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor"/></marker></defs>
 <g fill="currentColor">
 <text x="10" y="28" text-anchor="start" font-size="14" font-weight="700">Activity</text>

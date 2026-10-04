@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 236" role="img" aria-labelledby="t d" font-family="system-ui, sans-serif" font-size="14" fill="currentColor">
 <title id="t">Generated output outgrows review capacity</title>
-<desc id="d">Two curves over time: generated output rises steeply while human review capacity stays flat. The gap between them is unreviewed output.</desc>
+<desc id="d">Two curves over time: generated output rises steeply while human review capacity stays flat. The gap between them is unreviewed output.</desc><style>svg{color:#1f2937}</style><rect class="oax-bg" x="0" y="0" width="480" height="236" rx="8" fill="#ffffff"/>
 <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="currentColor"/></marker></defs>
 <line x1="50" y1="200" x2="50" y2="20" stroke="currentColor" stroke-width="1.5" marker-end="url(#a)"/>
 <line x1="50" y1="200" x2="460" y2="200" stroke="currentColor" stroke-width="1.5" marker-end="url(#a)"/>

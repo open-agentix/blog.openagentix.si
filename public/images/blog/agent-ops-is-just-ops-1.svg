@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 412" role="img" aria-labelledby="t d" font-family="system-ui, sans-serif" font-size="14" fill="currentColor">
 <title id="t">Classic operations disciplines mapped to agent platform concerns</title>
-<desc id="d">Twelve classic operations disciplines on the left, each paired with its counterpart for an agent platform on the right.</desc>
+<desc id="d">Twelve classic operations disciplines on the left, each paired with its counterpart for an agent platform on the right.</desc><style>svg{color:#1f2937}</style><rect class="oax-bg" x="0" y="0" width="520" height="412" rx="8" fill="#ffffff"/>
 <rect x="8" y="8" width="214" height="30" rx="6" fill="currentColor" fill-opacity="0.15" stroke="currentColor" stroke-width="1.5"/>
 <text x="115" y="29" text-anchor="middle" font-weight="700">Classic discipline</text>
 <rect x="248" y="8" width="264" height="30" rx="6" fill="currentColor" fill-opacity="0.15" stroke="currentColor" stroke-width="1.5"/>
