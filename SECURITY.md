@@ -6,7 +6,7 @@
 
 Report privately through
 [GitHub Security Advisories](https://github.com/open-agentix/blog.openagentix.si/security/advisories/new)
-("Report a vulnerability") or write to github@openagentix.si. Include the affected page or file, a
+("Report a vulnerability"); please do not report vulnerabilities by e-mail. Include the affected page or file, a
 description, steps to reproduce and the impact you expect. We acknowledge reports within 3 working
 days and coordinate disclosure with you.
 
