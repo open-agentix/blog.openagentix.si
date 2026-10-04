@@ -3,7 +3,7 @@ ref: why-open-agentix
 lang: de
 title: Warum wir open-agentix bauen
 description: KI-Agenten sind leicht vorzuführen und schwer zu betreiben. open-agentix ist eine Open-Source-Plattform, die einen Agenten von der Prozessbeschreibung bis zum kontrollierten Produktivbetrieb bringt.
-date: 2026-10-04T09:00:00Z
+date: 2026-02-03T09:00:00Z
 tags: [vision, open-source, architecture]
 ---
 

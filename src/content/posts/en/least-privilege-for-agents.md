@@ -3,7 +3,7 @@ ref: least-privilege-for-agents
 lang: en
 title: "Least privilege for agents: decomposition instead of one all-powerful agent"
 description: One agent with read and write access to everything is a large blast radius. open-agentix splits a process into small agents that each hold only the tools one step needs.
-date: 2026-10-04T10:00:00Z
+date: 2026-02-05T09:00:00Z
 tags: [security, architecture, least-privilege]
 ---
 

@@ -3,7 +3,7 @@ ref: cost-is-a-platform-concern
 lang: en
 title: "Cost is a platform concern: budgets, per-agent and per-tenant attribution, export"
 description: Agent systems can fail financially while working technically. open-agentix prices every step, attributes it to tenant, agent and use case, stops runs at their budget and exports the lines.
-date: 2026-10-04T12:00:00Z
+date: 2026-02-12T09:00:00Z
 tags: [costs, governance, architecture]
 ---
 

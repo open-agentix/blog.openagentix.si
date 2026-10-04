@@ -3,7 +3,7 @@ ref: why-open-agentix
 lang: en
 title: Why we are building open-agentix
 description: AI agents are easy to demo and hard to operate. open-agentix is an open-source platform that takes an agent from a process description to a governed production run.
-date: 2026-10-04T09:00:00Z
+date: 2026-02-03T09:00:00Z
 tags: [vision, open-source, architecture]
 ---
 

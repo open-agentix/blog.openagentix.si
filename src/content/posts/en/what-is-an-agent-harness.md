@@ -3,7 +3,7 @@ ref: what-is-an-agent-harness
 lang: en
 title: "What is an agent harness, and why do harnesses keep shrinking?"
 description: An agent harness is the loop and scaffolding around a model. As models improve, much of it moves into the model or the API. What stays is governance, and that is why open-agentix treats the harness as replaceable.
-date: 2026-10-04T14:00:00Z
+date: 2026-02-19T09:00:00Z
 tags: [architecture, harness, governance]
 ---
 

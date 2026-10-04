@@ -3,7 +3,7 @@ ref: cost-is-a-platform-concern
 lang: de
 title: "Kosten sind Aufgabe der Plattform: Budgets, Zuordnung je Agent und Mandant, Export"
 description: Agentensysteme können finanziell scheitern, obwohl sie technisch laufen. open-agentix bepreist jeden Schritt, ordnet ihn Mandant, Agent und Anwendungsfall zu, stoppt Läufe am Budget und exportiert die Zeilen.
-date: 2026-10-04T12:00:00Z
+date: 2026-02-12T09:00:00Z
 tags: [costs, governance, architecture]
 ---
 

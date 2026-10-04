@@ -3,7 +3,7 @@ ref: dark-factory-mvp-only
 lang: en
 title: "Dark software factory: only for MVPs and PoCs"
 description: Letting agents build software with minimal human touch can be a fast way to a prototype. open-agentix offers it as an opt-in mode with a fixed notice, and keeps approval gates for production.
-date: 2026-10-04T13:00:00Z
+date: 2026-02-17T09:00:00Z
 tags: [dark-factory, governance, security]
 ---
 

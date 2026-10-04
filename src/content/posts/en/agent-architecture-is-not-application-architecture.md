@@ -3,7 +3,7 @@ ref: agent-architecture-is-not-application-architecture
 lang: en
 title: "Agent architecture is not application architecture: the agentix pattern"
 description: Application architecture structures code. Agent architecture decides who may do what at run time. The agentix pattern - one MCP server per system, one agent per step - is our answer.
-date: 2026-10-04T15:00:00Z
+date: 2026-02-24T09:00:00Z
 tags: [architecture, patterns, mcp, governance]
 ---
 

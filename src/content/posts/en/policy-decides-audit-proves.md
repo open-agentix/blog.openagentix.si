@@ -3,7 +3,7 @@ ref: policy-decides-audit-proves
 lang: en
 title: "A model may ask, the policy decides: deterministic gates and tamper-evident audit"
 description: In open-agentix a model can request a tool call but never authorises it. A deterministic policy gate decides before each call, and a hash-chained audit trail records what it decided.
-date: 2026-10-04T11:00:00Z
+date: 2026-02-10T09:00:00Z
 tags: [security, policy, audit, governance]
 ---
 
