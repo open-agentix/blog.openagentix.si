@@ -39,6 +39,6 @@ describe('no personal data in the build', () => {
     for (const f of text) {
       for (const m of read(f).matchAll(/[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/g)) found.add(m[0].toLowerCase());
     }
-    expect([...found].filter((e) => e !== 'github@openagentix.si')).toEqual([]);
+    expect([...found].filter((e) => e !== 'info@openagentix.si')).toEqual([]);
   });
 });

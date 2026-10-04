@@ -64,7 +64,7 @@ describe('post sources', () => {
   it('contains no personal data: only the project contact address may appear', () => {
     for (const s of sources) {
       const emails = [...s.text.matchAll(/[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/g)].map((m) => m[0].toLowerCase());
-      expect(emails.filter((e) => e !== 'github@openagentix.si'), s.file).toEqual([]);
+      expect(emails.filter((e) => e !== 'info@openagentix.si'), s.file).toEqual([]);
     }
   });
 

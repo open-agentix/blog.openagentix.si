@@ -3,7 +3,7 @@ import Icon from './Icon.astro';
 import type { Locale } from '../i18n/config';
 import { paths } from '../i18n/paths';
 import { getDictionary } from '../i18n/ui';
-import { GITHUB_ORG, REPO_URL } from '../project';
+import { CONTACT_EMAIL, GITHUB_ORG, REPO_URL } from '../project';
 import pkg from '../../package.json';
 
 interface Props {
@@ -25,6 +25,12 @@ const t = getDictionary(locale);
       <li><a href={REPO_URL}>{t.footer.source}</a></li>
     </ul>
     <p class="small">{t.footer.noTracking} {t.footer.license}</p>
+    <p class="small">
+      {t.footer.questions}
+      <a href={`${GITHUB_ORG}/open-agentix/discussions`}>Discussions</a> ·
+      <a href={`${GITHUB_ORG}/open-agentix/issues`}>Issues</a> ·
+      <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>
+    </p>
     <p class="small">v{pkg.version}</p>
   </div>
 </footer>

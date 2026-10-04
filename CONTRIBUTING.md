@@ -13,7 +13,7 @@ the [documentation](https://openagentix.si/docs/); this file covers what is spec
   `pnpm test:dist` fails if you do.
 - **No personal data.** Posts, metadata and feeds never contain real names of private persons,
   addresses or private e-mail addresses. The maintainer is "the project lead"; the contact is
-  github@openagentix.si. The blog has no imprint or privacy page because it collects nothing.
+  info@openagentix.si (questions: GitHub Discussions). The blog has no imprint or privacy page because it collects nothing.
 - **English** for code, comments, commit messages and pull requests.
 - **Interface text** lives in `src/i18n/ui.ts`. English is the source; German must cover every key
   (a test checks this).
