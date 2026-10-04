@@ -83,7 +83,9 @@ A catalog nobody can search will be bypassed. Make it findable:
 - **Runbooks as skills.** Operational procedures are an obvious first content; see [runbooks as skills](/posts/runbooks-as-skills/).
 - **A listing per agent,** showing which reviewed skills and tools that agent would load before its first run.
 
-<!-- screenshot-slot: Agent check/plan view of the current demo showing which reviewed skills and tools an example agent would load -->
+![Agent overview in the openagentix demo with example data: toolbox, tools and budget limits of an example agent](/images/blog/internal-skills-catalog-2.png)
+
+*Screenshot of the current demo (fake data).*
 
 ## Ownership rules that hold up
 

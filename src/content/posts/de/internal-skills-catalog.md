@@ -83,7 +83,9 @@ Ein Katalog, den niemand durchsuchen kann, wird umgangen. So wird er auffindbar:
 - **Runbooks als Skills.** Betriebsabläufe sind ein naheliegender erster Inhalt; siehe [Runbooks als Skills](/de/posts/runbooks-as-skills/).
 - **Eine Liste je Agent**, die zeigt, welche geprüften Skills und Tools der Agent vor dem ersten Lauf laden würde.
 
-<!-- screenshot-slot: Agent check/plan view of the current demo showing which reviewed skills and tools an example agent would load -->
+![Agentenübersicht in der openagentix-Demo mit Beispieldaten: Toolbox, Tools und Budgetgrenzen eines Beispielagenten](/images/blog/internal-skills-catalog-2.png)
+
+*Screenshot der aktuellen Demo (erfundene Daten).*
 
 ## Zuständigkeitsregeln, die halten
 

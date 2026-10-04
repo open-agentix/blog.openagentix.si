@@ -85,7 +85,9 @@ Sinngemäß: Es benennt die kritischsten Sicherheitsrisiken autonomer und agenti
 
 In der aktuellen Demo zeigt eine Policy-Entscheidung das angefragte Tool, seine Argumente, die passende Regel und das Ergebnis, etwa "Freigabe erforderlich" für einen Schreibzugriff auf ein Beispiel-Ticket. Genau diese Form verlangt Frage 12: sichtbare Regel, sichtbare Entscheidung, kein Ermessen des Modells.
 
-<!-- screenshot-slot: Policy decision detail in the current demo: requested tool, arguments, rule matched, decision 'require approval', all with example.org data -->
+![Ausstehende Freigabe für einen Tool-Aufruf in der openagentix-Demo: angefordertes Tool, Argumente und die Regel, die eine menschliche Freigabe verlangt](/images/blog/agent-security-checklist-2.png)
+
+*Screenshot der aktuellen Demo (erfundene Daten).*
 
 ## Auswertung und nächste Schritte
 

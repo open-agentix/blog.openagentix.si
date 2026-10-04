@@ -85,7 +85,9 @@ Without a registry you cannot answer the first audit question: which agents exis
 
 Roles only work if they can see what happens. A governance setup should surface, per run, its status, its cost and the policy decisions made during it (allowed, denied, waiting for approval). The current open-agentix demo shows this kind of overview in its runs list, using invented example data; see the screenshot slot below. Each role then has a natural view: the platform team looks at failures and cost, security at denials, process owners at outcomes and spend, reviewers at pending approvals.
 
-<!-- screenshot-slot: Runs list of the current demo with invented tenants and agents, showing status, cost and policy decision count per run (alt: "Runs list in the openagentix demo with example data"; capture later from demo.openagentix.si; invented example.org data only; caption as "the current demo") -->
+![Runs list in the openagentix demo with example data: status, steps, tokens and cost per run, plus one run awaiting approval](/images/blog/agent-governance-operating-model-2.png)
+
+*Screenshot of the current demo (fake data).*
 
 Do not rely on a screenshot of one product to judge your own setup. Check that, whatever tooling you use, a reviewer can find every run that waited for approval and see who decided.
 

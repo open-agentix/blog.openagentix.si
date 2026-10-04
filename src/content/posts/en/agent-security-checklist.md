@@ -83,7 +83,9 @@ A walk-through of the list is in [the OWASP agentic top 10](/posts/owasp-agentic
 
 In the current demo, a policy decision shows the requested tool, its arguments, the rule that matched and the outcome, for example "require approval" for a write to an example ticket. That is the shape question 12 asks for: a visible rule, a visible decision, no model discretion.
 
-<!-- screenshot-slot: Policy decision detail in the current demo: requested tool, arguments, rule matched, decision 'require approval', all with example.org data -->
+![Pending approval for a tool call in the openagentix demo: requested tool, arguments and the rule that requires human approval](/images/blog/agent-security-checklist-2.png)
+
+*Screenshot of the current demo (fake data).*
 
 ## Scoring and next steps
 

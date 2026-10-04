@@ -106,7 +106,9 @@ Caching und Prompt-Gestaltung senken die Last, bevor Limits greifen; siehe [Prom
 
 In der aktuellen Demo zeigt eine Budget-Ansicht die Ausgaben gegenüber dem Budget je Agent für erfundene Beispiel-Mandanten, darunter einen Lauf, der durch sein Limit gestoppt wurde. Der Sinn einer solchen Ansicht: Ein Stopp ist ein erwartetes, protokolliertes Ergebnis und kein Rätsel.
 
-<!-- screenshot-slot: Budgets view of the current demo with invented tenants: spend versus budget per agent and a stopped run -->
+![Budget-Ansicht in der openagentix-Demo mit Beispieldaten: Team-Budgets und Monatslimits](/images/blog/capacity-and-rate-limits-2.png)
+
+*Screenshot der aktuellen Demo (erfundene Daten).*
 
 ## Das Wichtigste in Kürze
 

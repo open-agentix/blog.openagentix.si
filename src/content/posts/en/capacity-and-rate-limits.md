@@ -106,7 +106,9 @@ Caching and prompt design reduce the load before limits apply; see [prompt cachi
 
 In the current demo, a budgets view shows spend against budget per agent for invented example tenants, including a run that was stopped by its limit. The point of such a view is that a stop is an expected, recorded outcome, not a mystery.
 
-<!-- screenshot-slot: Budgets view of the current demo with invented tenants: spend versus budget per agent and a stopped run -->
+![Budgets view in the openagentix demo with example data: team budgets and monthly limits](/images/blog/capacity-and-rate-limits-2.png)
+
+*Screenshot of the current demo (fake data).*
 
 ## Key takeaways
 

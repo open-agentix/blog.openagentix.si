@@ -23,8 +23,15 @@ describe('performance budget', () => {
     expect(budgetViolations(measured, { landingJs: 20 * 1024, landingCss: 20 * 1024, landingHtml: 40 * 1024, preloadedFonts: 1 })).toEqual([]);
   });
 
-  it('ships no raster images except the pre-rendered social card', () => {
-    expect([...files].filter((f) => forbiddenImage.test(f) && f !== 'og.png')).toEqual([]);
+  // Platform screenshots (images/blog/<slug>-<n>.png) are the only other raster images allowed.
+  const screenshot = /^images\/blog\/[a-z0-9-]+-\d+\.png$/;
+
+  it('ships no raster images except the social card and the blog screenshots', () => {
+    expect([...files].filter((f) => forbiddenImage.test(f) && f !== 'og.png' && !screenshot.test(f))).toEqual([]);
+  });
+
+  it('keeps every blog screenshot under 250 KB', () => {
+    for (const f of [...files].filter((f) => screenshot.test(f))) expect(readBytes(f).length).toBeLessThan(250 * 1024);
   });
 
   it('ships the social card at a sensible size', () => {
