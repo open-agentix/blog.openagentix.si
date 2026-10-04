@@ -82,6 +82,126 @@ bessere Fragen. Die Antwort gibt es sich trotzdem nicht selbst. Je fähiger die 
 desto mehr schrumpft das Gerüst, während die Kontrollschicht bleibt: Man kann mehr übergeben,
 solange die Grenzen an einer Stelle durchgesetzt werden, die das Modell nicht erreicht.
 
+## Harness oder Framework?
+
+Die beiden Wörter werden oft vermischt, deshalb einfach:
+
+- Ein **Harness** ist die Laufzeit, die einen Agenten sicher ausführt: die Schleife, die
+  Werkzeuge, die Berechtigungen und der Umgang mit dem Kontext, wie oben beschrieben. Es ist das,
+  was ausführt.
+- Ein **Framework** ist eine Bibliothek aus Abstraktionen und Bausteinen samt
+  Orchestrierungswerkzeugen, die man zur eigenen Anwendung zusammensetzt: Ketten oder Graphen von
+  Schritten, Abstraktionen für Gedächtnis und Retrieval, Integrationen für Modelle, Speicher und
+  Werkzeuge sowie Muster für mehrere zusammenarbeitende Agenten. Ausgeliefert wird die eigene
+  Anwendung, die damit gebaut wurde.
+
+Sie überlappen sich: Ein Framework enthält meist eine Schleife und eine Werkzeugschnittstelle, ein
+Harness oft ein paar Bausteine wie Sub-Agenten. Der Unterschied liegt im Schwerpunkt: Ein Harness
+führt einen Agenten kontrolliert aus, ein Framework setzt viele Teile zusammen. Interna oder
+Versionen bestimmter Frameworks beschreiben wir hier nicht.
+
+Die folgenden Abwägungen sind Meinung:
+
+- **Kontrolle gegen Komfort.** Ein Framework liefert Integrationen und Muster schnell. Ein dünner
+  Harness liefert eine Schleife, die man an einem Nachmittag liest und ändert, ohne jemanden zu fragen.
+- **Lock-in und Update-Aufwand.** Die Abstraktionen eines Frameworks werden zum Vokabular des
+  Teams, und mehr Fläche heißt mehr Anpassung bei neuen Versionen von Bibliothek oder Modellen. Eine
+  kleine Schleife mit schlichter Werkzeugschnittstelle ist günstig zu ersetzen und ändert sich, wenn
+  man es entscheidet.
+- **Observability.** Schichten können verbergen, was ans Modell ging und welches Werkzeug lief. In
+  einem dünnen Harness läuft jeder Schritt durch eine Stelle.
+- **Orchestrierung ist echte Arbeit.** Retrieval, lange Abläufe und kooperierende Agenten sind die
+  Stellen, an denen ein Framework Zeit sparen kann. Nichts hier sagt, man solle keines nutzen.
+
+Ebenfalls Meinung: Ein dünner Harness plus Policy-Schicht verschiebt die Rechnung. Berechtigungen,
+Policy, Audit und Budgets liegen dann in einer Schicht um die Schleife und nicht in den
+Abstraktionen eines Frameworks, die Wahl wird weniger ein Entweder-oder: Man nutzt die Schleife oder
+das Framework, das man mag, solange jeder Werkzeugaufruf das Gate passiert. Die Frage an ein
+Framework wird die, die wir unten an einen Harness stellen: Lassen sich seine Werkzeugaufrufe
+abfangen? Das ist eine Designwette, kein bewiesenes Ergebnis.
+
+## Im Code ansehen
+
+Damit der Vergleich greifbar wird, haben wir dasselbe kleine Design zweimal geschrieben: in
+Node.js 20+ ohne Abhängigkeiten und in Java 21 nur mit dem JDK (JUnit für die Tests), in einem
+eigenen Repository, [open-agentix/blog-examples](https://github.com/open-agentix/blog-examples). Es
+ist Lehrmaterial, kein Produktionscode: Das Modell ist standardmäßig ein deterministisches Skript
+(kein Schlüssel, kein Netz), und es gibt weder Sandbox noch echte Authentifizierung. Das README
+listet auf, was es nicht ist.
+
+Jedes hat eine Schleife mit Schritt-, Token- und Zeitlimit, eine Werkzeug-Registry mit
+Argumentprüfung, ein Policy-Gate und ein hash-verkettetes Audit-Log. Hier die Schleife aus dem
+[Node-Beispiel](https://github.com/open-agentix/blog-examples/blob/main/harness-node/src/harness.js), gekürzt. Jedes Limit
+ist ein harter Stopp, und eine Antwort über dem Budget wird nicht ausgeführt:
+
+```js
+export async function runAgent({ model, tools, policy, audit, task, approve = denyAll, limits = {} }) {
+  const { maxSteps = 8, maxTokens = 10_000, timeoutMs = 30_000 } = limits;
+  const deadline = Date.now() + timeoutMs;
+  const messages = [{ role: 'user', content: task }];
+  let tokens = 0;
+  let step = 0;
+  // finish() writes 'run.end'; execute() is the gate, shown below and in harness.js
+
+  audit.append('run.start', { task, limits: { maxSteps, maxTokens, timeoutMs } });
+  while (step < maxSteps) {
+    const left = deadline - Date.now();
+    if (left <= 0) return finish('timeout');
+    step++;
+    const reply = await model.next(messages, tools.specs(), AbortSignal.timeout(left));
+    tokens += reply.usage?.tokens ?? 0;
+    if (tokens > maxTokens) return finish('budget'); // stop before acting on an over-budget reply
+    messages.push({ role: 'assistant', content: reply.text ?? '', toolCalls: reply.toolCalls ?? [] });
+    if (!reply.toolCalls?.length) return finish('done', reply.text);
+    for (const call of reply.toolCalls) messages.push(await execute(call));
+  }
+  return finish('max-steps');
+}
+```
+
+Das Gate ist eine einfache Funktion über einer kleinen JSON-Policy-Datei, in
+[`policy.js`](https://github.com/open-agentix/blog-examples/blob/main/harness-node/src/policy.js). Das Modell sieht sie nicht und kann sie
+nicht beeinflussen. Keine passende Regel heißt Ablehnung, und die strengste passende Wirkung gewinnt:
+
+```js
+const matches = (constraints = {}, args) =>
+  Object.entries(constraints).every(([arg, spec]) =>
+    Object.entries(spec).every(([kind, want]) => CONSTRAINTS[kind]?.(args[arg], want) ?? false));
+
+export function decide(policy, tool, args) {
+  const hits = (policy.rules ?? []).filter((r) => r.tool === tool && matches(r.args, args));
+  for (const effect of ['deny', 'approve', 'allow']) { // strictest effect wins
+    const rule = hits.find((r) => r.effect === effect);
+    if (rule) return { effect, reason: rule.reason ?? `rule: ${effect} ${tool}` };
+  }
+  return { effect: 'deny', reason: 'no matching rule (deny by default)' };
+}
+```
+
+Dasselbe Gate in Java, aus
+[`Policy.java`](https://github.com/open-agentix/blog-examples/blob/main/harness-java/src/main/java/si/openagentix/harness/Policy.java). Die Form ist
+gleich, die Java-Fassung ist wortreicher, was ein faires Bild der beiden Sprachen ist:
+
+```java
+    public Decision decide(String tool, Map<String, Object> args) {
+        List<Map<String, Object>> hits = rules.stream().filter(r -> tool.equals(r.get("tool")) && matches(r.get("args"), args)).toList();
+        for (Effect effect : Effect.values()) {
+            for (Map<String, Object> rule : hits) {
+                if (effect.name().equalsIgnoreCase(String.valueOf(rule.get("effect")))) {
+                    return new Decision(effect, rule.get("reason") instanceof String r ? r : "rule: " + effect.name().toLowerCase() + " " + tool);
+                }
+            }
+        }
+        return new Decision(Effect.DENY, "no matching rule (deny by default)");
+    }
+```
+
+Beide Verzeichnisse enthalten eine lauffähige Demo ([`harness-node`](https://github.com/open-agentix/blog-examples/tree/main/harness-node),
+[`harness-java`](https://github.com/open-agentix/blog-examples/tree/main/harness-java)). Sie zeigt einen erlaubten Lesezugriff, einen
+abgelehnten `http_get` (keine Regel, also standardmäßig abgelehnt), einen freigabepflichtigen Aufruf,
+der automatisch abgelehnt wird, weil nichts interaktiv ist, und prüft danach die Audit-Kette. Ändert
+man eine Zeile im Log, schlägt die Prüfung fehl.
+
 ## Wo open-agentix hineinpasst
 
 open-agentix ist eine Kontrollschicht und kein weiterer Harness, und es soll laufzeitneutral sein.
