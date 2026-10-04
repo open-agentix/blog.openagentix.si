@@ -49,7 +49,8 @@ that make an agent-built change reviewable instead of trusted:
   agent, and the stricter rule wins.
 - **A hardening review** that checks a development agent's output against those guidelines. It is
   deterministic first, and it can only make a verdict stricter, never weaken a policy. Findings go
-  to the audit trail.
+  to the audit trail. The review runs on request through an API endpoint; automatic review of
+  pull requests is planned.
 - The same policy gate, budgets and audit trail that apply to every other agent.
 
 A ready-made **pipeline template** for the whole path from specification to pull request, with the

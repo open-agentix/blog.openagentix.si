@@ -40,8 +40,9 @@ Tools an agent was not granted are not shown to the model in the first place. Th
 second line of defence for the case where a model asks anyway.
 
 Because the gate is deterministic, a decision can be reproduced from the audit trail and tested
-without a model. A model may also take part, but only to make things stricter: an optional
-second-opinion reviewer can turn an allow into a stop, never the other way round.
+without a model. A model may also take part, but only to make things stricter: the design
+provides for an optional second-opinion reviewer that can turn an allow into a stop, never the other
+way round. Today the gate and the control agent are purely deterministic; the model review is planned.
 
 ## The control agent
 

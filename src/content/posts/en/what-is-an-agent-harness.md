@@ -195,10 +195,11 @@ interactive, and then verifies the audit chain. Edit one line of the log and ver
 open-agentix is a control layer rather than another harness, and it aims to be runtime-neutral. Its native runners already execute agents with the policy gate,
 budgets and the hash-chained audit trail described in [an earlier post](/posts/policy-decides-audit-proves/).
 
-For external harnesses the status is, as of release 0.1.0, as follows:
+For external harnesses the status is as follows (release 0.1.0 plus `main`):
 
 - **On `main` (ships in 0.2):** Claude Code runs fully under openagentix: every tool call goes through the policy gate and is audited and costed, verified with real runs.
-- **Stubs only:** OpenCode (planned for 0.2), Hermes and OpenClaw (0.3) adapters exist as typed stubs.
+- **On `main` (ships in 0.2), real-run verification pending:** the OpenCode adapter is implemented and tested against a fake CLI; it has not yet been verified with a real binary.
+- **Stubs only:** Hermes and OpenClaw (0.3) adapters exist as typed stubs.
 
 The idea behind it, which is a design bet and so partly opinion: the harness becomes a replaceable
 component. You bring the harness you prefer, today or next year, and the governance around it stays

@@ -208,15 +208,14 @@ open-agentix ist eine Kontrollschicht und kein weiterer Harness, und es soll lau
 Die eigenen Runner führen Agenten schon mit Policy-Gate, Budgets und dem hash-verketteten
 Audit-Trail aus, den ein [früherer Beitrag](/de/posts/policy-decides-audit-proves/) beschreibt.
 
-Für externe Harnesses ist der Stand mit Release 0.1.0 so:
+Für externe Harnesses ist der Stand so (Release 0.1.0 plus `main`):
 
-- **Umgesetzt:** ein Invocation-Builder für Claude Code, und das Policy-Gate als MCP-Proxy, über den
-  ein externer Harness seine Werkzeugaufrufe schicken kann. Das ist früh und noch in Verifikation.
-- **Nur Stubs:** Adapter für OpenCode, Hermes und OpenClaw existieren als typisierte Stubs.
-- **Geplant:** einen bestehenden Harness vollständig unter openagentix laufen zu lassen, sodass
-  seine Werkzeugaufrufe wie native Läufe geprüft, protokolliert und mit Kosten erfasst werden. Das
-  steht für v0.3 in der [Roadmap](https://github.com/open-agentix/open-agentix/blob/main/ROADMAP.md),
-  ist also nicht ausgeliefert.
+- **Auf `main` (erscheint in 0.2):** Claude Code läuft vollständig unter openagentix: Jeder
+  Werkzeugaufruf geht durch das Policy-Gate und wird protokolliert und mit Kosten erfasst, verifiziert mit
+  echten Läufen.
+- **Auf `main` (erscheint in 0.2), Verifikation mit echtem Lauf steht aus:** Der OpenCode-Adapter ist
+  implementiert und gegen eine Fake-CLI getestet; mit einer echten Binärdatei ist er noch nicht verifiziert.
+- **Nur Stubs:** Adapter für Hermes und OpenClaw (0.3) existieren als typisierte Stubs.
 
 Die Idee dahinter, eine Designwette und damit teilweise Meinung: Der Harness wird eine austauschbare
 Komponente. Man bringt den mit, den man bevorzugt, heute oder nächstes Jahr, und die Governance
