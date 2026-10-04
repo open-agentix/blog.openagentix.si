@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 236" role="img" aria-labelledby="t d" font-family="system-ui, sans-serif" font-size="14" fill="currentColor">
+<title id="t">Generated output outgrows review capacity</title>
+<desc id="d">Two curves over time: generated output rises steeply while human review capacity stays flat. The gap between them is unreviewed output.</desc>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="currentColor"/></marker></defs>
+<line x1="50" y1="200" x2="50" y2="20" stroke="currentColor" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="50" y1="200" x2="460" y2="200" stroke="currentColor" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="250" y="226" text-anchor="middle">Time</text>
+<text transform="translate(16 110) rotate(-90)" text-anchor="middle">Volume</text>
+<clipPath id="c"><rect x="244" y="0" width="200" height="130"/></clipPath><path clip-path="url(#c)" d="M50 190 C150 180 250 130 440 36 L440 130 L50 130 Z" fill="currentColor" fill-opacity=".15"/>
+<path d="M50 190 C150 180 250 130 440 36" fill="none" stroke="currentColor" stroke-width="2.5"/>
+<path d="M50 130 L440 130" fill="none" stroke="currentColor" stroke-width="2.5" stroke-dasharray="7 4"/>
+<text x="60" y="170" text-anchor="start" font-weight="700">Generated output</text>
+<text x="448" y="150" text-anchor="end" font-weight="700">Review capacity</text>
+<text x="405" y="92" text-anchor="middle" font-weight="700" font-size="13">Unreviewed</text>
+<text x="405" y="109" text-anchor="middle" font-weight="700" font-size="13">output</text>
+</svg>
