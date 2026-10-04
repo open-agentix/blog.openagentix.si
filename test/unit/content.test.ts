@@ -68,6 +68,23 @@ describe('post sources', () => {
     }
   });
 
+  it('keeps inline SVG diagrams accessible and self-contained', () => {
+    for (const s of sources) {
+      for (const [svg] of s.text.matchAll(/<svg\b[\s\S]*?<\/svg>/g)) {
+        expect(svg, s.file).toMatch(/^<svg\b[^>]*\brole="img"/);
+        const labelledBy = svg.match(/^<svg\b[^>]*\baria-labelledby="([^"]+)"/)?.[1]?.split(' ') ?? [];
+        expect(labelledBy.length, s.file).toBe(2);
+        expect(svg, s.file).toContain(`<title id="${labelledBy[0]}">`);
+        expect(svg, s.file).toContain(`<desc id="${labelledBy[1]}">`);
+        expect(svg, s.file).not.toMatch(/\b(?:xlink:)?href\s*=|url\(\s*["']?(?:https?:)?\/\//i);
+        // Colours come from the page (currentColor and design tokens), so both themes work.
+        expect(svg, s.file).not.toMatch(/\b(?:fill|stroke)="#[0-9a-f]{3,8}"/i);
+      }
+      // A blank line would end the HTML block in Markdown and break the figure.
+      for (const [figure] of s.text.matchAll(/<figure\b[\s\S]*?<\/figure>/g)) expect(figure, s.file).not.toMatch(/\n\s*\n/);
+    }
+  });
+
   it('carries no tool attribution lines and no remote includes', () => {
     for (const s of sources) {
       expect(s.text, s.file).not.toMatch(/Co-Authored-By|Claude-Session|Generated with/i);
