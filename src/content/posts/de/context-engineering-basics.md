@@ -2,7 +2,7 @@
 ref: context-engineering-basics
 lang: de
 title: "Context Engineering: die kleinste Menge Tokens, die die Aufgabe erfüllt"
-description: Context Engineering behandelt das Kontextfenster als begrenztes Budget. So halten Sie es klein: Kompaktierung, Teilaufgaben mit eigenem Kontext, Notizen.
+description: "Context Engineering behandelt das Kontextfenster als begrenztes Budget. So halten Sie es klein: Kompaktierung, Teilaufgaben mit eigenem Kontext, Notizen."
 date: 2026-04-07T09:00:00Z
 tags: [context, tools, explainer]
 ---

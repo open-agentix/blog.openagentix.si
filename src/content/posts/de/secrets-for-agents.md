@@ -2,7 +2,7 @@
 ref: secrets-for-agents
 lang: de
 title: "Betriebsreihe: Geheimnisse gehören nie in das Kontextfenster eines Agenten"
-description: Secrets Management für KI-Agenten in der Praxis: Zugangsdaten bleiben auf der Tool-Seite, das Modell sieht nur Handles, Token-Passthrough entfällt.
+description: "Secrets Management für KI-Agenten in der Praxis: Zugangsdaten bleiben auf der Tool-Seite, das Modell sieht nur Handles, Token-Passthrough entfällt."
 date: 2026-04-02T09:00:00Z
 tags: [operations, secrets, security]
 ---

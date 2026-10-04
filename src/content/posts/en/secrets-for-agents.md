@@ -2,7 +2,7 @@
 ref: secrets-for-agents
 lang: en
 title: "Ops series: secrets for agents never belong in the context window"
-description: Secrets management for AI agents in practice: keep credentials on the tool side, give the model only handles, and never pass user tokens through to downstream APIs.
+description: "Secrets management for AI agents in practice: keep credentials on the tool side, give the model only handles, and never pass user tokens through to downstream APIs."
 date: 2026-04-02T09:00:00Z
 tags: [operations, secrets, security]
 ---

@@ -2,7 +2,7 @@
 ref: one-mcp-server-per-system
 lang: de
 title: "Ein MCP-Server pro System: MCP-Server-Design, das sich steuern lässt"
-description: Regeln für MCP-Server-Design, das sich steuern lässt: ein kleiner Server pro System, Tool-Namensräume und getrennte Lese- und Schreibrechte statt Mega-Gateway.
+description: "Regeln für MCP-Server-Design, das sich steuern lässt: ein kleiner Server pro System, Tool-Namensräume und getrennte Lese- und Schreibrechte statt Mega-Gateway."
 date: 2026-04-16T09:00:00Z
 tags: [mcp, architecture, how-to]
 ---
