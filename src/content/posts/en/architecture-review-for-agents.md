@@ -97,7 +97,9 @@ Sections 1 to 5 of the template are mostly *secure design*; section 6 straddles 
 
 A handover graph is a good companion to the page: agents as nodes, handovers as edges labelled with contract names. In the current demo such a graph is generated for an example process, and the review asks of it the same question as of any diagram: does it match what actually runs?
 
-<!-- screenshot-slot: Handover graph of an example process in the current demo: agents as nodes, handovers as edges with contract names -->
+![Step timeline of a run in the openagentix demo with example data: two agents hand over inside one run, each step passing the policy gate](/images/blog/architecture-review-for-agents-2.png)
+
+*Screenshot of the current demo (fake data).*
 
 ## Key takeaways
 

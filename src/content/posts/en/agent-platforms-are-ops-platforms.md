@@ -72,7 +72,9 @@ Emit traces with spans for model calls and tool calls in a vendor-neutral format
 
 For the audit row, the current demo shows an audit chain: hash-linked entries for an example run with a verification badge. The idea carries to any stack: records that cannot be silently edited, so that "what happened" has an answer you can verify.
 
-<!-- screenshot-slot: Audit chain view of the current demo: hash-linked entries for an example run with a verification badge -->
+![Audit trail in the openagentix demo with example data: hash-chained entries and the hash chain verified as intact](/images/blog/agent-platforms-are-ops-platforms-2.png)
+
+*Screenshot of the current demo (fake data).*
 
 ## A self-test
 

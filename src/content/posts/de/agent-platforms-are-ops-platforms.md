@@ -72,7 +72,9 @@ Erzeugen Sie Traces mit Spans für Modell- und Tool-Aufrufe in einem herstellern
 
 Für die Audit-Zeile zeigt die aktuelle Demo eine Audit-Kette: verkettete Einträge mit Hashes für einen Beispiellauf, mit einem Prüfsiegel. Die Idee lässt sich auf jeden Stack übertragen: Aufzeichnungen, die sich nicht unbemerkt ändern lassen, sodass "was ist passiert" eine überprüfbare Antwort hat.
 
-<!-- screenshot-slot: Audit chain view of the current demo: hash-linked entries for an example run with a verification badge -->
+![Audit-Trail in der openagentix-Demo mit Beispieldaten: hash-verkettete Einträge, die Hash-Kette ist als intakt bestätigt](/images/blog/agent-platforms-are-ops-platforms-2.png)
+
+*Screenshot der aktuellen Demo (erfundene Daten).*
 
 ## Ein Selbsttest
 

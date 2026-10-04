@@ -90,7 +90,9 @@ Quelle: [Site Reliability Engineering, Chapter 4: Service Level Objectives](http
 
 Die aktuelle Demo hat eine Agent-Check- oder Plan-Ansicht: Für einen Beispielprozess listet sie die Tools, Policies und das Budget auf, die der Agent vor seinem ersten Lauf nutzen würde. Das ist der Bereitschaftsgedanke im Kleinen: Bevor etwas läuft, kann eine lesende Person sehen, was der Agent berühren darf und welche Grenzen gelten, und dann entscheiden.
 
-<!-- screenshot-slot: Agent check/plan view in the current demo for an example process, listing required tools, policies and budget before the first run -->
+![Agentenübersicht in der openagentix-Demo mit Beispieldaten: Tools, erforderliche menschliche Freigabe, Freigebende und Budgetgrenzen vor dem ersten Lauf](/images/blog/agent-platform-readiness-checklist-2.png)
+
+*Screenshot der aktuellen Demo (erfundene Daten).*
 
 ## Die Liste anwenden
 

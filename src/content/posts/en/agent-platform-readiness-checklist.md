@@ -88,7 +88,9 @@ Source: [Site Reliability Engineering, Chapter 4: Service Level Objectives](http
 
 The current demo has an agent check or plan view: for an example process it lists the tools, policies and budget the agent would use before its first run. That is the readiness idea in miniature: before anything runs, a reader can see what the agent may touch and what limits apply, and then decide.
 
-<!-- screenshot-slot: Agent check/plan view in the current demo for an example process, listing required tools, policies and budget before the first run -->
+![Agent overview in the openagentix demo with example data: tools, required human approval, approvers and budget limits before the first run](/images/blog/agent-platform-readiness-checklist-2.png)
+
+*Screenshot of the current demo (fake data).*
 
 ## Using the checklist
 

@@ -97,7 +97,9 @@ Die Abschnitte 1 bis 5 der Vorlage gehören überwiegend zum *sicheren Entwurf*;
 
 Ein Übergabegraph ist ein guter Begleiter zur Seite: Agenten als Knoten, Übergaben als Kanten mit den Namen der Verträge. In der aktuellen Demo wird ein solcher Graph für einen Beispielprozess erzeugt, und das Review stellt an ihn dieselbe Frage wie an jedes Diagramm: Entspricht er dem, was tatsächlich läuft?
 
-<!-- screenshot-slot: Handover graph of an example process in the current demo: agents as nodes, handovers as edges with contract names -->
+![Schrittverlauf eines Laufs in der openagentix-Demo mit Beispieldaten: zwei Agenten übergeben innerhalb eines Laufs, jeder Schritt passiert das Policy-Gate](/images/blog/architecture-review-for-agents-2.png)
+
+*Screenshot der aktuellen Demo (erfundene Daten).*
 
 ## Das Wichtigste in Kürze
 

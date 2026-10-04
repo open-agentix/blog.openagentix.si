@@ -77,7 +77,9 @@ That gives you cost and activity by user, model and tool. It does not tell you w
 
 In the current demo, a cost export for an invented tenant lists per-agent and per-use-case lines in a CSV preview. Such an export is the denominator of the main metric and the join key for the rest.
 
-<!-- screenshot-slot: Cost export of the current demo for an invented tenant: per-agent, per-use-case lines in CSV preview -->
+![Costs view in the openagentix demo with example data: tokens and cost per agent](/images/blog/measuring-agent-value-2.png)
+
+*Screenshot of the current demo (fake data).*
 
 ## A first dashboard
 

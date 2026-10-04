@@ -85,7 +85,9 @@ Ohne Register lässt sich die erste Audit-Frage nicht beantworten: Welche Agente
 
 Rollen funktionieren nur, wenn sie sehen, was geschieht. Ein Governance-Aufbau sollte pro Lauf Status, Kosten und die währenddessen getroffenen Richtlinienentscheidungen (erlaubt, abgelehnt, wartet auf Freigabe) sichtbar machen. Die aktuelle open-agentix-Demo zeigt eine solche Übersicht in ihrer Laufliste, mit erfundenen Beispieldaten; siehe den Screenshot-Platz unten. Jede Rolle hat dann ihre natürliche Sicht: das Plattform-Team auf Fehler und Kosten, Security auf Ablehnungen, Prozessverantwortliche auf Ergebnisse und Ausgaben, Prüfer auf offene Freigaben.
 
-<!-- screenshot-slot: Runs list of the current demo with invented tenants and agents, showing status, cost and policy decision count per run (alt: "Laufliste in der openagentix-Demo mit Beispieldaten"; capture later from demo.openagentix.si; invented example.org data only; caption as "the current demo") -->
+![Laufliste in der openagentix-Demo mit Beispieldaten: Status, Schritte, Tokens und Kosten je Lauf, dazu ein Lauf mit ausstehender Freigabe](/images/blog/agent-governance-operating-model-2.png)
+
+*Screenshot der aktuellen Demo (erfundene Daten).*
 
 Beurteilen Sie Ihren eigenen Aufbau nicht anhand eines Screenshots eines Produkts. Prüfen Sie, dass bei jedem Werkzeug ein Prüfer jeden Lauf finden kann, der auf Freigabe gewartet hat, und sieht, wer entschieden hat.
 

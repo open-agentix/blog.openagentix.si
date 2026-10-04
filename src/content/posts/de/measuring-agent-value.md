@@ -77,7 +77,9 @@ Das liefert Kosten und Aktivität nach Nutzer, Modell und Tool. Ob das Ergebnis 
 
 In der aktuellen Demo listet ein Kostenexport für einen erfundenen Mandanten Zeilen je Agent und je Anwendungsfall in einer CSV-Vorschau auf. Ein solcher Export ist der Nenner der Hauptmetrik und der Verknüpfungsschlüssel für den Rest.
 
-<!-- screenshot-slot: Cost export of the current demo for an invented tenant: per-agent, per-use-case lines in CSV preview -->
+![Kostenansicht in der openagentix-Demo mit Beispieldaten: Tokens und Kosten je Agent](/images/blog/measuring-agent-value-2.png)
+
+*Screenshot der aktuellen Demo (erfundene Daten).*
 
 ## Ein erstes Dashboard
 
