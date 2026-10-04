@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 568 212" role="img" aria-labelledby="t d" font-family="system-ui, sans-serif" font-size="14" fill="currentColor">
+<title id="t">Tool, skill and prompt compared</title>
+<desc id="d">Three columns compare a tool, a skill and a prompt by purpose, loading behaviour and who or what controls them.</desc>
+<rect x="88" y="10" width="152" height="36" rx="6" fill="currentColor" fill-opacity="0.15" stroke="currentColor" stroke-width="1.5"/>
+<text x="164.0" y="34" text-anchor="middle" font-weight="700">Tool</text>
+<rect x="88" y="56" width="152" height="42" rx="6" fill="currentColor" fill-opacity="0.08" stroke="currentColor" stroke-width="1.5"/>
+<text x="164.0" y="82" text-anchor="middle">Does an action</text>
+<rect x="88" y="106" width="152" height="42" rx="6" fill="currentColor" fill-opacity="0.08" stroke="currentColor" stroke-width="1.5"/>
+<text x="164.0" y="132" text-anchor="middle">Offered per call</text>
+<rect x="88" y="156" width="152" height="42" rx="6" fill="currentColor" fill-opacity="0.08" stroke="currentColor" stroke-width="1.5"/>
+<text x="164.0" y="182" text-anchor="middle">Policy gate</text>
+<rect x="248" y="10" width="152" height="36" rx="6" fill="currentColor" fill-opacity="0.15" stroke="currentColor" stroke-width="1.5"/>
+<text x="324.0" y="34" text-anchor="middle" font-weight="700">Skill</text>
+<rect x="248" y="56" width="152" height="42" rx="6" fill="currentColor" fill-opacity="0.08" stroke="currentColor" stroke-width="1.5"/>
+<text x="324.0" y="82" text-anchor="middle">Packages know-how</text>
+<rect x="248" y="106" width="152" height="42" rx="6" fill="currentColor" fill-opacity="0.08" stroke="currentColor" stroke-width="1.5"/>
+<text x="324.0" y="132" text-anchor="middle">Loaded on demand</text>
+<rect x="248" y="156" width="152" height="42" rx="6" fill="currentColor" fill-opacity="0.08" stroke="currentColor" stroke-width="1.5"/>
+<text x="324.0" y="182" text-anchor="middle">Provenance check</text>
+<rect x="408" y="10" width="152" height="36" rx="6" fill="currentColor" fill-opacity="0.15" stroke="currentColor" stroke-width="1.5"/>
+<text x="484.0" y="34" text-anchor="middle" font-weight="700">Prompt</text>
+<rect x="408" y="56" width="152" height="42" rx="6" fill="currentColor" fill-opacity="0.08" stroke="currentColor" stroke-width="1.5"/>
+<text x="484.0" y="82" text-anchor="middle">Standing text</text>
+<rect x="408" y="106" width="152" height="42" rx="6" fill="currentColor" fill-opacity="0.08" stroke="currentColor" stroke-width="1.5"/>
+<text x="484.0" y="132" text-anchor="middle">Always in context</text>
+<rect x="408" y="156" width="152" height="42" rx="6" fill="currentColor" fill-opacity="0.08" stroke="currentColor" stroke-width="1.5"/>
+<text x="484.0" y="182" text-anchor="middle">Owner review</text>
+<text x="10" y="82" text-anchor="start" font-weight="700">Purpose</text>
+<text x="10" y="132" text-anchor="start" font-weight="700">Loading</text>
+<text x="10" y="182" text-anchor="start" font-weight="700">Control</text>
+</svg>
