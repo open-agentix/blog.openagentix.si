@@ -1,0 +1,8 @@
+openagentix blog (blog.openagentix.si)
+Copyright 2026 The openagentix authors
+
+The blog source code is licensed under the Apache License, Version 2.0 (see LICENSE).
+The posts in src/content/posts are licensed under CC BY 4.0 (see LICENSE-content).
+
+This product bundles the Geist and Geist Mono fonts (src/assets/fonts), Copyright 2024 The Geist
+Project Authors, licensed under the SIL Open Font License 1.1 (src/assets/fonts/OFL-Geist.txt).
