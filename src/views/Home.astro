@@ -1,0 +1,55 @@
+---
+import Base from '../layouts/Base.astro';
+import PostCard from '../components/PostCard.astro';
+import Icon from '../components/Icon.astro';
+import { postsIn } from '../content-api';
+import type { Locale } from '../i18n/config';
+import { paths } from '../i18n/paths';
+import { getDictionary } from '../i18n/ui';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const t = getDictionary(locale);
+const posts = await postsIn(locale);
+---
+
+<Base
+  locale={locale}
+  title={t.homeTitle}
+  description={t.homeDescription}
+  path={paths.home(locale)}
+  langUrls={{ en: paths.home('en'), de: paths.home('de') }}
+  detectLanguage
+>
+  <div class="container">
+    <div class="page-head">
+      <h1>{t.homeTitle}</h1>
+      <p>{t.homeIntro}</p>
+      <p class="subscribe">
+        <a href={paths.atom(locale)}><Icon name="rss" size={16} /> {t.feeds.label}: {t.feeds.atom}</a>
+        ·
+        <a href={paths.rss(locale)}>{t.feeds.rss}</a>
+      </p>
+    </div>
+    <section class="list-section">
+      <ul class="post-list">
+        {posts.map((post) => <PostCard post={post} locale={locale} />)}
+      </ul>
+    </section>
+  </div>
+</Base>
+
+<style>
+  .subscribe {
+    font-size: 0.95rem;
+  }
+
+  .subscribe a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+</style>

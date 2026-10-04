@@ -1,0 +1,86 @@
+/* Design tokens, shared with the openagentix website so the blog looks like the same brand. Dark is the primary design. */
+:root {
+  --font-sans: 'Geist Variable', 'Geist Fallback', ui-sans-serif, system-ui, -apple-system, 'Segoe UI',
+    Roboto, sans-serif;
+  --font-mono: 'Geist Mono Variable', ui-monospace, 'SFMono-Regular', 'Cascadia Code', 'JetBrains Mono', Menlo, Consolas,
+    monospace;
+
+  --violet: #8b5cf6;
+  --indigo: #6366f1;
+  --cyan: #22d3ee;
+  --green: #34d399;
+  --amber: #fbbf24;
+  --rose: #fb7185;
+
+  --radius-s: 0.5rem;
+  --radius-m: 0.875rem;
+  --radius-l: 1.5rem;
+  --radius-xl: 2rem;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+
+  --container: 76rem;
+  --gutter: clamp(1.25rem, 4vw, 2.5rem);
+  --header-h: 4rem;
+
+  color-scheme: dark;
+  --bg: #06070c;
+  --bg-soft: #0b0d15;
+  --surface: #11141f;
+  --surface-2: #171b29;
+  --border: rgb(255 255 255 / 0.09);
+  --border-strong: rgb(255 255 255 / 0.18);
+  --text: #f2f3f8;
+  --text-muted: #a6acc0;
+  --text-faint: #7d849b;
+  --accent: #a78bfa;
+  --accent-strong: #8b5cf6;
+  --accent-contrast: #0b0614;
+  --link: #c4b5fd;
+  --ok: #34d399;
+  --warn: #fbbf24;
+  --danger: #fb7185;
+  --glow-a: rgb(139 92 246 / 0.35);
+  --glow-b: rgb(34 211 238 / 0.22);
+  --grid-line: rgb(255 255 255 / 0.04);
+  --shadow-l: 0 30px 80px -20px rgb(0 0 0 / 0.7), 0 0 0 1px var(--border);
+  --gradient-text: linear-gradient(100deg, #ffffff 10%, #c4b5fd 45%, #67e8f9 90%);
+  --gradient-accent: linear-gradient(110deg, #8b5cf6, #6366f1 45%, #22d3ee);
+  --focus: #67e8f9;
+  --brand-blue: #60a5fa;
+  --brand-muted-purple: #a79bd0;
+  --code-bg: #0d1017;
+  --code-inline-bg: rgb(255 255 255 / 0.08);
+}
+
+:root[data-theme='light'] {
+  color-scheme: light;
+  --bg: #fbfbfe;
+  --bg-soft: #f3f4fa;
+  --surface: #ffffff;
+  --surface-2: #f0f1f8;
+  --border: rgb(15 18 35 / 0.1);
+  --border-strong: rgb(15 18 35 / 0.2);
+  --text: #0b0d17;
+  --text-muted: #474d63;
+  --text-faint: #5f667e;
+  --accent: #6d28d9;
+  --accent-strong: #5b21b6;
+  --accent-contrast: #ffffff;
+  --link: #5b21b6;
+  --ok: #047857;
+  --warn: #92400e;
+  --danger: #be123c;
+  --glow-a: rgb(139 92 246 / 0.18);
+  --glow-b: rgb(34 211 238 / 0.16);
+  --grid-line: rgb(15 18 35 / 0.05);
+  --shadow-l: 0 30px 70px -25px rgb(30 27 75 / 0.28), 0 0 0 1px var(--border);
+  --gradient-text: linear-gradient(100deg, #0b0d17 10%, #5b21b6 50%, #0e7490 95%);
+  --gradient-accent: linear-gradient(110deg, #7c3aed, #4f46e5 45%, #0891b2);
+  --focus: #0e7490;
+  --brand-blue: #1d4ed8;
+  --brand-muted-purple: #6b5aa6;
+  --code-bg: #f3f4fa;
+  --code-inline-bg: rgb(15 18 35 / 0.07);
+}

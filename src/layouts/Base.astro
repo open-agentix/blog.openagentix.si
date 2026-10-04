@@ -1,0 +1,133 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import fontLatin from '../assets/fonts/geist-latin-wght-normal.woff2?url';
+import { defaultLocale, localeInfo, locales, type Locale } from '../i18n/config';
+import { absolute, paths } from '../i18n/paths';
+import { getDictionary } from '../i18n/ui';
+import { SITE_URL } from '../project';
+
+interface Props {
+  locale: Locale;
+  title: string;
+  description: string;
+  /** Root-relative canonical path of this page. */
+  path: string;
+  /** Per-locale URL of this page (or of the closest equivalent) for the language switch and hreflang. */
+  langUrls: Partial<Record<Locale, string>>;
+  type?: 'website' | 'article';
+  published?: Date;
+  modified?: Date;
+  tags?: string[];
+  author?: string;
+  /** The home page and the tag index follow the browser language once per session. */
+  detectLanguage?: boolean;
+  /** Pages that should not be indexed (404). */
+  noindex?: boolean;
+}
+
+const {
+  locale,
+  title,
+  description,
+  path,
+  langUrls,
+  type = 'website',
+  published,
+  modified,
+  tags = [],
+  author,
+  detectLanguage = false,
+  noindex = false,
+} = Astro.props;
+const t = getDictionary(locale);
+const site = Astro.site ?? new URL(SITE_URL);
+const canonical = absolute(path, site);
+const fullTitle = path === paths.home(locale) ? `${t.blogName}` : `${title} | ${t.blogName}`;
+const ogImage = absolute('/og.png', site);
+const alternates = locales.flatMap((l) => (langUrls[l] ? [{ locale: l, href: absolute(langUrls[l], site) }] : []));
+const xDefault = langUrls[defaultLocale] ? absolute(langUrls[defaultLocale], site) : undefined;
+
+const jsonLd =
+  type === 'article'
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'BlogPosting',
+        headline: title,
+        description,
+        inLanguage: localeInfo[locale].bcp47,
+        mainEntityOfPage: canonical,
+        datePublished: published?.toISOString(),
+        dateModified: (modified ?? published)?.toISOString(),
+        keywords: tags.join(', '),
+        author: { '@type': 'Person', name: author },
+        publisher: { '@type': 'Organization', name: 'openagentix', url: 'https://openagentix.si/' },
+        image: ogImage,
+      }
+    : undefined;
+---
+
+<!doctype html>
+<html lang={localeInfo[locale].bcp47} dir="ltr" data-theme="dark" data-detect-language={detectLanguage ? 'true' : undefined}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    {noindex ? <meta name="robots" content="noindex" /> : <link rel="canonical" href={canonical} />}
+    {!noindex && alternates.length > 1 && alternates.map((a) => <link rel="alternate" hreflang={localeInfo[a.locale].bcp47} href={a.href} />)}
+    {!noindex && alternates.length > 1 && xDefault && <link rel="alternate" hreflang="x-default" href={xDefault} />}
+    {locales.map((l) => (
+      <link rel="alternate" type="application/atom+xml" hreflang={localeInfo[l].bcp47} title={`${getDictionary(l).blogName} (${localeInfo[l].nativeName})`} href={paths.atom(l)} />
+    ))}
+    <meta property="og:type" content={type} />
+    <meta property="og:site_name" content={t.blogName} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content={localeInfo[locale].ogLocale} />
+    {alternates.filter((a) => a.locale !== locale).map((a) => <meta property="og:locale:alternate" content={localeInfo[a.locale].ogLocale} />)}
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={t.blogName} />
+    {type === 'article' && published && <meta property="article:published_time" content={published.toISOString()} />}
+    {type === 'article' && modified && <meta property="article:modified_time" content={modified.toISOString()} />}
+    {type === 'article' && author && <meta property="article:author" content={author} />}
+    {type === 'article' && tags.map((tag) => <meta property="article:tag" content={tag} />)}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#06070c" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#fbfbfe" media="(prefers-color-scheme: light)" />
+    <meta name="color-scheme" content="dark light" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="sitemap" href="/sitemap.xml" />
+    <link rel="preload" href={fontLatin} as="font" type="font/woff2" crossorigin />
+    <script is:inline>
+      // Apply the stored or system colour theme before first paint.
+      (function () {
+        var t = null;
+        try { t = localStorage.getItem('oax-blog-theme'); } catch (e) {}
+        if (t !== 'light' && t !== 'dark') {
+          t = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        }
+        document.documentElement.dataset.theme = t;
+      })();
+    </script>
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd).replace(/</g, '\\u003c')} />}
+  </head>
+  <body>
+    <a class="skip-link" href="#main">{t.skipToContent}</a>
+    <Header locale={locale} langUrls={langUrls} />
+    <main id="main" tabindex="-1">
+      <slot />
+    </main>
+    <Footer locale={locale} />
+    <script>
+      import { runLanguageRedirect } from '../scripts/lang-redirect';
+      import { initSite } from '../scripts/site-init';
+      if (document.documentElement.dataset.detectLanguage === 'true') runLanguageRedirect(window);
+      initSite(document, window);
+    </script>
+  </body>
+</html>

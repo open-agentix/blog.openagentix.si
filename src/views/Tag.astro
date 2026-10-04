@@ -1,0 +1,45 @@
+---
+import Base from '../layouts/Base.astro';
+import PostCard from '../components/PostCard.astro';
+import { allPosts } from '../content-api';
+import { locales, type Locale } from '../i18n/config';
+import { paths } from '../i18n/paths';
+import { format, getDictionary } from '../i18n/ui';
+import { postsForLocale, postsWithTag, tagCounts } from '../lib/posts';
+
+interface Props {
+  locale: Locale;
+  tag: string;
+}
+
+const { locale, tag } = Astro.props;
+const t = getDictionary(locale);
+const all = await allPosts();
+const posts = postsWithTag(postsForLocale(all, locale), tag);
+const label = tagCounts(posts).find((c) => c.slug === tag)?.label ?? tag;
+// The same tag in another language when it exists there, otherwise the tag index of that language.
+const langUrls: Partial<Record<Locale, string>> = {};
+for (const l of locales) {
+  langUrls[l] = postsWithTag(postsForLocale(all, l), tag).length > 0 ? paths.tag(l, tag) : paths.tags(l);
+}
+---
+
+<Base
+  locale={locale}
+  title={format(t.tags.heading, { tag: label })}
+  description={`${format(t.tags.heading, { tag: label })}: ${format(posts.length === 1 ? t.tags.countOne : t.tags.count, { count: posts.length })}.`}
+  path={paths.tag(locale, tag)}
+  langUrls={langUrls}
+>
+  <div class="container">
+    <div class="page-head">
+      <h1>{format(t.tags.heading, { tag: label })}</h1>
+      <p><a href={paths.tags(locale)}>{t.tags.all}</a></p>
+    </div>
+    <section class="list-section">
+      <ul class="post-list">
+        {posts.map((post) => <PostCard post={post} locale={locale} />)}
+      </ul>
+    </section>
+  </div>
+</Base>
