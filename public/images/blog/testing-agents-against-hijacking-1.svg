@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="t d" fill="none" font-family="system-ui, sans-serif" color="currentColor">
+<title id="t">Structure of a hijacking test case</title>
+<desc id="d">A test case combines a user task with an injected task hidden in tool data. After the agent run, two checks decide: was the user task done, and was the injected task not executed.</desc>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor"/></marker></defs>
+<g fill="currentColor">
+<rect x="10" y="10" width="210" height="60" rx="6" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-width="1.5"/>
+<text x="115.0" y="36.2" text-anchor="middle" font-size="15" font-weight="700">User task</text>
+<text x="115.0" y="54.2" text-anchor="middle" font-size="15">legitimate goal</text>
+<rect x="260" y="10" width="210" height="60" rx="6" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="365.0" y="36.2" text-anchor="middle" font-size="15" font-weight="700">Injected task</text>
+<text x="365.0" y="54.2" text-anchor="middle" font-size="15">hidden in tool data</text>
+<line x1="115" y1="70" x2="115" y2="110" stroke="currentColor" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="365" y1="70" x2="240" y2="110" stroke="currentColor" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="110" y="110" width="260" height="50" rx="6" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-width="1.5"/>
+<text x="240.0" y="131.2" text-anchor="middle" font-size="15" font-weight="700">Agent run</text>
+<text x="240.0" y="149.2" text-anchor="middle" font-size="15">with the real tools</text>
+<line x1="240" y1="160" x2="120" y2="200" stroke="currentColor" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="240" y1="160" x2="360" y2="200" stroke="currentColor" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="10" y="200" width="220" height="70" rx="6" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-width="1.5"/>
+<text x="120.0" y="231.2" text-anchor="middle" font-size="15" font-weight="700">Check 1</text>
+<text x="120.0" y="249.2" text-anchor="middle" font-size="15">user task done?</text>
+<rect x="250" y="200" width="220" height="70" rx="6" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-width="1.5"/>
+<text x="360.0" y="231.2" text-anchor="middle" font-size="15" font-weight="700">Check 2</text>
+<text x="360.0" y="249.2" text-anchor="middle" font-size="15">injection NOT executed?</text>
+<text x="240" y="306" text-anchor="middle" font-size="15">Pass only if both checks hold.</text>
+</g>
+</svg>
