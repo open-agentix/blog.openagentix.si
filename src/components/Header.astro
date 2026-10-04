@@ -25,7 +25,7 @@ const links = projectLinks(locale);
     <a class="brand" href={home} aria-label={t.blogName}>
       <span class="mark" set:html={logo} />
       <span class="word" aria-hidden="true">
-        <span class="name">open<span class="blue">agentix</span></span>
+        <span class="name">open<span class="blue">agentix</span><span class="dot" aria-hidden="true">.</span></span>
         <span class="sub">{t.superIntelligence}</span>
       </span>
     </a>
@@ -99,6 +99,11 @@ const links = projectLinks(locale);
 
   .blue {
     color: var(--brand-blue);
+  }
+
+  /* Decorative full stop after the name: same box as the wordmark, purple like the tagline. */
+  .dot {
+    color: var(--brand-muted-purple);
   }
 
   /* Understated line under the name: small, muted purple, never louder than the navigation. */
