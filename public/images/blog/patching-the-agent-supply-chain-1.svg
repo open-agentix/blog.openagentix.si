@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 276" role="img" aria-labelledby="t d"><title id="t">Inventory of agent platform artefacts and their update channels</title><desc id="d">A table with columns artefact, pinned version, update channel and owner, and rows for model, MCP server, skill, SDK and container image.</desc>
+<g font-family="system-ui,sans-serif" stroke="currentColor" stroke-width="1.5" fill="none" font-size="13">
+<rect x="10" y="10" width="460" height="256" rx="8"/>
+<line x1="10" y1="52" x2="470" y2="52"/>
+<line x1="10" y1="94" x2="470" y2="94"/>
+<line x1="10" y1="136" x2="470" y2="136"/>
+<line x1="10" y1="178" x2="470" y2="178"/>
+<line x1="10" y1="220" x2="470" y2="220"/>
+<line x1="120" y1="10" x2="120" y2="266"/>
+<line x1="240" y1="10" x2="240" y2="266"/>
+<line x1="370" y1="10" x2="370" y2="266"/>
+<g stroke="none"><text fill="currentColor" x="20" y="36" font-weight="700">Artefact</text><text fill="currentColor" x="130" y="36" font-weight="700">Pinned to</text><text fill="currentColor" x="250" y="36" font-weight="700">Update channel</text><text fill="currentColor" x="380" y="36" font-weight="700">Owner</text>
+<text fill="currentColor" x="20" y="78">Model</text><text fill="currentColor" x="130" y="78">dated id</text><text fill="currentColor" x="250" y="78">provider notice</text><text fill="currentColor" x="380" y="78">platform</text>
+<text fill="currentColor" x="20" y="120">MCP server</text><text fill="currentColor" x="130" y="120">version/digest</text><text fill="currentColor" x="250" y="120">reviewed release</text><text fill="currentColor" x="380" y="120">tool owner</text>
+<text fill="currentColor" x="20" y="162">Skill</text><text fill="currentColor" x="130" y="162">commit hash</text><text fill="currentColor" x="250" y="162">pull request</text><text fill="currentColor" x="380" y="162">skill owner</text>
+<text fill="currentColor" x="20" y="204">SDK</text><text fill="currentColor" x="130" y="204">lockfile</text><text fill="currentColor" x="250" y="204">dependency bot</text><text fill="currentColor" x="380" y="204">platform</text>
+<text fill="currentColor" x="20" y="246">Image</text><text fill="currentColor" x="130" y="246">digest</text><text fill="currentColor" x="250" y="246">rebuild + scan</text><text fill="currentColor" x="380" y="246">platform</text>
+</g></g></svg>
