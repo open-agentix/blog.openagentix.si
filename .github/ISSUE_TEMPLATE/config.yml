@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Questions and discussion
+    url: https://github.com/open-agentix/blog.openagentix.si/discussions
+    about: Ask questions and share ideas in GitHub Discussions.
   - name: Platform bugs and feature requests
     url: https://github.com/open-agentix/open-agentix/issues
     about: Issues with openagentix itself belong to the platform repository.

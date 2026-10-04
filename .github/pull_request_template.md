@@ -10,6 +10,6 @@
 - [ ] `pnpm check`, `pnpm build` and `pnpm test:dist` pass (no third-party requests, no broken links, budget kept)
 - [ ] Posts exist in English and German with the same `ref`; claims match what the platform implements
       (planned features are marked as planned)
-- [ ] No personal data (names, addresses, private e-mail addresses); contact is github@openagentix.si only
+- [ ] No personal data (names, addresses, private e-mail addresses); contact is info@openagentix.si only
 - [ ] Accessible: keyboard, focus, contrast, reduced motion
 - [ ] Screenshots attached for visual changes (light and dark)

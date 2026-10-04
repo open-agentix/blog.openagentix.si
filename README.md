@@ -112,7 +112,9 @@ source to GitHub Actions in the settings page instead.
 ## Security and privacy
 
 The blog collects nothing and has no imprint or privacy page for that reason. See
-[SECURITY.md](SECURITY.md) to report a problem. Contact: github@openagentix.si.
+[SECURITY.md](SECURITY.md) to report a problem. Questions and discussion:
+[GitHub Discussions](https://github.com/open-agentix/blog.openagentix.si/discussions) and
+[Issues](https://github.com/open-agentix/blog.openagentix.si/issues); e-mail: info@openagentix.si.
 
 ## Contributing
 
