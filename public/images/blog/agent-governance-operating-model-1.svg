@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="t d" fill="none" font-family="system-ui, sans-serif" color="currentColor">
+<title id="t">RACI matrix for agent governance roles</title>
+<desc id="d">Rows are five governance activities, columns are the roles platform, security, process owner and reviewer. Each cell shows R for responsible, A for accountable, C for consulted, I for informed, or is empty.</desc>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor"/></marker></defs>
+<g fill="currentColor">
+<text x="10" y="28" text-anchor="start" font-size="14" font-weight="700">Activity</text>
+<text x="225.0" y="28" text-anchor="middle" font-size="14" font-weight="700">Platform</text>
+<text x="295.0" y="28" text-anchor="middle" font-size="14" font-weight="700">Security</text>
+<text x="365.0" y="28" text-anchor="middle" font-size="14" font-weight="700">Owner</text>
+<text x="435.0" y="28" text-anchor="middle" font-size="14" font-weight="700">Reviewer</text>
+<line x1="10" y1="38" x2="470" y2="38" stroke="currentColor" stroke-width="1"/>
+<text x="10" y="70" text-anchor="start" font-size="14">Register agent</text>
+<text x="225.0" y="70" text-anchor="middle" font-size="17" font-weight="700">R</text>
+<text x="295.0" y="70" text-anchor="middle" font-size="17">C</text>
+<text x="365.0" y="70" text-anchor="middle" font-size="17" font-weight="700">A</text>
+<text x="435.0" y="70" text-anchor="middle" font-size="17">I</text>
+<line x1="10" y1="84" x2="470" y2="84" stroke="currentColor" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="10" y="120" text-anchor="start" font-size="14">Change policy</text>
+<text x="225.0" y="120" text-anchor="middle" font-size="17">C</text>
+<text x="295.0" y="120" text-anchor="middle" font-size="17" font-weight="700">A</text>
+<text x="365.0" y="120" text-anchor="middle" font-size="17">C</text>
+<text x="435.0" y="120" text-anchor="middle" font-size="17">I</text>
+<line x1="10" y1="134" x2="470" y2="134" stroke="currentColor" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="10" y="170" text-anchor="start" font-size="14">Approve high-risk</text>
+<text x="10" y="186" text-anchor="start" font-size="14">action</text>
+<text x="225.0" y="170" text-anchor="middle" font-size="17">I</text>
+<text x="295.0" y="170" text-anchor="middle" font-size="17">C</text>
+<text x="365.0" y="170" text-anchor="middle" font-size="17">C</text>
+<text x="435.0" y="170" text-anchor="middle" font-size="17" font-weight="700">A</text>
+<line x1="10" y1="194" x2="470" y2="194" stroke="currentColor" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="10" y="220" text-anchor="start" font-size="14">Set budget</text>
+<text x="225.0" y="220" text-anchor="middle" font-size="17" font-weight="700">R</text>
+<text x="295.0" y="220" text-anchor="middle" font-size="17">I</text>
+<text x="365.0" y="220" text-anchor="middle" font-size="17" font-weight="700">A</text>
+<text x="435.0" y="220" text-anchor="middle" font-size="17">I</text>
+<line x1="10" y1="234" x2="470" y2="234" stroke="currentColor" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="10" y="270" text-anchor="start" font-size="14">Review audit</text>
+<text x="225.0" y="270" text-anchor="middle" font-size="17">C</text>
+<text x="295.0" y="270" text-anchor="middle" font-size="17" font-weight="700">R</text>
+<text x="365.0" y="270" text-anchor="middle" font-size="17">I</text>
+<text x="435.0" y="270" text-anchor="middle" font-size="17" font-weight="700">A</text>
+<line x1="10" y1="284" x2="470" y2="284" stroke="currentColor" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="10" y="328" text-anchor="start" font-size="13">R responsible, A accountable, C consulted, I informed</text>
+</g>
+</svg>
