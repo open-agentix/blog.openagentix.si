@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="t d"><title id="t">Deterministic rules first, a classifier only for fuzzy inputs, a person for what stays uncertain</title><desc id="d">A proposed tool call is first checked against the autonomy level of the agent and environment, then by deterministic rules that allow or deny. Only allowed calls with fuzzy content go to a classifier, which can add approval or block but never allow. Uncertain cases go to a person.</desc><style>svg{color:#1f2937}</style><rect class="oax-bg" x="0" y="0" width="480" height="330" rx="8" fill="#ffffff"/>
+<defs><marker id="m" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor"/></marker></defs>
+<g font-family="system-ui,sans-serif" font-size="13" stroke="currentColor" stroke-width="2" fill="none">
+<rect x="20" y="10" width="200" height="44" rx="8"/><text fill="currentColor" stroke="none" x="120" y="37" text-anchor="middle" font-weight="700">Proposed tool call</text>
+<line x1="120" y1="54" x2="120" y2="74" marker-end="url(#m)"/>
+<rect x="20" y="76" width="200" height="50" rx="8"/><text fill="currentColor" stroke="none" x="120" y="97" text-anchor="middle" font-weight="700">Autonomy level</text><text fill="currentColor" stroke="none" x="120" y="115" text-anchor="middle" font-size="12">agent + environment</text>
+<line x1="120" y1="126" x2="120" y2="146" marker-end="url(#m)"/>
+<rect x="20" y="148" width="200" height="50" rx="8" stroke="#6d28d9"/><text fill="#6d28d9" stroke="none" x="120" y="169" text-anchor="middle" font-weight="700">Deterministic rules</text><text fill="#6d28d9" stroke="none" x="120" y="187" text-anchor="middle" font-size="12">tool, args, identity</text>
+<line x1="220" y1="173" x2="318" y2="173" stroke="#be123c" marker-end="url(#m)"/><rect x="320" y="150" width="140" height="46" rx="8" stroke="#be123c"/><text fill="#be123c" stroke="none" x="390" y="178" text-anchor="middle">Deny</text>
+<line x1="120" y1="198" x2="120" y2="218" marker-end="url(#m)"/>
+<rect x="20" y="220" width="200" height="50" rx="8"/><text fill="currentColor" stroke="none" x="120" y="241" text-anchor="middle" font-weight="700">Classifier (fuzzy only)</text><text fill="currentColor" stroke="none" x="120" y="259" text-anchor="middle" font-size="12">may only be stricter</text>
+<line x1="220" y1="245" x2="318" y2="245" marker-end="url(#m)"/><rect x="320" y="222" width="140" height="46" rx="8"/><text fill="currentColor" stroke="none" x="390" y="250" text-anchor="middle">Person decides</text>
+<line x1="120" y1="270" x2="120" y2="282" marker-end="url(#m)"/>
+<rect x="20" y="284" width="200" height="36" rx="8"/><text fill="currentColor" stroke="none" x="120" y="307" text-anchor="middle">Allow + audit</text>
+<text fill="currentColor" stroke="none" x="250" y="40" font-size="12">Errors and timeouts</text><text fill="currentColor" stroke="none" x="250" y="58" font-size="12">fail closed (ask a person).</text>
+</g></svg>
