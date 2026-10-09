@@ -7,7 +7,7 @@
   "type": "module",
   "packageManager": "pnpm@12.8.1",
   "engines": {
-    "node": ">=20.19.0"
+    "node": ">=22.12.0"
   },
   "scripts": {
     "dev": "astro dev",
@@ -20,7 +20,7 @@
     "lhci": "lhci autorun"
   },
   "dependencies": {
-    "astro": "5.18.2"
+    "astro": "7.2.8"
   },
   "devDependencies": {
     "@astrojs/check": "0.9.10",
