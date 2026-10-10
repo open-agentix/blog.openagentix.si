@@ -3,7 +3,7 @@ ref: classifier-models-and-autonomy-levels
 lang: de
 title: "Macht ein Classifier-Modell immer Sinn? Entscheiden, was ein Agent darf"
 description: "Classifier-Modelle können Anfragen routen und Agentenaktionen bewerten, kosten aber Geld und irren sich. Wann Regeln besser sind, wann ein Classifier hilft und wie Autonomiestufen passen."
-date: 2026-10-09T12:00:00Z
+date: 2026-10-22T07:00:00+02:00
 tags: [governance, security, architecture]
 ---
 

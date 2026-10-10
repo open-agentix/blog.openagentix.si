@@ -3,7 +3,7 @@ ref: classifier-models-and-autonomy-levels
 lang: en
 title: "Does a classifier model always make sense? Deciding what an agent may do"
 description: "Classifier models can route requests and judge agent actions, but they cost money and make mistakes. When rules are better, when a classifier helps, and how autonomy levels fit."
-date: 2026-10-09T12:00:00Z
+date: 2026-10-22T07:00:00+02:00
 tags: [governance, security, architecture]
 ---
 

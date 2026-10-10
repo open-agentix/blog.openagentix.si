@@ -3,7 +3,7 @@ ref: model-drift-in-agents
 lang: en
 title: "Detecting and handling model drift in agents"
 description: "Agents change behaviour when models, prompts, tools or inputs change. How to notice it with golden runs and run metrics, and how to contain it with pinning, canaries and rollback."
-date: 2026-10-09T11:00:00Z
+date: 2026-10-20T07:00:00+02:00
 tags: [evaluation, operations, reliability]
 ---
 

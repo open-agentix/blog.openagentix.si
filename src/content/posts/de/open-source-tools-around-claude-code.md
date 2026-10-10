@@ -3,7 +3,7 @@ ref: open-source-tools-around-claude-code
 lang: de
 title: "Fünf offene Werkzeuge rund um Claude Code: Alternativen, Begleiter und was sie wirklich sind"
 description: "OpenCode, OpenRouter, Open WebUI, openagentix und Ollama ehrlich eingeordnet: Harness, Router, Chat-Oberfläche, Plattform oder Laufzeit. Wo sie passen und wie sie zusammenspielen."
-date: 2026-10-09T09:00:00Z
+date: 2026-10-13T07:00:00+02:00
 tags: [harness, comparison, self-hosted, open-source]
 ---
 
