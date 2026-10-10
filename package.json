@@ -17,7 +17,8 @@
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
     "test:dist": "vitest run --config vitest.dist.config.ts",
-    "lhci": "lhci autorun"
+    "lhci": "lhci autorun",
+    "verify": "astro check && vitest run && astro build && vitest run --config vitest.dist.config.ts"
   },
   "dependencies": {
     "astro": "7.2.8"
