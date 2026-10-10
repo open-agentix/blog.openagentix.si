@@ -45,7 +45,7 @@ Schichten.
 OpenCode ist ein quelloffener Coding-Agent für das Terminal unter MIT-Lizenz. Es ist das einzige Werkzeug
 in dieser Liste, das dieselbe Aufgabe erfüllt wie Claude Code: das Repository lesen, planen, Dateien
 ändern, Befehle ausführen und nach Regeln um Erlaubnis fragen. Einen Vergleich der beiden bei den
-Steuerungsmöglichkeiten finden Sie in [Claude Code vs OpenCode](/de/posts/claude-code-vs-opencode/).
+Governance-Kontrollen finden Sie in [Claude Code vs OpenCode](/de/posts/claude-code-vs-opencode/).
 
 **Stärke:** die Wahl des Anbieters. OpenCode ist darauf ausgelegt, mit vielen Modellanbietern zu
 arbeiten, auch mit lokalen Modellen hinter einem OpenAI-kompatiblen Endpunkt. Damit ist es die naheliegende
@@ -74,8 +74,8 @@ Ausweichoptionen beschreibt die [Anleitung zur Anbieterauswahl](https://openrout
 durch den Router und durch den Modellanbieter, die Datenschutzprüfung umfasst also zwei Unternehmen statt
 eines. Routing kann außerdem bedeuten, dass derselbe Modellname von verschiedenen Anbietern im Hintergrund
 bedient wird; das zählt, wenn Sie ein Ergebnis reproduzieren wollen. Wenn Sie routen, legen Sie die
-Anbieterwahl fest, auf die Sie sich verlassen, und protokollieren Sie sie je Lauf. Die Schlüsselseite
-behandelt [BYOK erklärt](/de/posts/byok-explained/).
+Anbieterwahl fest, auf die Sie sich verlassen, und protokollieren Sie sie je Lauf. Die Schlüsselseite dieser Frage
+behandelt der Beitrag [BYOK erklärt](/de/posts/byok-explained/).
 
 ## Open WebUI: eine Chat-Oberfläche (mit lesenswerter Lizenz)
 
@@ -98,7 +98,7 @@ Schutzklausel für das Branding. Ob das noch „Open Source“ im Sinne der OSI-
 diskutiert; lesen Sie die Lizenz selbst, bevor Sie umbenennen oder weiterverteilen.
 
 **Stärke:** einem Team ein privates Chat-Frontend für lokale oder gehostete Modelle geben, ohne eines zu
-bauen. **Schwäche:** als Ersatz für Claude Code. Chat mit Tools ist nicht dasselbe wie ein Agent, der
+bauen. **Schwäche:** der Einsatz als Ersatz für Claude Code. Chat mit Tools ist nicht dasselbe wie ein Agent, der
 Tests ausführt und Dateien unter Berechtigungsregeln ändert.
 
 ## Ollama: eine lokale Modell-Laufzeit
@@ -125,7 +125,7 @@ Policy-Schranke prüft jeden Tool-Aufruf, bevor er läuft. Läufe landen in eine
 Tokens und Kosten werden je Schritt erfasst, und Budgets stoppen einen Lauf.
 
 Zum Verhältnis zu den anderen vier: Die Plattform kann einen Schritt über Claude Code als externen Harness
-hinter der Policy-Schranke ausführen (auf `main`, erscheint mit 0.2, im direkten Modus mit einem echten
+hinter der Policy-Schranke ausführen (auf `main`, kommt mit 0.2, im direkten Modus mit einem echten
 Lauf geprüft). Ein OpenCode-Adapter ist implementiert und gegen ein nachgebildetes Kommandozeilenwerkzeug
 getestet; die Prüfung mit einem echten Lauf steht noch aus, ebenso die Prüfung beider Harnesses in
 isolierten Run-Nodes mit festgelegten Binärdateien. Modelle können von Anthropic, Bedrock, OpenAI, Azure
