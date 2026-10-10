@@ -72,7 +72,7 @@ kann sie nicht freigeben.
 
 ## Wann ein Classifier hilft
 
-Ein Classifier ist seine Kosten dort wert, wo die Entscheidung von Bedeutung abhängt, die Regeln nicht
+Ein Classifier ist seine Kosten dort wert, wo die Entscheidung vom Sinn eines Inhalts abhängt, den Regeln nicht
 erfassen:
 
 - **Sensibilität von Inhalten.** Enthält dieses Freitextdokument personenbezogene Daten oder
@@ -83,8 +83,8 @@ erfassen:
 - **Aufwandsschätzung für das Modell-Routing.** Je Schritt ein kleineres oder größeres Modell wählen.
   openagentix hat Modell-Routing je Schritt (nach Klassifizierung, Kosten und Latenz) als geplante Arbeit
   auf der Roadmap (W4-5); heute wird das Modell je Schritt in `agents.md` festgelegt.
-- **Eine zweite Meinung zu Aktionen, die Regeln schon erlauben.** Ein Classifier, der einem regelbasierten
-  „erlaubt“ nur „einen Menschen fragen“ oder „blockieren“ hinzufügen kann, aber nie ein „verboten“ in ein
+- **Eine zweite Meinung zu Aktionen, die Regeln schon erlauben.** Ein Classifier, der zu einem regelbasierten
+  „erlaubt“ nur „einen Menschen fragen“ oder „blockieren“ hinzufügen kann und ein „verboten“ nie in ein
   „erlaubt“ verwandelt.
 
 Der letzte Punkt macht einen Classifier sicher genug zum Einbauen: **Er darf Entscheidungen verschärfen,
@@ -95,7 +95,7 @@ der Entscheidungen nur verschärfen kann.
 
 Gehen Sie davon aus, dass der Classifier sich irrt, und planen Sie dafür:
 
-- **Im Zweifel geschlossen.** Läuft der Classifier in einen Timeout, scheitert er oder meldet er geringe
+- **Im Zweifel sperren (fail closed).** Läuft der Classifier in einen Timeout, scheitert er oder meldet er geringe
   Sicherheit, braucht die Aktion eine Freigabe; sie gilt nicht als erlaubt.
 - **Jede Entscheidung protokollieren** mit Zusammenfassung der Eingabe, Ergebnis, Modellversion und
   Konfidenz, damit Sie später Stichproben ziehen und prüfen können.
@@ -133,16 +133,16 @@ Ein tragfähiges Muster verbindet beide Ebenen:
 | Unscharfer Inhalt | Ob Eingabe oder Aktion besondere Vorsicht brauchen | Classifier, nur verschärfend |
 | Verbleibende Unsicherheit | Ja oder nein | Ein Mensch, mit Kontext |
 
-Heben Sie die Stufe eines Agenten mit Belegen an, nicht mit Zuversicht: nach einer Zeit von Läufen auf der
+Heben Sie die Stufe eines Agenten mit Belegen an, nicht mit Zuversicht: nach einer Phase mit Läufen auf der
 niedrigeren Stufe und mit einem Audit-Trail, der zeigt, was er getan hat.
 
 ## Macht er immer Sinn? Ein kurzer Test
 
 Bauen Sie einen Classifier ein, wenn alle diese Punkte zutreffen:
 
-1. Die Entscheidung hängt von Bedeutung in unstrukturierter Eingabe ab, nicht von strukturierten Fakten.
+1. Die Entscheidung hängt vom Sinn unstrukturierter Eingaben ab, nicht von strukturierten Fakten.
 2. Sie können die Kosten jeder Fehlerart benennen und die verbleibende Quote akzeptieren.
-3. Er kann Entscheidungen nur verschärfen und schließt im Zweifel.
+3. Er kann Entscheidungen nur verschärfen und sperrt im Zweifel (fail closed).
 4. Sie haben einen Evaluationssatz für ihn und wiederholen ihn, wenn sich sein Modell ändert.
 
 Trifft einer davon nicht zu, nehmen Sie lieber eine Regel, ein enger gefasstes Tool, eine niedrigere
@@ -155,7 +155,7 @@ Autonomiestufe oder einen Menschen.
 - Nutzen Sie deterministische Regeln für strukturierte Fakten: Tool, Argumente, Identität, Umgebung,
   Klassifizierung.
 - Nutzen Sie Classifier für unscharfe Eingaben und nur, um Entscheidungen zu verschärfen; im Zweifel
-  geschlossen.
+  sperren (fail closed).
 - Messen Sie Falsch-Negative und Falsch-Positive; zu viele Eskalationen entwerten die menschliche Prüfung.
 - Legen Sie die Autonomie je Agent und Umgebung vorab fest (AWP-Risikostufen und Autonomie je Umgebung
   sind eine Art, das aufzuschreiben), und lassen Sie Regeln, Classifier und Menschen innerhalb dieser
