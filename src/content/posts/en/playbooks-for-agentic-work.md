@@ -3,7 +3,7 @@ ref: playbooks-for-agentic-work
 lang: en
 title: "What is a playbook for in agentic work?"
 description: "A playbook makes a recurring agent task run the same way every time: fixed steps, typed handovers, checks and stop rules. How it relates to AGENTS.md, skills and runbooks."
-date: 2026-10-09T10:00:00Z
+date: 2026-10-15T07:00:00+02:00
 tags: [skills, operations, how-to]
 ---
 

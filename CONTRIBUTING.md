@@ -36,16 +36,23 @@ ref: least-privilege-for-agents   # same value in every translation of the post
 lang: en                          # must match the folder
 title: "Title of the post"
 description: One or two sentences for search results and link previews (40 to 220 characters).
-date: 2026-10-04T10:00:00Z
+date: 2026-10-13T07:00:00+02:00   # publication instant, see below
 updated: 2026-10-10T08:00:00Z     # optional
 tags: [security, architecture]    # use the same tags in every translation
 author: agentix-zero              # optional, default agentix-zero
 ---
 ```
 
+- **`date` is the publication date and time.** Use the next free slot (Tuesday or Thursday, 07:00
+  Europe/Berlin) from `node scripts/next-slot.mjs --json`, with offset. Posts dated in the future are
+  built only when their date has passed (see [`content-plan/README.md`](content-plan/README.md));
+  `PREVIEW_FUTURE=1 pnpm dev` shows them locally. Both languages of a post must have the same `date`. The optional `approval: approved|vetoed` (same in both languages, set by the owner) releases a post early or holds it back; at most one post per day.
 - **Every post exists in English and German.** The build fails if a `ref` is missing a language.
   Translations may use different slugs; they are linked through `ref`.
 - Each post appears once per language in lists and feeds.
+- Posts **may cite sources**: official documentation, standards bodies, vendor documentation. List them
+  in a final `## Sources` section (`## Quellen` in German) with title, publisher, date and a line
+  "All accessed YYYY-MM-DD". Every factual claim needs a source or is marked as opinion.
 - Posts must be **accurate to what the platform implements**. Mark planned features as planned and
   link the roadmap instead of describing them as finished. Prefer an honest limit over a claim.
 - Use fenced code blocks with a language (`yaml`, `ts`, `bash`, `text`). They are highlighted at

@@ -1,3 +1,4 @@
+import type { Approval } from './schedule';
 import { defaultLocale, localeInfo, locales, type Locale } from '../i18n/config';
 
 /** Everything the site needs to know about a post, independent of the content collection. */
@@ -10,6 +11,8 @@ export interface PostMeta {
   title: string;
   description: string;
   date: Date;
+  /** Owner decision on publication; absent or `none` means "publish at `date`". */
+  approval?: Approval | undefined;
   updated?: Date | undefined;
   tags: string[];
   author: string;

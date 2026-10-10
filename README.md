@@ -26,6 +26,11 @@ It is a static site (Astro) published on GitHub Pages at <https://blog.openagent
   listed once per language. The home page follows the browser language once per session and
   remembers a manual choice in local storage (no cookie).
 - **Feeds per language.** Atom (`/feed.xml`, `/de/feed.xml`) and RSS (`/rss.xml`, `/de/rss.xml`).
+- **Scheduled publishing.** A post's `date` is its publication time (Tuesday and Thursday, 07:00
+  Berlin, one EN + DE pair each). Posts dated in the future are left out of the build (pages, lists,
+  feeds, sitemap, tags, language links) and `dist/.schedule.json` tells the deploy when the next one is
+  due. An agent ([`agents/blog-writer.md`](agents/blog-writer.md)) prepares the pairs as draft pull
+  requests; see [`content-plan/README.md`](content-plan/README.md).
 - **Tags, reading time, build-time code highlighting** (Shiki, light and dark).
 - **SEO.** Canonical URLs, `hreflang` with `x-default`, Open Graph and `BlogPosting` JSON-LD,
   sitemap with language alternates, `robots.txt`, a social card.
@@ -49,13 +54,18 @@ pnpm check && pnpm test:coverage && pnpm build && pnpm test:dist
 | `pnpm check` | `astro check`: types and content schema |
 | `pnpm test:coverage` | unit tests of the logic in `src/lib`, `src/i18n`, `src/scripts` (gate: 80 %) |
 | `pnpm test:dist` | checks on the build: no third-party requests or tracking, internal links, feeds without duplicates, hreflang, performance budget |
+| `pnpm verify` | check, unit tests, build and dist tests in one go (also the agent's check command) |
+| `node scripts/next-slot.mjs --json` | next free publication slot (Tuesday or Thursday 07:00 Berlin) |
+| `PREVIEW_FUTURE=1 pnpm dev` | include scheduled posts in a local preview |
 | `pnpm lhci` | Lighthouse CI against `dist/` (budgets in `lighthouserc.json`) |
 
 ## Layout
 
 ```text
 src/content/posts/{en,de}/   posts (Markdown + front matter)
-src/lib/                     posts, feeds, sitemap, language detection, link and request scanners
+agents/ content-plan/        blog-writer agent definition, topic backlog, publishing process
+scripts/                     next-slot (publication slots), post-dates
+src/lib/                     posts, schedule gate, feeds, sitemap, language detection, link and request scanners
 src/i18n/                    locales, paths, interface dictionaries
 src/pages/                   routes, feeds, sitemap, robots.txt, 404
 src/views/ components/       page templates and UI components

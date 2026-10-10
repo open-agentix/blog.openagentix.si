@@ -3,7 +3,7 @@ ref: playbooks-for-agentic-work
 lang: de
 title: "Wofür braucht man in der Agentenarbeit ein Playbook?"
 description: "Ein Playbook lässt eine wiederkehrende Agentenaufgabe jedes Mal gleich ablaufen: feste Schritte, typisierte Übergaben, Prüfungen und Stoppregeln. Abgrenzung zu AGENTS.md, Skills und Runbooks."
-date: 2026-10-09T10:00:00Z
+date: 2026-10-15T07:00:00+02:00
 tags: [skills, operations, how-to]
 ---
 

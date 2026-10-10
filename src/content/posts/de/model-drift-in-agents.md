@@ -3,7 +3,7 @@ ref: model-drift-in-agents
 lang: de
 title: "Model Drift bei Agenten erkennen und behandeln"
 description: "Agenten verhalten sich anders, wenn sich Modelle, Prompts, Tools oder Eingaben ändern. Wie Golden Runs und Laufmetriken das zeigen und wie Pinning, Canaries und Rollback helfen."
-date: 2026-10-09T11:00:00Z
+date: 2026-10-20T07:00:00+02:00
 tags: [evaluation, operations, reliability]
 ---
 
