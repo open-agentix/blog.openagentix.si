@@ -59,10 +59,12 @@ approvals described above, is planned for 0.4, after typed handovers and test su
 ## An honest comparison
 
 This project is itself written largely by an AI agent, so it is fair to ask whether it is a dark
-factory. It is not. Every change goes through a pull request that humans review, the
-project lead owns the decisions, and tests, coverage gates and CI run on each change. The agent
-writes; people decide what is merged. A dark factory removes that last step, and that is exactly
-the step we recommend keeping for anything that matters.
+factory. It is not. Every change goes through a pull request that a second,
+independent review agent reviews before merge, the project lead sets the direction and owns the
+decisions, and tests, coverage gates and CI run on each change. We do not claim that a human reads
+every change: the lead can inspect, revert and block changes at any time, but the day-to-day
+review is done by agents. That is why we recommend a person and a review for anything that matters
+in your own setup.
 
 If you try the mode, treat the output as a prototype. When the prototype proves the idea, put a
 person and a review in front of the version you intend to run.

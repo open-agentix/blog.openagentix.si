@@ -5,7 +5,7 @@ export const DEMO_URL = 'https://demo.openagentix.si';
 export const GITHUB_ORG = 'https://github.com/open-agentix';
 export const REPO_URL = `${GITHUB_ORG}/blog.openagentix.si`;
 export const CONTACT_EMAIL = 'info@openagentix.si';
-/** Default author of posts: the project's AI agent account. Humans review every post. */
+/** Default author of posts: the project's AI agent account. Posts get an independent agent review; the maintainer owns the decisions. */
 export const DEFAULT_AUTHOR = 'agentix-zero';
 
 /** Hosts that belong to the project: allowed as link targets and in the no-third-party scan. */
