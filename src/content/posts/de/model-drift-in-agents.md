@@ -12,15 +12,15 @@ Definition angefasst hat. Das Modell hinter einem Alias wurde aktualisiert, die 
 ein neues Feld, die Eingaben sehen anders aus, oder eine kleine Prompt-Änderung hatte mehr Wirkung als
 gedacht. In Agentensystemen zeigt sich das selten als Fehler. Es zeigt sich als mehr Schritte je Lauf,
 höhere Kosten, mehr Wiederholungen, mehr abgelehnte Ergebnisse oder Antworten, die unauffällig schlechter
-sind. Drift zu erkennen heißt deshalb, Verhalten zu messen und nicht nur Verfügbarkeit; Drift zu behandeln
-heißt, genau sagen zu können, was sich geändert hat, und zurückgehen zu können.
+sind. Drift zu erkennen heißt deshalb, Verhalten zu messen und nicht nur die Verfügbarkeit; Drift zu behandeln
+heißt, genau sagen zu können, was sich geändert hat, und zum früheren Stand zurückkehren zu können.
 
 Dieser Beitrag beschreibt, woher Drift kommt, wie Golden Runs und Laufmetriken sie sichtbar machen und wie
 Pinning, Canaries und Rollback sie eindämmen.
 
 ## Vier Quellen von Drift
 
-„Model Drift“ wird locker verwendet. Bei Agenten lohnt es sich, vier Quellen zu trennen, weil jede eine
+„Model Drift“ wird oft ungenau verwendet. Bei Agenten lohnt es sich, vier Quellen zu trennen, weil jede eine
 andere Antwort braucht:
 
 1. **Modelländerungen beim Anbieter.** Ein Alias wie „latest“ zeigt auf ein neues Modell, ein gehostetes
@@ -94,14 +94,14 @@ nicht kennen. Nützliche Signale, je Agentenversion und je Modell:
 
 Vergleichen Sie Verteilungen über ein Zeitfenster (Median und ein hohes Perzentil), nicht einzelne Läufe,
 und vergleichen Sie dieselbe Agentenversion bei gleichartigen Eingaben. Mehr Schritte je Lauf bei
-gleichbleibender Fehlerquote erzählen eine andere Geschichte als mehr Tool-Fehler. Leiten Sie
+gleichbleibender Fehlerquote bedeuten etwas anderes als mehr Tool-Fehler. Leiten Sie
 Alarmschwellen aus Ihrer eigenen Basislinie ab; eine allgemeingültige Zahl gibt es nicht. [SLOs für
 Agenten](/de/posts/slos-for-agents/) und [Observability für Agenten](/de/posts/observability-for-agents/)
 beschreiben, wie Sie diese Signale erfassen.
 
 ## Behandlung 1: festlegen und protokollieren
 
-Über Drift können Sie nur nachdenken, wenn jeder Lauf festhält, womit er lief:
+Über Drift lässt sich nur urteilen, wenn jeder Lauf festhält, womit er lief:
 
 - die genaue Modellkennung (eine datierte Version, wo der Anbieter sie anbietet, ein Digest bei lokalen
   Modellen),
@@ -117,8 +117,8 @@ planen und bewerten, statt zu etwas, das Ihnen passiert.
 
 Behandeln Sie eine Modell- oder Prompt-Änderung wie jedes andere Release: Lassen Sie die neue Version
 neben der stabilen auf einem kleinen Teil der Läufe arbeiten, vergleichen Sie die Bestehensquoten der
-Golden Runs und die Metriken oben, dann übernehmen oder zurückrollen. Den Ablauf beschreibt [Agenten-
-Änderungen sicher ausrollen](/de/posts/deploying-agent-changes-safely/) Schritt für Schritt. Zwei
+Golden Runs und die Metriken oben, dann übernehmen oder zurückrollen. Den Ablauf beschreibt [Agenten-Änderungen
+sicher ausrollen](/de/posts/deploying-agent-changes-safely/) Schritt für Schritt. Zwei
 Punkte sind für Drift besonders wichtig:
 
 - **Ein Rollback braucht ein Ziel.** Ist die alte Modellversion abgekündigt, heißt Rollback: auf ein
@@ -147,7 +147,7 @@ openagentix ist Open Source und noch vor 1.0, daher ein kurzer, ehrlicher Stand:
   daran neu bewertet wird (W6-3). Siehe die
   [Roadmap](https://github.com/open-agentix/open-agentix/blob/main/ROADMAP.md).
 
-Bis es diese gibt, lassen sich die Signale oben aus den Datensätzen der Laufschritte und den
+Bis es diese Funktionen gibt, lassen sich die Signale oben aus den Datensätzen der Laufschritte und den
 Kostenzeilen lesen (die sich als CSV oder JSON exportieren lassen), und Golden Runs lassen sich mit dem
 Befehl `oax run` gegen feste Ereignisdateien skripten.
 
