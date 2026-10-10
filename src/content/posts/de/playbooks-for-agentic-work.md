@@ -9,11 +9,10 @@ tags: [skills, operations, how-to]
 
 Ein Playbook ist für Aufgaben da, die immer wieder anfallen und jedes Mal gleich erledigt werden sollen.
 In der Agentenarbeit ist es das geschriebene, versionierte Verfahren, das die Reihenfolge der Schritte
-festlegt, sagt, welche Schritte einfacher Code sind und welche das Urteil eines Modells brauchen, festlegt,
+festlegt, kennzeichnet, welche Schritte einfacher Code sind und welche das Urteil eines Modells brauchen, regelt,
 was jeder Schritt an den nächsten übergibt, und die Prüfungen und Abbruchbedingungen benennt. Ohne
 Playbook plant das Modell eine wiederkehrende Aufgabe bei jedem Lauf neu, und jeder Lauf fällt ein wenig
-anders aus. Mit Playbook bleibt die Freiheit des Modells auf die Schritte beschränkt, die sie wirklich
-brauchen.
+anders aus. Mit Playbook bleibt das Modell nur dort frei, wo es diese Freiheit wirklich braucht.
 
 Dieser Beitrag erklärt, was ein Playbook enthält, wie es sich von Projektkontext-Dateien, Skills und
 Runbooks unterscheidet und wie sich die Idee auf `agents.md`-Pipelines in openagentix abbilden lässt.
@@ -33,7 +32,7 @@ jedem Lauf neu her, passieren drei Dinge:
   aussieht; Prüfungen werden vage („sieht gut aus“).
 
 Ein Playbook nimmt dem Modell den bekannten Teil ab. Das ist dieselbe Idee wie in [Workflows oder
-Agenten?](/de/posts/workflows-vs-agents/): Wählen Sie für jeden Schritt so wenig Autonomie wie möglich.
+Agenten?](/de/posts/workflows-vs-agents/): Wählen Sie für jeden Schritt nur so viel Autonomie, wie er braucht.
 
 ## Was ein Playbook enthält
 
@@ -65,7 +64,7 @@ Im Alltag überschneiden sich diese Begriffe. Eine praktische Aufteilung:
 | --- | --- | --- | --- |
 | [AGENTS.md](/de/posts/agents-md-project-context/) | Wie funktioniert dieses Repository? | Immer, zu Beginn einer Sitzung | Build-Befehl, Testbefehl, Konventionen |
 | [Skill](/de/posts/anatomy-of-an-agent-skill/) | Wie mache ich so etwas gut? | Bei Bedarf, wenn er passt | Wie man den Bericht eines Schwachstellenscanners liest |
-| Runbook | Was tut ein Mensch, wenn X passiert? | Wenn die Lage eintritt | Platte voll auf einem Datenbank-Host |
+| Runbook | Was tut ein Mensch, wenn X passiert? | Wenn die Situation eintritt | Platte voll auf einem Datenbank-Host |
 | Playbook | In welcher Reihenfolge und mit welchen Prüfungen läuft diese wiederkehrende Aufgabe? | Bei jedem Lauf dieser Aufgabe | Wöchentliches Abhängigkeits-Update mit Tests und Entwurfs-Pull-Request |
 
 Ein Playbook *nutzt* meist die anderen. Seine Urteilsschritte laden vielleicht einen Skill; seine
@@ -88,7 +87,7 @@ folgen kann oder nicht. Schritte, die kein Urteil brauchen, sollten gar nicht ü
   schreibt.
 
 So bleibt der teure und schwankende Teil klein, und jeder Schritt lässt sich für sich testen. [Kleine,
-geprüfte Schritte](/de/posts/small-verified-steps/) argumentiert allgemein für Agentenarbeit genauso.
+geprüfte Schritte](/de/posts/small-verified-steps/) plädiert allgemein für Agentenarbeit ebenso dafür.
 
 ## Wie sich das in openagentix abbildet
 
@@ -178,8 +177,8 @@ beschreiben kann, war nie ein Schritt, sondern eine Ermessensentscheidung, und j
 ## Wann ein Playbook das falsche Werkzeug ist
 
 Nicht alles sollte ein Playbook sein. Einmalige Untersuchungen, exploratives Debugging und Entwurfsarbeit
-brauchen einen Agenten, der seinen Weg selbst wählt. Ein Playbook dafür macht starr, ohne zuverlässiger zu
-machen. Ein guter Test: Wenn Sie die Prüfungen nicht vorab benennen können, ist es noch keine
+brauchen einen Agenten, der seinen Weg selbst wählt. Ein Playbook dafür macht den Ablauf starr, ohne ihn
+zuverlässiger zu machen. Ein guter Test: Wenn Sie die Prüfungen nicht vorab benennen können, ist es noch keine
 Playbook-Aufgabe.
 
 ## Das Wichtigste in Kürze
@@ -189,7 +188,7 @@ Playbook-Aufgabe.
 - Nutzen Sie Code für deterministische Schritte und binden Sie Modellschritte an strukturierte Ausgaben;
   entscheiden Sie über das Weitermachen mit Bedingungen, nicht mit Prosa.
 - AGENTS.md liefert Projektkontext, Skills Wissen für eine Art von Schritt, Runbooks beschreiben Reaktionen
-  auf Lagen; ein Playbook ordnet sie für eine Aufgabe.
+  auf Situationen; ein Playbook verbindet sie zu einem Ablauf für eine Aufgabe.
 - In openagentix drücken `pipeline`, typisierte Übergaben, `when`, nur lesender Zugriff, Freigaben und
   Budgets in einer versionierten `agents.md` heute den Großteil eines Playbooks aus; eingebaute Testfälle
   sind geplant.
