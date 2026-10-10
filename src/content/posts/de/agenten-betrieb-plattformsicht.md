@@ -82,7 +82,7 @@ Das letzte Muster fragen Unternehmen zuerst nach: Eine zweite Person muss freige
 - Eine hashverkettete Audit-Spur und Kostenzeilen je Mandant, Agent, Anwendungsfall, Lauf und Schritt (siehe [Roadmap](https://github.com/open-agentix/open-agentix/blob/main/ROADMAP.md)).
 - Freigaben zur Laufzeit für Tools.
 
-**Geplant, nicht gebaut:** die Vier-Augen-Freigabe zur Veröffentlichung, die Freigaberichtlinie je Mandant, Review-Kommentare sowie verschlüsselte Secrets mit Geltungsbereich und Vault- und AWS-Secrets-Manager-Backends. ADR 0017 hat den Status „Proposed“, der Roadmap-Punkt (W14) ist „not started“, und heute kann der Autor seinen eigenen Entwurf veröffentlichen; Secrets kommen nur aus vom Betreiber bereitgestellten Umgebungsvariablen oder eingehängten Dateien. „Geplant“ bitte nicht als „verfügbar“ lesen.
+**Geplant, nicht gebaut:** die Vier-Augen-Freigabe zur Veröffentlichung, die Freigaberichtlinie je Mandant, Review-Kommentare sowie verschlüsselte Secrets mit Geltungsbereich und Vault- und AWS-Secrets-Manager-Backends. ADR 0017 hat den Status „Accepted“, der Roadmap-Punkt (W14) ist „not started“, und heute kann der Autor seinen eigenen Entwurf veröffentlichen; Secrets kommen nur aus vom Betreiber bereitgestellten Umgebungsvariablen oder eingehängten Dateien. „Geplant“ bitte nicht als „verfügbar“ lesen.
 
 **Nur Entwurfsdenken:** das einheitliche Laufprotokoll mit den Ergebnissen `ok`/`empty`/`error`, der Morgenbericht, der Chief-of-Staff-Aufseher und das Freigabefenster mit Veto sind Muster, die eine Plattform unserer Meinung nach braucht. Als Roadmap-Punkte haben wir sie bei der Prüfung am 2026-10-10 nicht gefunden, deshalb machen wir dazu kein Versprechen. Die Plattform erfasst bereits Läufe, Kosten und Audit-Einträge als Rohmaterial, aber das Ergebnis-Feld, die Berichte und der Aufseher existieren nicht als Produktfunktionen.
 
@@ -107,7 +107,7 @@ Die ersten vier Muster lassen sich mit Vorhandenem annähern:
 - Einen kurzen Tagesbericht aus dem Laufprotokoll ableiten, nicht den Agenten über sich selbst berichten lassen.
 - Ein überwachender Review-Agent sollte nur lesen und auf drei empfohlene Schritte begrenzt sein.
 - Ein Freigabefenster mit umkehrbarem Veto lässt unbeaufsichtigte Agenten weiterarbeiten und erhält die Kontrolle der verantwortlichen Person.
-- In openagentix sind unveränderliche veröffentlichte Versionen gebaut; Vier-Augen-Freigabe und verschlüsselte Secrets mit Geltungsbereich sind geplant (ADR 0017, Proposed), die übrigen Muster hier sind Entwurfsdenken.
+- In openagentix sind unveränderliche veröffentlichte Versionen gebaut; Vier-Augen-Freigabe und verschlüsselte Secrets mit Geltungsbereich sind geplant (ADR 0017, Accepted), die übrigen Muster hier sind Entwurfsdenken.
 
 ## Quellen
 

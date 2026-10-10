@@ -82,7 +82,7 @@ The last pattern is the one companies ask for first (the [OWASP Top 10 for Agent
 - A hash-chained audit trail and cost lines per tenant, agent, use case, run and step (see the [roadmap](https://github.com/open-agentix/open-agentix/blob/main/ROADMAP.md)).
 - Run-time approvals for tools.
 
-**Planned, not built:** the four-eyes publish approval, per-tenant approval policy, review comments, and scoped encrypted secrets with Vault and AWS Secrets Manager backends. ADR 0017 has the status "Proposed", the roadmap item (W14) is marked "not started", and today the author can publish their own draft and secrets come only from operator-provided environment variables or mounted files. Please do not read "planned" as "available".
+**Planned, not built:** the four-eyes publish approval, per-tenant approval policy, review comments, and scoped encrypted secrets with Vault and AWS Secrets Manager backends. ADR 0017 is accepted but not implemented (status "Accepted"), the roadmap item (W14) is marked "not started", and today the author can publish their own draft and secrets come only from operator-provided environment variables or mounted files. Please do not read "planned" as "available".
 
 **Design thinking only:** the uniform run log with the `ok`/`empty`/`error` outcome, the morning report, the chief-of-staff supervisor and the release window with veto are patterns we think a platform needs. We did not find them as roadmap items when we checked on 2026-10-10, so we make no promise about them. The platform already records runs, costs and audit entries, which is the raw material, but the three-field outcome, the reports and the supervisor do not exist as product features.
 
