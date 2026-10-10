@@ -62,10 +62,12 @@ oben beschriebenen Freigaben, ist für das nächste Release geplant. Es gibt sie
 
 Dieses Projekt wird selbst überwiegend von einem KI-Agenten geschrieben, also liegt die Frage nahe,
 ob es eine Dark Factory ist. Das ist es nicht. Jede Änderung läuft über einen Pull Request, den
-Menschen prüfen, die Projektleitung verantwortet die Entscheidungen, und Tests, Abdeckungsschwellen
-und CI laufen bei jeder Änderung. Der Agent schreibt, Menschen entscheiden, was gemergt wird. Eine
-Dark Factory entfernt genau diesen letzten Schritt, und genau den empfehlen wir für alles, was
-zählt, beizubehalten.
+vor dem Merge ein zweiter, unabhängiger Review-Agent prüft, die Projektleitung gibt die Richtung vor
+und verantwortet die Entscheidungen, und Tests, Abdeckungsschwellen und CI laufen bei jeder
+Änderung. Wir behaupten nicht, dass ein Mensch jede Änderung liest: Die Projektleitung kann
+Änderungen jederzeit einsehen, zurücknehmen und blockieren, die alltägliche Prüfung machen aber
+Agenten. Deshalb empfehlen wir für alles, was zählt, in Ihrem eigenen Betrieb eine Person und eine
+Prüfung.
 
 Wenn Sie den Modus ausprobieren, behandeln Sie das Ergebnis als Prototyp. Sobald der Prototyp die
 Idee belegt, stellen Sie vor die Version, die Sie betreiben wollen, einen Menschen und ein Review.
