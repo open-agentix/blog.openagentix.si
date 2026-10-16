@@ -15,3 +15,5 @@ export const OWN_HOSTS = [
   'www.openagentix.si',
   'demo.openagentix.si',
 ] as const;
+/** Draft Agentic Workflow Protocol specification (a separate project, not an adopted standard). */
+export const AWP_URL = 'https://agenticworkflowprotocol.org/';

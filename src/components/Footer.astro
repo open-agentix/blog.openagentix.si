@@ -3,7 +3,7 @@ import Icon from './Icon.astro';
 import type { Locale } from '../i18n/config';
 import { paths } from '../i18n/paths';
 import { getDictionary } from '../i18n/ui';
-import { CONTACT_EMAIL, GITHUB_ORG, REPO_URL } from '../project';
+import { AWP_URL, CONTACT_EMAIL, GITHUB_ORG, REPO_URL } from '../project';
 import pkg from '../../package.json';
 
 interface Props {
@@ -23,6 +23,7 @@ const t = getDictionary(locale);
       <li><a href={paths.rss(locale)}>{t.feeds.rss}</a></li>
       <li><a href={GITHUB_ORG}>{t.footer.platform}</a></li>
       <li><a href={REPO_URL}>{t.footer.source}</a></li>
+      <li><a href={AWP_URL}>{t.footer.awp}</a></li>
     </ul>
     <p class="small">{t.footer.noTracking} {t.footer.license}</p>
     <p class="small">
