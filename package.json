@@ -21,10 +21,10 @@
     "verify": "astro check && vitest run && astro build && vitest run --config vitest.dist.config.ts"
   },
   "dependencies": {
-    "astro": "7.2.8"
+    "astro": "7.4.2"
   },
   "devDependencies": {
-    "@astrojs/check": "0.9.10",
+    "@astrojs/check": "0.9.12",
     "@lhci/cli": "0.15.1",
     "@types/node": "20.19.43",
     "@vitest/coverage-v8": "5.0.3",
